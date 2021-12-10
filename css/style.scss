@@ -1,0 +1,1123 @@
+@charset "utf-8";
+
+/*-------------------------------
+	Import
+-------------------------------*/
+
+@import "_common";
+@import url("preset.css");
+@import url("module.css");
+@import url("header.css");
+@import url("footer.css");
+@import url("mailformpro.css");
+
+/*-------------------------------
+	Common
+-------------------------------*/
+
+body {
+	font-family: 'Yu Gothic', 'YuGothic', 'Roboto', 'Helvetica Neue', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'Arial', 'sans-serif';
+	font-size: 14.5px;
+	color: #000;
+	line-height: 2;
+	letter-spacing: .08em;
+	font-weight: 300;
+	@include mq(md) {
+		font-size: 13px;
+	}
+	@media screen and (max-width: 320px) {
+		font-size: 90%;
+	}
+}
+
+.uf {
+	main,
+	footer {
+		animation-name: fadein;
+		animation-duration: 2s;
+	}
+
+	@keyframes fadein {
+		from {
+			opacity: 0;
+			transform: translateY(-20px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+}
+#content {
+	background-color: #ececec;
+}
+
+/*-------------------------------
+	Main
+-------------------------------*/
+
+/*	Toppage
+====================================*/
+#top {
+	#content {
+		/* #hero */
+		#hero {
+			max-width: 100%;
+			position: relative;
+			z-index: 1;
+			height: calc(100vh - 60px);
+			max-height: 670px;
+			min-height: 670px;
+			@include mq(md)  {
+				margin: 0;
+				max-height: 400px;
+				min-height: 400px;
+			}
+			@include mq(sm)  {
+				max-height: 250px;
+				min-height: 250px;
+			}
+			&::before {
+				content: "";
+				position: absolute;
+				background: url(../img/top/sc.png) 0 0 / 9px 194px no-repeat;
+				width: 9px;
+				height: 194px;
+				bottom: 0;
+				right: -55px;
+				@include mq(md) {
+					background: url(../img/top/sc.png) 0 0 / 6px 117px no-repeat;
+					width: 6px;
+					height: 117px;
+					right: -35px;
+				}
+				@include mq(sm) {
+					right: -22px;
+				}
+			}
+			/* .bg-slide */
+			.bx-wrapper {				
+				width: 100%!important;
+				height: 670px!important;
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: -1;
+				@include mq(md) {
+				height: 400px!important;
+				}
+				@include mq(sm) {
+				height: 250px!important;
+				}
+				.bx-viewport {
+					width: 100%!important;
+					height: 100%!important;
+					overflow: hidden;
+					position: relative;
+					&::before {
+						background: #fff;
+						bottom: 0;
+						content: '';
+						left: 0;
+						pointer-events: none;
+						position: absolute;
+						right: 0;
+						top: 0;
+						z-index: 1;
+					}
+					.bg-slide {
+						width: 100%!important;
+						height: 100%!important;
+						> li {
+							width: 100%!important;
+							height: 100%!important;
+							background-position: center center;
+							background-size: cover;
+							background-repeat: no-repeat;
+						}
+					}
+				}
+			}
+		}
+		/* sec2 */
+		#sec2 {
+			position: relative;
+			&::after {
+				content: "";
+				position: absolute;
+				background: url(../img/top/sec2-bg-upper.png) 0 0 / 100% 150px;
+				width: 100%;
+				height: 150px;
+				left: 0;
+				top: -150px;
+				@include mq(sm) {
+					background: url(../img/top/sec2-bg-upper.png) 0 0 / 700px 75px;
+					width: 700px;
+					height: 75px;
+					top: -75px;
+				}
+			}
+			.course1,.course2,.course3,.course4,.course5,.course6,.course7,.course8,.course9,.course10,.course11,.course12,.course13,.course14,.course15,.course16 {
+				display: block;
+				background: $white;
+				position: relative;
+				padding: 15px;
+				text-align: center;
+				font-size: 90%;
+				@include mq(sm) {
+					padding: 15px 5px;
+					font-size: 85%;
+				}
+				@media screen and (max-width: 375px) {
+					padding: 15px 5px;
+					font-size: 80%;
+				}
+				&::after {
+					content: "";
+					position: absolute;
+					z-index: 2;
+				}
+				&::before {
+					content: "";
+					position: absolute;
+					background: $green;
+					width: 5px;
+					height: 5px;
+					right: 10px;
+					bottom: 10px;
+					border-radius: 9999px;
+				}
+				&:hover {
+					transition: all .8s;
+					&::before {
+						transition: all .8s;
+						bottom: 20px;
+					}
+				}
+				span {
+					display: block;
+					font-family: $ff-sofia;
+				}
+			}
+			.course1 {
+				&::after {
+					background: url(../img/top/sec2-gakki1.png) 0 0 / 26px 58px;
+					width: 26px;
+					height: 58px;
+					right: 20px;
+					top: -17px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki1.png) 0 0 / 18px 41px;
+						width: 18px;
+						height: 41px;
+						right: 20px;
+						top: 20px;
+					}
+				}
+			}
+			.course2 {
+				&::after {
+					background: url(../img/top/sec2-gakki2.png) 0 0 / 37px 88px;
+					width: 37px;
+					height: 88px;
+					left: 15px;
+					top: 3px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki2.png) 0 0 / 26px 62px;
+						width: 26px;
+						height: 62px;
+						right: 15px;
+						top: 15px;
+					}
+				}
+			}
+			.course3 {
+				&::after {
+					background: url(../img/top/sec2-gakki3.png) 0 0 / 38px 96px;
+					width: 38px;
+					height: 96px;
+					right: 20px;
+					top: -40px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki3.png) 0 0 / 27px 67px;
+						width: 27px;
+						height: 67px;
+						left: 20px;
+						top: 10px;
+					}
+				}
+			}
+			.course4 {
+				&::after {
+					background: url(../img/top/sec2-gakki4.png) 0 0 / 89px 71px;
+					width: 89px;
+					height: 71px;
+					left: -23px;
+					bottom: -20px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki4.png) 0 0 / 62px 50px;
+						width: 62px;
+						height: 50px;
+						left: -10px;
+						bottom: -5px;
+					}
+				}
+			}
+			.course5 {
+				&::after {
+					background: url(../img/top/sec2-gakki5.png) 0 0 / 80px 45px;
+					width: 80px;
+					height: 45px;
+					left: -23px;
+					top: 20px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki5.png) 0 0 / 56px 32px;
+						width: 56px;
+						height: 32px;
+						left: -10px;
+						top: 25px;
+					}
+				}
+			}
+			.course6 {
+				&::after {
+					background: url(../img/top/sec2-gakki6.png) 0 0 / 65px 43px;
+					width: 65px;
+					height: 43px;
+					right: -20px;
+					top: -5px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki6.png) 0 0 / 46px 30px;
+						width: 46px;
+						height: 30px;
+						right: -10px;
+						top: 2px;
+					}
+				}
+			}
+			.course7 {
+				&::after {
+					background: url(../img/top/sec2-gakki7.png) 0 0 / 60px 71px;
+					width: 60px;
+					height: 71px;
+					left: -5px;
+					top: 10px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki7.png) 0 0 / 42px 50px;
+						width: 42px;
+						height: 50px;
+						left: -5px;
+						top: 10px;
+					}
+				}
+			}
+			.course8 {
+				&::after {
+					background: url(../img/top/sec2-gakki8.png) 0 0 / 53px 85px;
+					width: 53px;
+					height: 85px;
+					right: -10px;
+					top: -35px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki8.png) 0 0 / 37px 60px;
+						width: 37px;
+						height: 60px;
+						right: -10px;
+						top: -15px;
+					}
+				}
+			}
+			.course9 {
+				&::after {
+					background: url(../img/top/sec2-gakki9.png) 0 0 / 39px 97px;
+					width: 39px;
+					height: 97px;
+					left: 15px;
+					top: 5px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki9.png) 0 0 / 27px 68px;
+						width: 27px;
+						height: 68px;
+						left: auto;
+						top: -8px;
+						right: 23px;
+					}
+				}
+			}
+			.course10 {
+				&::after {
+					background: url(../img/top/sec2-gakki10.png) 0 0 / 33px 91px;
+					width: 33px;
+					height: 91px;
+					right: 20px;
+					top: -30px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki10.png) 0 0 / 23px 68px;
+						width: 23px;
+						height: 68px;
+						right: 25px;
+						top: 15px;
+					}
+				}
+			}
+			.course11 {
+				&::after {
+					background: url(../img/top/sec2-gakki11.png) 0 0 / 56px 51px;
+					width: 56px;
+					height: 51px;
+					right: 5px;
+					top: -5px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki11.png) 0 0 / 39px 36px;
+						width: 39px;
+						height: 36px;
+						right: auto;
+						left: 9px;
+						top: 25px;
+					}
+				}
+			}
+			.course12 {
+				&::after {
+					background: url(../img/top/sec2-gakki12.png) 0 0 / 161px 33px;
+					width: 161px;
+					height: 33px;
+					left: -30px;
+					bottom: -5px;
+					@include mq(md) {
+						background: url(../img/top/sec2-gakki12.png) 0 0 / 129px 26px;
+						width: 129px;
+						height: 26px;
+						left: -35px;
+						bottom: 5px;
+					}
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki12.png) 0 0 / 113px 23px;
+						width: 113px;
+						height: 23px;
+						left: auto;
+						right: -15px;
+						bottom: 50px;
+					}
+				}
+			}
+			.course13 {
+				&::after {
+					background: url(../img/top/sec2-gakki13.png) 0 0 / 43px 78px;
+					width: 43px;
+					height: 78px;
+					left: 5px;
+					bottom: -8px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki13.png) 0 0 / 30px 55px;
+						width: 30px;
+						height: 55px;
+						left: auto;
+						right: 20px;
+						bottom: 25px;
+					}
+				}
+			}
+			.course14 {
+				&::after {
+					background: url(../img/top/sec2-gakki14.png) 0 0 / 85px 39px;
+					width: 85px;
+					height: 39px;
+					left: -15px;
+					top: -20px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki14.png) 0 0 / 60px 27px;
+						width: 60px;
+						height: 27px;
+						left: -19px;
+						top: -15px;
+					}
+				}
+			}
+			.course15 {
+				&::after {
+					background: url(../img/top/sec2-gakki15.png) 0 0 / 39px 144px;
+					width: 39px;
+					height: 144px;
+					left: 10px;
+					top: -40px;
+					@include mq(md) {
+						background: url(../img/top/sec2-gakki15.png) 0 0 / 31px 115px;
+						width: 31px;
+						height: 115px;
+						left: 10px;
+						top: -10px;
+						@include mq(sm) {
+							background: url(../img/top/sec2-gakki15.png) 0 0 / 27px 101px;
+							width: 27px;
+							height: 101px;
+							left: 10px;
+							top: -15px;
+						}
+					}
+				}
+			}
+			.course16 {
+				&::after {
+					background: url(../img/top/sec2-gakki16.png) 0 0 / 45px 56px;
+					width: 45px;
+					height: 56px;
+					right: -20px;
+					top: -30px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki16.png) 0 0 / 36px 45px;
+						width: 36px;
+						height: 45px;
+						right: -10px;
+						top: -15px;
+					}
+				}
+			}
+		}
+		/* sec4 */
+		#sec4 {
+			position: relative;
+			&::after {
+				content: "";
+				position: absolute;
+				background: url(../img/top/sec4-bg-upper.png) 0 0 / 100% 150px;
+				width: 100%;
+				height: 150px;
+				left: 0;
+				top: -150px;
+				@include mq(sm) {
+					background: url(../img/top/sec4-bg-upper.png) 0 0 / 700px 75px;
+					width: 700px;
+					height: 75px;
+					top: -75px;
+				}
+			}
+			.menu {
+				figure {
+					overflow: hidden;
+					img {
+						transition-duration: 0.8s;
+					}
+				}
+				&:hover {
+					figure {
+						img {
+							transform: scale(1.1);
+							transition-duration: 0.8s;
+						}
+					}
+				}
+				.menu-txt {
+					border-radius:  0 15px 0 0;
+				}
+			}
+			.img-tote {
+				position: relative;
+				&::before {
+					content: "";
+					position: absolute;
+					background: url(../img/top/sec4-pic1.png) 0 0 / 121px 170px;
+					width: 121px;
+					height: 170px;
+					left: 0;
+					top: -220px;
+					z-index: 10;
+					@include mq(sm) {
+						background: url(../img/top/sec4-pic1.png) 0 0 / 85px 119px;
+						width: 85px;
+						height: 119px;
+						top: -130px;
+						left: 15px;
+					}
+				}
+				&::after {
+					content: "";
+					position: absolute;
+					background: url(../img/top/sec4-pic2.png) 0 0 / 220px 99px;
+					width: 220px;
+					height: 99px;
+					right: 0;
+					bottom: -150px;
+					z-index: 10;
+					@include mq(sm) {
+						background: url(../img/top/sec4-pic2.png) 0 0 / 154px 69px;
+						width: 154px;
+						height: 69px;
+						bottom: -110px;
+						right: 15px;
+					}
+				}
+			}
+		}
+		/* sec5 */
+		#sec5 {
+			.new {
+				a {
+					padding: 10px 0;
+					display: flex;
+					@include mq(sm) {
+						display: block;
+						font-size: 95%;
+					}
+					.day {
+						font-family: $ff-sofia;
+					}
+					h3 {
+						padding-left: 20px;
+						@include mq(sm) {
+							padding-left: 0;
+							padding-top: 10px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/*	.uf
+====================================*/
+
+/*	#course
+====================================*/
+#course {
+	#content {
+		#sec1 {
+			.ribbon-green,.ribbon-blue {
+				&::after {
+					border-color: transparent $lightgray transparent transparent;
+				}
+			}
+			.course1,.course2,.course3,.course4,.course5,.course6,.course7,.course8,.course9,.course10,.course11,.course12,.course13,.course14,.course15,.course16 {
+				display: block;
+				background: $white;
+				position: relative;
+				padding: 15px;
+				text-align: center;
+				font-size: 90%;
+				@include mq(sm) {
+					padding: 15px 5px;
+					font-size: 85%;
+				}
+				@media screen and (max-width: 375px) {
+					padding: 15px 5px;
+					font-size: 80%;
+				}
+				&::after {
+					content: "";
+					position: absolute;
+					z-index: 2;
+				}
+				&::before {
+					content: "";
+					position: absolute;
+					background: $green;
+					width: 5px;
+					height: 5px;
+					right: 10px;
+					bottom: 10px;
+					border-radius: 9999px;
+				}
+				&:hover {
+					transition: all .8s;
+					&::before {
+						transition: all .8s;
+						bottom: 20px;
+					}
+				}
+				span {
+					display: block;
+					font-family: $ff-sofia;
+				}
+			}
+			.course1 {
+				&::after {
+					background: url(../img/top/sec2-gakki1.png) 0 0 / 26px 58px;
+					width: 26px;
+					height: 58px;
+					right: 20px;
+					top: -17px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki1.png) 0 0 / 18px 41px;
+						width: 18px;
+						height: 41px;
+						right: 20px;
+						top: 20px;
+					}
+				}
+			}
+			.course2 {
+				&::after {
+					background: url(../img/top/sec2-gakki2.png) 0 0 / 37px 88px;
+					width: 37px;
+					height: 88px;
+					left: 15px;
+					top: 3px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki2.png) 0 0 / 26px 62px;
+						width: 26px;
+						height: 62px;
+						right: 15px;
+						top: 15px;
+					}
+				}
+			}
+			.course3 {
+				&::after {
+					background: url(../img/top/sec2-gakki3.png) 0 0 / 38px 96px;
+					width: 38px;
+					height: 96px;
+					right: 20px;
+					top: -40px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki3.png) 0 0 / 27px 67px;
+						width: 27px;
+						height: 67px;
+						left: 20px;
+						top: 10px;
+					}
+				}
+			}
+			.course4 {
+				&::after {
+					background: url(../img/top/sec2-gakki4.png) 0 0 / 89px 71px;
+					width: 89px;
+					height: 71px;
+					left: -23px;
+					bottom: -20px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki4.png) 0 0 / 62px 50px;
+						width: 62px;
+						height: 50px;
+						left: -10px;
+						bottom: -5px;
+					}
+				}
+			}
+			.course5 {
+				&::after {
+					background: url(../img/top/sec2-gakki5.png) 0 0 / 80px 45px;
+					width: 80px;
+					height: 45px;
+					left: -23px;
+					top: 20px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki5.png) 0 0 / 56px 32px;
+						width: 56px;
+						height: 32px;
+						left: -10px;
+						top: 25px;
+					}
+				}
+			}
+			.course6 {
+				&::after {
+					background: url(../img/top/sec2-gakki6.png) 0 0 / 65px 43px;
+					width: 65px;
+					height: 43px;
+					right: -20px;
+					top: -5px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki6.png) 0 0 / 46px 30px;
+						width: 46px;
+						height: 30px;
+						right: -10px;
+						top: 2px;
+					}
+				}
+			}
+			.course7 {
+				&::after {
+					background: url(../img/top/sec2-gakki7.png) 0 0 / 60px 71px;
+					width: 60px;
+					height: 71px;
+					left: -5px;
+					top: 10px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki7.png) 0 0 / 42px 50px;
+						width: 42px;
+						height: 50px;
+						left: -5px;
+						top: 10px;
+					}
+				}
+			}
+			.course8 {
+				&::after {
+					background: url(../img/top/sec2-gakki8.png) 0 0 / 53px 85px;
+					width: 53px;
+					height: 85px;
+					right: -10px;
+					top: -35px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki8.png) 0 0 / 37px 60px;
+						width: 37px;
+						height: 60px;
+						right: -10px;
+						top: -15px;
+					}
+				}
+			}
+			.course9 {
+				&::after {
+					background: url(../img/top/sec2-gakki9.png) 0 0 / 39px 97px;
+					width: 39px;
+					height: 97px;
+					left: 15px;
+					top: 5px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki9.png) 0 0 / 27px 68px;
+						width: 27px;
+						height: 68px;
+						left: auto;
+						top: -8px;
+						right: 23px;
+					}
+				}
+			}
+			.course10 {
+				&::after {
+					background: url(../img/top/sec2-gakki10.png) 0 0 / 33px 91px;
+					width: 33px;
+					height: 91px;
+					right: 20px;
+					top: -30px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki10.png) 0 0 / 23px 68px;
+						width: 23px;
+						height: 68px;
+						right: 25px;
+						top: 15px;
+					}
+				}
+			}
+			.course11 {
+				&::after {
+					background: url(../img/top/sec2-gakki11.png) 0 0 / 56px 51px;
+					width: 56px;
+					height: 51px;
+					right: 5px;
+					top: -5px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki11.png) 0 0 / 39px 36px;
+						width: 39px;
+						height: 36px;
+						right: auto;
+						left: 9px;
+						top: 25px;
+					}
+				}
+			}
+			.course12 {
+				&::after {
+					background: url(../img/top/sec2-gakki12.png) 0 0 / 161px 33px;
+					width: 161px;
+					height: 33px;
+					left: -30px;
+					bottom: -5px;
+					@include mq(md) {
+						background: url(../img/top/sec2-gakki12.png) 0 0 / 129px 26px;
+						width: 129px;
+						height: 26px;
+						left: -35px;
+						bottom: 5px;
+					}
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki12.png) 0 0 / 113px 23px;
+						width: 113px;
+						height: 23px;
+						left: auto;
+						right: -15px;
+						bottom: 50px;
+					}
+				}
+			}
+			.course13 {
+				&::after {
+					background: url(../img/top/sec2-gakki13.png) 0 0 / 43px 78px;
+					width: 43px;
+					height: 78px;
+					left: 5px;
+					bottom: -8px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki13.png) 0 0 / 30px 55px;
+						width: 30px;
+						height: 55px;
+						left: auto;
+						right: 20px;
+						bottom: 25px;
+					}
+				}
+			}
+			.course14 {
+				&::after {
+					background: url(../img/top/sec2-gakki14.png) 0 0 / 85px 39px;
+					width: 85px;
+					height: 39px;
+					left: -15px;
+					top: -20px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki14.png) 0 0 / 60px 27px;
+						width: 60px;
+						height: 27px;
+						left: -19px;
+						top: -15px;
+					}
+				}
+			}
+			.course15 {
+				&::after {
+					background: url(../img/top/sec2-gakki15.png) 0 0 / 39px 144px;
+					width: 39px;
+					height: 144px;
+					left: 10px;
+					top: -40px;
+					@include mq(md) {
+						background: url(../img/top/sec2-gakki15.png) 0 0 / 31px 115px;
+						width: 31px;
+						height: 115px;
+						left: 10px;
+						top: -10px;
+						@include mq(sm) {
+							background: url(../img/top/sec2-gakki15.png) 0 0 / 27px 101px;
+							width: 27px;
+							height: 101px;
+							left: 10px;
+							top: -15px;
+						}
+					}
+				}
+			}
+			.course16 {
+				&::after {
+					background: url(../img/top/sec2-gakki16.png) 0 0 / 45px 56px;
+					width: 45px;
+					height: 56px;
+					right: -20px;
+					top: -30px;
+					@include mq(sm) {
+						background: url(../img/top/sec2-gakki16.png) 0 0 / 36px 45px;
+						width: 36px;
+						height: 45px;
+						right: -10px;
+						top: -15px;
+					}
+				}
+			}
+		}
+	}
+}
+
+/*	#present
+====================================*/
+#present {
+	#content {
+		#sec1 {
+			.sub1 {
+				position: relative;
+				&::before {
+					content: "";
+					position: absolute;
+					background: url(../img/present/sec1-il1.png) 0 0 / 93px 91px;
+					width: 93px;
+					height: 91px;
+					right: 70px;
+					top: 80px;
+					@include mq(md) {
+						top: -30px;
+						right: 50px;
+					}
+					@include mq(sm) {
+						position: absolute;
+						background: url(../img/present/sec1-il1.png) 0 0 / 65px 64px;
+						width: 65px;
+						height: 64px;
+						top: -40px;
+						right: 50px;
+					}
+				}
+				&::after {
+					content: "";
+					position: absolute;
+					background: url(../img/present/sec1-img2.png) 0 0 / 287px 193px;
+					width: 287px;
+					height: 193px;
+					right: -40px;
+					bottom: -10px;
+					@include mq(md) {
+						bottom: -50px;
+						right: 10px;
+					}
+					@include mq(sm) {
+						background: url(../img/present/sec1-img2.png) 0 0 / 201px 135px;
+						width: 201px;
+						height: 135px;
+						bottom: -40px;
+					}
+				}
+			}
+			.gakki {
+				position: relative;
+				&::before {
+					content: "";
+					position: absolute;
+					background: $green;
+					width: 5px;
+					height: 5px;
+					right: 10px;
+					bottom: 10px;
+					border-radius: 9999px;
+				}
+				&:hover {
+					transition: all .8s;
+					&::before {
+						transition: all .8s;
+						bottom: 20px;
+					}
+				}
+			}
+		}
+	}
+}
+
+/*	#course
+====================================*/
+#trial {
+	#content {
+		#sec1 {
+			.sub1 {
+				position: relative;
+				&::before {
+					content: "";
+					position: absolute;
+					background: url(../img/trial/sec1-il.png) 0 0 / 55px 94px;
+					width: 55px;
+					height: 94px;
+					right: 60px;
+					bottom: -30px;
+					@include mq(sm) {
+						right: 30px;
+					}
+				}
+			}
+		}
+		#sec2 {
+			.flow1,.flow2,.flow3,.flow4 {
+				padding-left: 65px;
+				padding-bottom: 40px;
+				position: relative;
+				@include mq(sm) {
+					padding-left: 50px;
+					padding-bottom: 30px;
+				}
+				&::before {
+					position: absolute;
+					width: 40px;
+					height: 40px;
+					left: 0;
+					top: 0;
+					border-radius: 5px;
+					background: $blue;
+					color: $white;
+					font-family: $ff-sofia;
+					line-height: 40px;
+					text-align: center;
+					z-index: 2;
+					@include mq(sm) {
+						width: 32px;
+						height: 32px;
+						line-height: 32px;
+					}
+				}
+				&::after {
+					content: "";
+					position: absolute;
+					background: $blue;
+					left: 20px;
+					top: 0;
+					height: 100%;
+					width: 1px;
+					z-index: 1;
+					@include mq(sm) {
+						left: 16px;
+					}
+				}
+				&:last-child {
+					padding-bottom: 0;
+				}
+			}
+			.flow1 {
+				&::before { content: "01"; }
+			}
+			.flow2 {
+				&::before { content: "02"; }
+			}
+			.flow3 {
+				&::before { content: "03"; }
+			}
+			.flow4 {
+				&::before { content: "04"; }
+			}
+		}
+	}
+}
+
+/*	#course
+====================================*/
+#company {
+	#content {
+		#sec1 {
+			.tbl-basic {
+				position: relative;
+				&::before {
+					content: "";
+					position: absolute;
+					background: url(../img/company/sec1-il1.png) 0 0 / 70px 103px;
+					width: 70px;
+					height: 103px;
+					bottom: -50px;
+					right: 0;
+				}
+			}
+		}
+	}
+}
+
+/*	#new
+====================================*/
+#new {
+	#content {
+		.new {
+			a {
+				border-top: 1px solid $black;
+				padding: 20px;
+				display: block;
+				@include mq(sm) {
+					padding: 25px 15px;
+				}
+				.day {
+					display: inline-block;
+					font-family: $ff-en;
+					padding-right: 30px;
+					@include mq(sm) {
+						display: block;
+						padding-right: 0;
+					}
+				}
+				h3 {
+					display: inline-block;
+					@include mq(sm) {
+						display: block;
+						margin-top: 10px;
+					}
+				}
+			}
+			&:last-child {
+				a {
+					border-bottom: 1px solid $black;
+				}
+			}
+		}
+	}
+}
+

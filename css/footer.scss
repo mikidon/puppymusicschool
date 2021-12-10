@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+//Common
+@import "_common";
+
+/*-------------------------------
+	footer
+-------------------------------*/
+
+footer {
+	margin: auto;
+	background: #ececec;
+	#ft-cv {
+		background: url(../img/base/ft-bg.jpg) center center / cover;
+		.cv-inner {
+			position: relative;
+			border: solid 10px $white;
+			&::after {
+				content: "";
+				position: absolute;
+				background: $white;
+				height: 1px;
+				width: calc(100% + 20px);
+				bottom: -25px;
+				left: -10px;
+			}
+		}
+		.cv-btn {
+			position: relative;
+			padding: 13px 15px 13px 40px;
+			&::before {
+				content: "";
+				position: absolute;
+				background: url(../img/base/ic-mail-blue.png) 0 0 / 23px 15px no-repeat;
+				width: 23px;
+				height: 15px;
+				left: 40px;
+				top: calc(50% - 8px);
+			}
+			&:hover {
+				transition: all .7s;
+				&::before {
+					transition: all .7s;
+					left: 50px;
+				}
+			}
+		}
+	}
+	#ft-sitemap {
+		.ft-site-ttl {
+			img {
+				@include mq(sm) {
+					width: 258px;
+					height: 25px;
+				}
+			}
+		}
+		ul {
+			li {
+				padding-bottom: 5px;
+			}
+		}
+	}
+}

@@ -1,0 +1,276 @@
+@charset "utf-8";
+
+//Common
+@import "_common";
+
+#mailformpro {
+	/* テーブルの装飾 */
+	table {
+		width: 100%;
+		tr {
+			th,
+			td {
+				width: 100%;
+				display: block;
+				font-weight: normal;
+				text-align: left;
+				vertical-align: middle;
+				@include mq(sm) {
+					display: block;
+					width: 100%;
+				}
+			}
+			th {
+				padding: 40px 0 10px;
+				@include mq(sm) {
+					padding: 25px 0 5px 0;
+				}
+			}
+		}
+	}
+	
+	/* プレースホルダーの色 */
+	@mixin placeholderColor($color) {
+		&:placeholder-shown {
+			color: $color;
+		}
+		&::-webkit-input-placeholder {
+			color:$color;
+		}
+		&:-moz-placeholder {
+			color:$color;
+			opacity: 1;
+		}
+		&::-moz-placeholder {
+			color:$color;
+			opacity: 1;
+		}
+		&:-ms-input-placeholder {
+			color:$color;
+		}
+	}
+	/* インプット要素 */
+	input[type="checkbox"]{
+		margin-right: 5px;
+	}
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"],
+	input[type="number"],
+	select,
+	textarea,
+	.mfp_element_submit[type="submit"] {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		align-items: center;
+		justify-content: flex-start;
+		background-color: $white;
+		border: 0;
+		border-radius: 3px;
+		box-shadow: none;
+		padding: 20px;
+		font-size: 100%;
+		@include placeholderColor(#aaa);
+		line-height: 1.5;
+		vertical-align: top;
+		position: relative;
+		@include mq(sm) {
+			width: 100%!important;
+		}
+	}
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"],
+	input[type="number"],
+	textarea{
+		display: block;
+		width: 100% !important;
+	}
+	textarea {
+		height: 200px;
+	}
+	/* セレクトボックス要素 */
+	.select {
+		display: inline-block;
+		position: relative;
+		&::after {
+			border: 2px solid #333;
+			border-right: 0;
+			border-top: 0;
+			content: " ";
+			display: block;
+			height: .5em;
+			pointer-events: none;
+			position: absolute;
+			transform: rotate(-45deg);
+			transform-origin: center;
+			width: .5em;
+			margin-top: -.375em;
+			right: 1.5em;
+			top: 50%;
+			z-index: 4;
+		}
+		select {
+			padding-right: 2.5em;
+			min-width: 260px;
+		}
+	}
+	/* バリデーションの装飾 */
+	.mfp_err {
+		display: none;
+		padding-top: 5px;
+		clear: both;
+		font-size: 90%;
+		color: $red;
+		text-align: left;
+		&::before {
+			content: "( ! )";
+			margin-right: .25em;
+		}
+	}
+	/* 入力確認画面へのボタン */
+	.mfp_buttons {
+		text-align: center;
+		.mfp_element_submit[type="submit"] {
+			color: $black;
+			background-color:$blue;
+			color: $white; 
+			border-radius: 9999px;
+			cursor: pointer;
+			max-width:385px;
+			width: 100%;
+			letter-spacing: .1em;
+		}
+	}
+}
+/* IE11 */
+@media all and (-ms-high-contrast: none) {
+	*::-ms-backdrop, #mailformpro .select::after {
+		display: none;
+	}
+	*::-ms-backdrop, #mailformpro .select select {
+		padding-right: inherit;
+	}
+}
+/* 確認画面の装飾 */
+#mfp_overlay {
+	position: absolute;
+	display: none;
+	z-index: 10001;
+	h4 {
+		background: $gray;
+		padding: 20px;
+		font-size: 120%;
+		line-height: 1.4;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	#mfp_overlay_inner {
+		background-color: #fff;
+		padding: 15px;
+		margin: 0 auto;
+		border-radius: 5px;
+		box-shadow: 0 0 10px #000;
+		width: 640px;
+		max-width: 90%;
+		/* テーブル */
+		table#mfp_confirm_table {
+			border-spacing: 0;
+			border-collapse: collapse;
+			width: 100%;
+			tr {
+				&.mfp_colored {
+					background-color: $lightgray;
+				}
+				&.mfp_achroma {
+					background-color: #ffffff;
+				}
+				th,
+				td {
+					font-size: 90%;
+					font-weight: normal;
+					text-align: left;
+					padding: 10px;
+				}
+				td {
+					line-height: 1.5;
+					word-break: break-all;
+				}
+			}
+		}
+		/* ボタン */
+		.mfp_buttons {
+			display: flex;
+			justify-content: center;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			#mfp_button_send,
+			#mfp_button_cancel {
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				appearance: none;
+				display: inline-flex;
+				flex-grow: 1;
+				align-items: center;
+				justify-content: center;
+				background-color: #fff;
+				border: none;
+				box-shadow: none;
+				height: auto;
+				padding: 15px 20px;
+				font-size: 100%;
+				line-height: 1.5;
+				vertical-align: top;
+				position: relative;
+				color: #fff;
+				cursor: pointer;
+				opacity: 1;
+				transition: opacity 200ms ease-out;
+				&:hover {
+					opacity: .55;
+					text-decoration: none;
+				}
+			}
+			#mfp_button_send {
+				background-color: $black;
+			}
+			#mfp_button_cancel {
+				background-color: #ccc;
+			}
+		}
+	}
+}
+/* 確認画面出現時の背景 */
+#mfp_overlay_background {
+	background-color: #000;
+	position: absolute;
+	display: none;
+	z-index: 10000;
+}
+#mfp_loading_screen {
+	z-index: 20000;
+	opacity: .8;
+	display: none;
+	background-color: #000;
+	position: absolute;
+}
+/* NO EDIT */
+#mfp_hidden {
+	overflow: hidden;
+	width: 1px;
+	height: 1px;
+	padding: 0px;
+	margin: 0px;
+}
+#mfp_hidden input {
+	margin: 10px;
+}
+.hidefield {
+	height: 0px;
+	overflow: hidden;
+}
+.showfield {
+	height: auto;
+	overflow: visible;
+}
