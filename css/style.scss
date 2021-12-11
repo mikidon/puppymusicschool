@@ -583,11 +583,6 @@ body {
 #course {
 	#content {
 		#sec1 {
-			.ribbon-green,.ribbon-blue {
-				&::after {
-					border-color: transparent $lightgray transparent transparent;
-				}
-			}
 			.course1,.course2,.course3,.course4,.course5,.course6,.course7,.course8,.course9,.course10,.course11,.course12,.course13,.course14,.course15,.course16 {
 				display: block;
 				background: $white;

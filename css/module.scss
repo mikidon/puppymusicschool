@@ -109,7 +109,7 @@
 	.bgc-#{$color} { background-color: $hex; }
 }
 .bg-dots {
-	background: url(../img/base/bg-dots.png) 0 0 / 6px 6px repeat;
+	background: url(../img/base/bg-dots.png) 0 0 / 22px 22px repeat;
 }
 .bg-nami {
 	position: relative;
@@ -239,14 +239,13 @@
 }
 
 /* ribbon */
-.ribbon-green {
+.ribbon-green,.ribbon-blue,.ribbon-black {
 	display: inline-block;
 	position: relative;
 	height: 40px;
 	line-height: 40px;
 	text-align: center;
 	padding: 0 40px 0 30px;
-	background: $green;
 	color: #FFF;
 	box-sizing: border-box;
 	&::after {
@@ -266,29 +265,20 @@
 			border-color: transparent $gray transparent transparent;
 		}
 	}
+	&.-lightgray {
+		&::after {
+			border-color: transparent $lightgray transparent transparent;
+		}
+	}
+}
+.ribbon-green {
+	background: $green;
 }
 .ribbon-blue {
-	display: inline-block;
-	position: relative;
-	height: 40px;
-	line-height: 40px;
-	text-align: center;
-	padding: 0 40px 0 30px;
 	background: $blue;
-	color: #FFF;
-	box-sizing: border-box;
-	&::after {
-		content: "";
-		position: absolute;
-		width: 0px;
-		height: 0px;
-		z-index: 1;
-		top: 0;
-		right: 0;
-		border-width: 20px 15px 20px 0px;
-		border-color: transparent $lightblue transparent transparent;
-		border-style: solid;
-	}
+}
+.ribbon-black {
+	background: $black;
 }
 
 /* li */
@@ -366,7 +356,6 @@
 			}
 		}
 		th {
-			width: 240px;
 			font-weight: normal;
 			padding: 20px 30px;
 			min-width: 80px;
@@ -377,6 +366,30 @@
 				margin-bottom: 10px;
 				border-right: none;
 				font-weight: bold;
+			}
+		}
+	}
+	&.th-w240 {
+		th {
+			width: 240px;
+		}
+	}
+	&.va-m {
+		td,th {
+			vertical-align: middle;
+		}
+	}
+	&.p-small {
+		th {
+			padding: 12px 15px;
+			@include mq(sm) {
+				padding: 20px 0 5px 0;
+			}
+		}
+		td {
+			padding: 12px 15px;
+			@include mq(sm) {
+				padding: 0 0 20px 0;
 			}
 		}
 	}
@@ -425,6 +438,69 @@
 		}
 	}
 }
+
+/* lesson-ok-il */
+.lesson-ok-il {
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		background: url(../img/nagoya-meito/sec2-il1.png) 0 0 / 55px 94px;
+		width: 55px;
+		height: 94px;
+		right: 70px;
+		bottom: -100px;
+		@include mq(sm) {
+			right: 20px;
+		}
+	}
+}
+/* course-link */
+.course-link {
+	.course1,.course2,.course3,.course4,.course5,.course6,.course7,.course8,.course9,.course10,.course11,.course12,.course13,.course14,.course15,.course16 {
+		display: block;
+		border: 2px solid $white;
+		position: relative;
+		padding: 15px;
+		text-align: center;
+		font-size: 90%;
+		@include mq(sm) {
+			padding: 15px 5px;
+			font-size: 85%;
+		}
+		@media screen and (max-width: 375px) {
+			padding: 15px 5px;
+			font-size: 80%;
+		}
+		&::after {
+			content: "";
+			position: absolute;
+			z-index: 2;
+		}
+		&::before {
+			content: "";
+			position: absolute;
+			background: $green;
+			width: 5px;
+			height: 5px;
+			right: 10px;
+			bottom: 10px;
+			border-radius: 9999px;
+		}
+		&:hover {
+			transition: all .8s;
+			&::before {
+				transition: all .8s;
+				bottom: 20px;
+			}
+		}
+		span {
+			display: block;
+			font-family: $ff-sofia;
+		}
+	}
+}
+
 
 /* border */
 @each $color, $hex in $colors {
