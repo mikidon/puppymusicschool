@@ -9,7 +9,6 @@ $config{'ConfirmationMode'} = 0;
 $config{'sendmail'} = '/usr/sbin/sendmail';
 
 ## フォームの送信先
-push @mailto,'music@puppysweide.com';
 push @mailto,'dnpp.pecori@gmail.com';
 
 ## 自動返信メールの差出人名
@@ -66,7 +65,7 @@ $config{"ReturnSubject"} = '【 PUPPY MUSIC SCHOOL 】 お申込みありがと�
 $_TEXT{'responder'} = <<'__return_body__';
 
 
-<お名前> 様
+<_お名前_> 様
 
 この度は体験レッスンのお申込みをいただき誠にありがとうございます。
 改めてスタッフより、ご連絡をさせていただきます。
@@ -84,7 +83,7 @@ $_TEXT{'responder'} = <<'__return_body__';
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 PUPPY MUSIC SCHOOL
-https://puppysweide.com/
+https://puppysweide.com/school/HP/
 
 [ 本部：岡崎大西教室 ]
 〒444-0871 愛知県岡崎市大西3-2-5
