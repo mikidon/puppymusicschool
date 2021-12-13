@@ -22,15 +22,29 @@ body {
 	line-height: 2;
 	letter-spacing: .08em;
 	font-weight: 300;
+	animation: fadeIn 1.5s ease 0s 1 normal;
+
 	@include mq(md) {
 		font-size: 13px;
 	}
+
 	@media screen and (max-width: 320px) {
 		font-size: 90%;
 	}
 }
 
+@keyframes fadeIn {
+	0% {
+		opacity: 0
+	}
+
+	100% {
+		opacity: 1
+	}
+}
+
 .uf {
+
 	main,
 	footer {
 		animation-name: fadein;
@@ -42,12 +56,14 @@ body {
 			opacity: 0;
 			transform: translateY(-20px);
 		}
+
 		to {
 			opacity: 1;
 			transform: translateY(0);
 		}
 	}
 }
+
 #content {
 	background-color: #ececec;
 }
@@ -60,6 +76,7 @@ body {
 ====================================*/
 #top {
 	#content {
+
 		/* #hero */
 		#hero {
 			max-width: 100%;
@@ -68,15 +85,18 @@ body {
 			height: calc(100vh - 60px);
 			max-height: 670px;
 			min-height: 670px;
-			@include mq(md)  {
+
+			@include mq(md) {
 				margin: 0;
 				max-height: 400px;
 				min-height: 400px;
 			}
-			@include mq(sm)  {
+
+			@include mq(sm) {
 				max-height: 250px;
 				min-height: 250px;
 			}
+
 			&::before {
 				content: "";
 				position: absolute;
@@ -85,35 +105,42 @@ body {
 				height: 194px;
 				bottom: 0;
 				right: -55px;
+
 				@include mq(md) {
 					background: url(../img/top/sc.png) 0 0 / 6px 117px no-repeat;
 					width: 6px;
 					height: 117px;
 					right: -35px;
 				}
+
 				@include mq(sm) {
 					right: -22px;
 				}
 			}
+
 			/* .bg-slide */
-			.bx-wrapper {				
-				width: 100%!important;
-				height: 670px!important;
+			.bx-wrapper {
+				width: 100% !important;
+				height: 670px !important;
 				position: absolute;
 				top: 0;
 				left: 0;
 				z-index: -1;
+
 				@include mq(md) {
-				height: 400px!important;
+					height: 400px !important;
 				}
+
 				@include mq(sm) {
-				height: 250px!important;
+					height: 250px !important;
 				}
+
 				.bx-viewport {
-					width: 100%!important;
-					height: 100%!important;
+					width: 100% !important;
+					height: 100% !important;
 					overflow: hidden;
 					position: relative;
+
 					&::before {
 						background: #fff;
 						bottom: 0;
@@ -125,12 +152,14 @@ body {
 						top: 0;
 						z-index: 1;
 					}
+
 					.bg-slide {
-						width: 100%!important;
-						height: 100%!important;
-						> li {
-							width: 100%!important;
-							height: 100%!important;
+						width: 100% !important;
+						height: 100% !important;
+
+						>li {
+							width: 100% !important;
+							height: 100% !important;
 							background-position: center center;
 							background-size: cover;
 							background-repeat: no-repeat;
@@ -139,9 +168,11 @@ body {
 				}
 			}
 		}
+
 		/* sec2 */
 		#sec2 {
 			position: relative;
+
 			&::after {
 				content: "";
 				position: absolute;
@@ -150,6 +181,7 @@ body {
 				height: 150px;
 				left: 0;
 				top: -150px;
+
 				@include mq(sm) {
 					background: url(../img/top/sec2-bg-upper.png) 0 0 / 700px 75px;
 					width: 700px;
@@ -157,26 +189,46 @@ body {
 					top: -75px;
 				}
 			}
-			.course1,.course2,.course3,.course4,.course5,.course6,.course7,.course8,.course9,.course10,.course11,.course12,.course13,.course14,.course15,.course16 {
+
+			.course1,
+			.course2,
+			.course3,
+			.course4,
+			.course5,
+			.course6,
+			.course7,
+			.course8,
+			.course9,
+			.course10,
+			.course11,
+			.course12,
+			.course13,
+			.course14,
+			.course15,
+			.course16 {
 				display: block;
 				background: $white;
 				position: relative;
 				padding: 15px;
 				text-align: center;
 				font-size: 90%;
+
 				@include mq(sm) {
 					padding: 15px 5px;
 					font-size: 85%;
 				}
+
 				@media screen and (max-width: 375px) {
 					padding: 15px 5px;
 					font-size: 80%;
 				}
+
 				&::after {
 					content: "";
 					position: absolute;
 					z-index: 2;
 				}
+
 				&::before {
 					content: "";
 					position: absolute;
@@ -187,18 +239,22 @@ body {
 					bottom: 10px;
 					border-radius: 9999px;
 				}
+
 				&:hover {
 					transition: all .8s;
+
 					&::before {
 						transition: all .8s;
 						bottom: 20px;
 					}
 				}
+
 				span {
 					display: block;
 					font-family: $ff-sofia;
 				}
 			}
+
 			.course1 {
 				&::after {
 					background: url(../img/top/sec2-gakki1.png) 0 0 / 26px 58px;
@@ -206,6 +262,7 @@ body {
 					height: 58px;
 					right: 20px;
 					top: -17px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki1.png) 0 0 / 18px 41px;
 						width: 18px;
@@ -215,6 +272,7 @@ body {
 					}
 				}
 			}
+
 			.course2 {
 				&::after {
 					background: url(../img/top/sec2-gakki2.png) 0 0 / 37px 88px;
@@ -222,6 +280,7 @@ body {
 					height: 88px;
 					left: 15px;
 					top: 3px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki2.png) 0 0 / 26px 62px;
 						width: 26px;
@@ -231,6 +290,7 @@ body {
 					}
 				}
 			}
+
 			.course3 {
 				&::after {
 					background: url(../img/top/sec2-gakki3.png) 0 0 / 38px 96px;
@@ -238,6 +298,7 @@ body {
 					height: 96px;
 					right: 20px;
 					top: -40px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki3.png) 0 0 / 27px 67px;
 						width: 27px;
@@ -247,6 +308,7 @@ body {
 					}
 				}
 			}
+
 			.course4 {
 				&::after {
 					background: url(../img/top/sec2-gakki4.png) 0 0 / 89px 71px;
@@ -254,6 +316,7 @@ body {
 					height: 71px;
 					left: -23px;
 					bottom: -20px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki4.png) 0 0 / 62px 50px;
 						width: 62px;
@@ -263,6 +326,7 @@ body {
 					}
 				}
 			}
+
 			.course5 {
 				&::after {
 					background: url(../img/top/sec2-gakki5.png) 0 0 / 80px 45px;
@@ -270,6 +334,7 @@ body {
 					height: 45px;
 					left: -23px;
 					top: 20px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki5.png) 0 0 / 56px 32px;
 						width: 56px;
@@ -279,6 +344,7 @@ body {
 					}
 				}
 			}
+
 			.course6 {
 				&::after {
 					background: url(../img/top/sec2-gakki6.png) 0 0 / 65px 43px;
@@ -286,6 +352,7 @@ body {
 					height: 43px;
 					right: -20px;
 					top: -5px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki6.png) 0 0 / 46px 30px;
 						width: 46px;
@@ -295,6 +362,7 @@ body {
 					}
 				}
 			}
+
 			.course7 {
 				&::after {
 					background: url(../img/top/sec2-gakki7.png) 0 0 / 60px 71px;
@@ -302,6 +370,7 @@ body {
 					height: 71px;
 					left: -5px;
 					top: 10px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki7.png) 0 0 / 42px 50px;
 						width: 42px;
@@ -311,6 +380,7 @@ body {
 					}
 				}
 			}
+
 			.course8 {
 				&::after {
 					background: url(../img/top/sec2-gakki8.png) 0 0 / 53px 85px;
@@ -318,6 +388,7 @@ body {
 					height: 85px;
 					right: -10px;
 					top: -35px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki8.png) 0 0 / 37px 60px;
 						width: 37px;
@@ -327,6 +398,7 @@ body {
 					}
 				}
 			}
+
 			.course9 {
 				&::after {
 					background: url(../img/top/sec2-gakki9.png) 0 0 / 39px 97px;
@@ -334,6 +406,7 @@ body {
 					height: 97px;
 					left: 15px;
 					top: 5px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki9.png) 0 0 / 27px 68px;
 						width: 27px;
@@ -344,6 +417,7 @@ body {
 					}
 				}
 			}
+
 			.course10 {
 				&::after {
 					background: url(../img/top/sec2-gakki10.png) 0 0 / 33px 91px;
@@ -351,6 +425,7 @@ body {
 					height: 91px;
 					right: 20px;
 					top: -30px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki10.png) 0 0 / 23px 68px;
 						width: 23px;
@@ -360,6 +435,7 @@ body {
 					}
 				}
 			}
+
 			.course11 {
 				&::after {
 					background: url(../img/top/sec2-gakki11.png) 0 0 / 56px 51px;
@@ -367,6 +443,7 @@ body {
 					height: 51px;
 					right: 5px;
 					top: -5px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki11.png) 0 0 / 39px 36px;
 						width: 39px;
@@ -377,6 +454,7 @@ body {
 					}
 				}
 			}
+
 			.course12 {
 				&::after {
 					background: url(../img/top/sec2-gakki12.png) 0 0 / 161px 33px;
@@ -384,6 +462,7 @@ body {
 					height: 33px;
 					left: -30px;
 					bottom: -5px;
+
 					@include mq(md) {
 						background: url(../img/top/sec2-gakki12.png) 0 0 / 129px 26px;
 						width: 129px;
@@ -391,6 +470,7 @@ body {
 						left: -35px;
 						bottom: 5px;
 					}
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki12.png) 0 0 / 113px 23px;
 						width: 113px;
@@ -401,6 +481,7 @@ body {
 					}
 				}
 			}
+
 			.course13 {
 				&::after {
 					background: url(../img/top/sec2-gakki13.png) 0 0 / 43px 78px;
@@ -408,6 +489,7 @@ body {
 					height: 78px;
 					left: 5px;
 					bottom: -8px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki13.png) 0 0 / 30px 55px;
 						width: 30px;
@@ -418,6 +500,7 @@ body {
 					}
 				}
 			}
+
 			.course14 {
 				&::after {
 					background: url(../img/top/sec2-gakki14.png) 0 0 / 85px 39px;
@@ -425,6 +508,7 @@ body {
 					height: 39px;
 					left: -15px;
 					top: -20px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki14.png) 0 0 / 60px 27px;
 						width: 60px;
@@ -434,6 +518,7 @@ body {
 					}
 				}
 			}
+
 			.course15 {
 				&::after {
 					background: url(../img/top/sec2-gakki15.png) 0 0 / 39px 144px;
@@ -441,12 +526,14 @@ body {
 					height: 144px;
 					left: 10px;
 					top: -40px;
+
 					@include mq(md) {
 						background: url(../img/top/sec2-gakki15.png) 0 0 / 31px 115px;
 						width: 31px;
 						height: 115px;
 						left: 10px;
 						top: -10px;
+
 						@include mq(sm) {
 							background: url(../img/top/sec2-gakki15.png) 0 0 / 27px 101px;
 							width: 27px;
@@ -457,6 +544,7 @@ body {
 					}
 				}
 			}
+
 			.course16 {
 				&::after {
 					background: url(../img/top/sec2-gakki16.png) 0 0 / 45px 56px;
@@ -464,6 +552,7 @@ body {
 					height: 56px;
 					right: -20px;
 					top: -30px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki16.png) 0 0 / 36px 45px;
 						width: 36px;
@@ -474,9 +563,11 @@ body {
 				}
 			}
 		}
+
 		/* sec4 */
 		#sec4 {
 			position: relative;
+
 			&::after {
 				content: "";
 				position: absolute;
@@ -485,6 +576,7 @@ body {
 				height: 150px;
 				left: 0;
 				top: -150px;
+
 				@include mq(sm) {
 					background: url(../img/top/sec4-bg-upper.png) 0 0 / 700px 75px;
 					width: 700px;
@@ -492,13 +584,16 @@ body {
 					top: -75px;
 				}
 			}
+
 			.menu {
 				figure {
 					overflow: hidden;
+
 					img {
 						transition-duration: 0.8s;
 					}
 				}
+
 				&:hover {
 					figure {
 						img {
@@ -507,12 +602,15 @@ body {
 						}
 					}
 				}
+
 				.menu-txt {
-					border-radius:  0 15px 0 0;
+					border-radius: 0 15px 0 0;
 				}
 			}
+
 			.img-tote {
 				position: relative;
+
 				&::before {
 					content: "";
 					position: absolute;
@@ -522,6 +620,7 @@ body {
 					left: 0;
 					top: -220px;
 					z-index: 10;
+
 					@include mq(sm) {
 						background: url(../img/top/sec4-pic1.png) 0 0 / 85px 119px;
 						width: 85px;
@@ -530,6 +629,7 @@ body {
 						left: 15px;
 					}
 				}
+
 				&::after {
 					content: "";
 					position: absolute;
@@ -539,6 +639,7 @@ body {
 					right: 0;
 					bottom: -150px;
 					z-index: 10;
+
 					@include mq(sm) {
 						background: url(../img/top/sec4-pic2.png) 0 0 / 154px 69px;
 						width: 154px;
@@ -549,21 +650,26 @@ body {
 				}
 			}
 		}
+
 		/* sec5 */
 		#sec5 {
 			.new {
 				a {
 					padding: 10px 0;
 					display: flex;
+
 					@include mq(sm) {
 						display: block;
 						font-size: 95%;
 					}
+
 					.day {
 						font-family: $ff-sofia;
 					}
+
 					h3 {
 						padding-left: 20px;
+
 						@include mq(sm) {
 							padding-left: 0;
 							padding-top: 10px;
@@ -583,26 +689,46 @@ body {
 #course {
 	#content {
 		#sec1 {
-			.course1,.course2,.course3,.course4,.course5,.course6,.course7,.course8,.course9,.course10,.course11,.course12,.course13,.course14,.course15,.course16 {
+
+			.course1,
+			.course2,
+			.course3,
+			.course4,
+			.course5,
+			.course6,
+			.course7,
+			.course8,
+			.course9,
+			.course10,
+			.course11,
+			.course12,
+			.course13,
+			.course14,
+			.course15,
+			.course16 {
 				display: block;
 				background: $white;
 				position: relative;
 				padding: 15px;
 				text-align: center;
 				font-size: 90%;
+
 				@include mq(sm) {
 					padding: 15px 5px;
 					font-size: 85%;
 				}
+
 				@media screen and (max-width: 375px) {
 					padding: 15px 5px;
 					font-size: 80%;
 				}
+
 				&::after {
 					content: "";
 					position: absolute;
 					z-index: 2;
 				}
+
 				&::before {
 					content: "";
 					position: absolute;
@@ -613,18 +739,22 @@ body {
 					bottom: 10px;
 					border-radius: 9999px;
 				}
+
 				&:hover {
 					transition: all .8s;
+
 					&::before {
 						transition: all .8s;
 						bottom: 20px;
 					}
 				}
+
 				span {
 					display: block;
 					font-family: $ff-sofia;
 				}
 			}
+
 			.course1 {
 				&::after {
 					background: url(../img/top/sec2-gakki1.png) 0 0 / 26px 58px;
@@ -632,6 +762,7 @@ body {
 					height: 58px;
 					right: 20px;
 					top: -17px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki1.png) 0 0 / 18px 41px;
 						width: 18px;
@@ -641,6 +772,7 @@ body {
 					}
 				}
 			}
+
 			.course2 {
 				&::after {
 					background: url(../img/top/sec2-gakki2.png) 0 0 / 37px 88px;
@@ -648,6 +780,7 @@ body {
 					height: 88px;
 					left: 15px;
 					top: 3px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki2.png) 0 0 / 26px 62px;
 						width: 26px;
@@ -657,6 +790,7 @@ body {
 					}
 				}
 			}
+
 			.course3 {
 				&::after {
 					background: url(../img/top/sec2-gakki3.png) 0 0 / 38px 96px;
@@ -664,6 +798,7 @@ body {
 					height: 96px;
 					right: 20px;
 					top: -40px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki3.png) 0 0 / 27px 67px;
 						width: 27px;
@@ -673,6 +808,7 @@ body {
 					}
 				}
 			}
+
 			.course4 {
 				&::after {
 					background: url(../img/top/sec2-gakki4.png) 0 0 / 89px 71px;
@@ -680,6 +816,7 @@ body {
 					height: 71px;
 					left: -23px;
 					bottom: -20px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki4.png) 0 0 / 62px 50px;
 						width: 62px;
@@ -689,6 +826,7 @@ body {
 					}
 				}
 			}
+
 			.course5 {
 				&::after {
 					background: url(../img/top/sec2-gakki5.png) 0 0 / 80px 45px;
@@ -696,6 +834,7 @@ body {
 					height: 45px;
 					left: -23px;
 					top: 20px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki5.png) 0 0 / 56px 32px;
 						width: 56px;
@@ -705,6 +844,7 @@ body {
 					}
 				}
 			}
+
 			.course6 {
 				&::after {
 					background: url(../img/top/sec2-gakki6.png) 0 0 / 65px 43px;
@@ -712,6 +852,7 @@ body {
 					height: 43px;
 					right: -20px;
 					top: -5px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki6.png) 0 0 / 46px 30px;
 						width: 46px;
@@ -721,6 +862,7 @@ body {
 					}
 				}
 			}
+
 			.course7 {
 				&::after {
 					background: url(../img/top/sec2-gakki7.png) 0 0 / 60px 71px;
@@ -728,6 +870,7 @@ body {
 					height: 71px;
 					left: -5px;
 					top: 10px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki7.png) 0 0 / 42px 50px;
 						width: 42px;
@@ -737,6 +880,7 @@ body {
 					}
 				}
 			}
+
 			.course8 {
 				&::after {
 					background: url(../img/top/sec2-gakki8.png) 0 0 / 53px 85px;
@@ -744,6 +888,7 @@ body {
 					height: 85px;
 					right: -10px;
 					top: -35px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki8.png) 0 0 / 37px 60px;
 						width: 37px;
@@ -753,6 +898,7 @@ body {
 					}
 				}
 			}
+
 			.course9 {
 				&::after {
 					background: url(../img/top/sec2-gakki9.png) 0 0 / 39px 97px;
@@ -760,6 +906,7 @@ body {
 					height: 97px;
 					left: 15px;
 					top: 5px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki9.png) 0 0 / 27px 68px;
 						width: 27px;
@@ -770,6 +917,7 @@ body {
 					}
 				}
 			}
+
 			.course10 {
 				&::after {
 					background: url(../img/top/sec2-gakki10.png) 0 0 / 33px 91px;
@@ -777,6 +925,7 @@ body {
 					height: 91px;
 					right: 20px;
 					top: -30px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki10.png) 0 0 / 23px 68px;
 						width: 23px;
@@ -786,6 +935,7 @@ body {
 					}
 				}
 			}
+
 			.course11 {
 				&::after {
 					background: url(../img/top/sec2-gakki11.png) 0 0 / 56px 51px;
@@ -793,6 +943,7 @@ body {
 					height: 51px;
 					right: 5px;
 					top: -5px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki11.png) 0 0 / 39px 36px;
 						width: 39px;
@@ -803,6 +954,7 @@ body {
 					}
 				}
 			}
+
 			.course12 {
 				&::after {
 					background: url(../img/top/sec2-gakki12.png) 0 0 / 161px 33px;
@@ -810,6 +962,7 @@ body {
 					height: 33px;
 					left: -30px;
 					bottom: -5px;
+
 					@include mq(md) {
 						background: url(../img/top/sec2-gakki12.png) 0 0 / 129px 26px;
 						width: 129px;
@@ -817,6 +970,7 @@ body {
 						left: -35px;
 						bottom: 5px;
 					}
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki12.png) 0 0 / 113px 23px;
 						width: 113px;
@@ -827,6 +981,7 @@ body {
 					}
 				}
 			}
+
 			.course13 {
 				&::after {
 					background: url(../img/top/sec2-gakki13.png) 0 0 / 43px 78px;
@@ -834,6 +989,7 @@ body {
 					height: 78px;
 					left: 5px;
 					bottom: -8px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki13.png) 0 0 / 30px 55px;
 						width: 30px;
@@ -844,6 +1000,7 @@ body {
 					}
 				}
 			}
+
 			.course14 {
 				&::after {
 					background: url(../img/top/sec2-gakki14.png) 0 0 / 85px 39px;
@@ -851,6 +1008,7 @@ body {
 					height: 39px;
 					left: -15px;
 					top: -20px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki14.png) 0 0 / 60px 27px;
 						width: 60px;
@@ -860,6 +1018,7 @@ body {
 					}
 				}
 			}
+
 			.course15 {
 				&::after {
 					background: url(../img/top/sec2-gakki15.png) 0 0 / 39px 144px;
@@ -867,12 +1026,14 @@ body {
 					height: 144px;
 					left: 10px;
 					top: -40px;
+
 					@include mq(md) {
 						background: url(../img/top/sec2-gakki15.png) 0 0 / 31px 115px;
 						width: 31px;
 						height: 115px;
 						left: 10px;
 						top: -10px;
+
 						@include mq(sm) {
 							background: url(../img/top/sec2-gakki15.png) 0 0 / 27px 101px;
 							width: 27px;
@@ -883,6 +1044,7 @@ body {
 					}
 				}
 			}
+
 			.course16 {
 				&::after {
 					background: url(../img/top/sec2-gakki16.png) 0 0 / 45px 56px;
@@ -890,6 +1052,7 @@ body {
 					height: 56px;
 					right: -20px;
 					top: -30px;
+
 					@include mq(sm) {
 						background: url(../img/top/sec2-gakki16.png) 0 0 / 36px 45px;
 						width: 36px;
@@ -903,6 +1066,143 @@ body {
 	}
 }
 
+/*	Toppageのユニークなアニメーション
+====================================*/
+#top {
+	.view.view-unique1 {
+		opacity: 0;
+		transform-origin: left bottom;
+
+		&.on {
+			opacity: 1;
+			animation: view-unique1 1s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+		}
+	}
+
+	@keyframes view-unique1 {
+		0% {
+			opacity: 0;
+			transform: translate(-15px, 0) rotate(-3deg);
+		}
+
+		50% {
+			opacity: .65;
+			transform: translate(10px, 0) rotate(2deg);
+		}
+
+		65% {
+			opacity: 1;
+			transform: translate(-5px, 0) rotate(-1deg);
+		}
+
+		85% {
+			opacity: 1;
+			transform: translate(5px, 0) rotate(1deg);
+		}
+
+		95% {
+			opacity: 1;
+			transform: translate(-2px, 0) rotate(-.5deg);
+		}
+
+		100% {
+			opacity: 1;
+			transform: translate(0, 0) rotate(0);
+		}
+	}
+
+	.view.view-unique2 {
+		opacity: 0;
+		transform-origin: left bottom;
+
+		&.on {
+			opacity: 1;
+			animation: view-unique2 1s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+		}
+	}
+
+	@keyframes view-unique2 {
+		0% {
+			opacity: 0;
+			transform: translate(15px, 0) rotate(-3deg);
+		}
+
+		50% {
+			opacity: .65;
+			transform: translate(-10px, 0) rotate(2deg);
+		}
+
+		65% {
+			opacity: 1;
+			transform: translate(5px, 0) rotate(-1deg);
+		}
+
+		85% {
+			opacity: 1;
+			transform: translate(-5px, 0) rotate(1deg);
+		}
+
+		95% {
+			opacity: 1;
+			transform: translate(2px, 0) rotate(-.5deg);
+		}
+
+		100% {
+			opacity: 1;
+			transform: translate(0, 0) rotate(0);
+		}
+	}
+
+	.view.view-unique3 {
+
+		&::before,
+		&::after {
+			opacity: 0;
+		}
+
+		&.on {
+
+			&::before,
+			&::after {
+				opacity: 1;
+				animation: view-unique3 1s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+			}
+		}
+	}
+
+	@keyframes view-unique3 {
+		0% {
+			opacity: 0;
+			transform: rotate(-3deg);
+		}
+
+		50% {
+			opacity: .65;
+			transform: rotate(2deg);
+		}
+
+		65% {
+			opacity: 1;
+			transform: rotate(-1deg);
+		}
+
+		85% {
+			opacity: 1;
+			transform: rotate(1deg);
+		}
+
+		95% {
+			opacity: 1;
+			transform: rotate(-.5deg);
+		}
+
+		100% {
+			opacity: 1;
+			transform: rotate(0);
+		}
+	}
+}
+
 /*	#present
 ====================================*/
 #present {
@@ -910,6 +1210,7 @@ body {
 		#sec1 {
 			.sub1 {
 				position: relative;
+
 				&::before {
 					content: "";
 					position: absolute;
@@ -918,10 +1219,12 @@ body {
 					height: 91px;
 					right: 70px;
 					top: 80px;
+
 					@include mq(md) {
 						top: -30px;
 						right: 50px;
 					}
+
 					@include mq(sm) {
 						position: absolute;
 						background: url(../img/present/sec1-il1.png) 0 0 / 65px 64px;
@@ -931,6 +1234,7 @@ body {
 						right: 50px;
 					}
 				}
+
 				&::after {
 					content: "";
 					position: absolute;
@@ -939,10 +1243,12 @@ body {
 					height: 193px;
 					right: -40px;
 					bottom: -10px;
+
 					@include mq(md) {
 						bottom: -50px;
 						right: 10px;
 					}
+
 					@include mq(sm) {
 						background: url(../img/present/sec1-img2.png) 0 0 / 201px 135px;
 						width: 201px;
@@ -951,8 +1257,10 @@ body {
 					}
 				}
 			}
+
 			.gakki {
 				position: relative;
+
 				&::before {
 					content: "";
 					position: absolute;
@@ -963,8 +1271,10 @@ body {
 					bottom: 10px;
 					border-radius: 9999px;
 				}
+
 				&:hover {
 					transition: all .8s;
+
 					&::before {
 						transition: all .8s;
 						bottom: 20px;
@@ -982,6 +1292,7 @@ body {
 		#sec1 {
 			.sub1 {
 				position: relative;
+
 				&::before {
 					content: "";
 					position: absolute;
@@ -990,21 +1301,29 @@ body {
 					height: 94px;
 					right: 60px;
 					bottom: -30px;
+
 					@include mq(sm) {
 						right: 30px;
 					}
 				}
 			}
 		}
+
 		#sec2 {
-			.flow1,.flow2,.flow3,.flow4 {
+
+			.flow1,
+			.flow2,
+			.flow3,
+			.flow4 {
 				padding-left: 65px;
 				padding-bottom: 40px;
 				position: relative;
+
 				@include mq(sm) {
 					padding-left: 50px;
 					padding-bottom: 30px;
 				}
+
 				&::before {
 					position: absolute;
 					width: 40px;
@@ -1018,12 +1337,14 @@ body {
 					line-height: 40px;
 					text-align: center;
 					z-index: 2;
+
 					@include mq(sm) {
 						width: 32px;
 						height: 32px;
 						line-height: 32px;
 					}
 				}
+
 				&::after {
 					content: "";
 					position: absolute;
@@ -1033,25 +1354,39 @@ body {
 					height: 100%;
 					width: 1px;
 					z-index: 1;
+
 					@include mq(sm) {
 						left: 16px;
 					}
 				}
+
 				&:last-child {
 					padding-bottom: 0;
 				}
 			}
+
 			.flow1 {
-				&::before { content: "01"; }
+				&::before {
+					content: "01";
+				}
 			}
+
 			.flow2 {
-				&::before { content: "02"; }
+				&::before {
+					content: "02";
+				}
 			}
+
 			.flow3 {
-				&::before { content: "03"; }
+				&::before {
+					content: "03";
+				}
 			}
+
 			.flow4 {
-				&::before { content: "04"; }
+				&::before {
+					content: "04";
+				}
 			}
 		}
 	}
@@ -1064,6 +1399,7 @@ body {
 		#sec1 {
 			.tbl-basic {
 				position: relative;
+
 				&::before {
 					content: "";
 					position: absolute;
@@ -1087,26 +1423,32 @@ body {
 				border-top: 1px solid $black;
 				padding: 20px;
 				display: block;
+
 				@include mq(sm) {
 					padding: 25px 15px;
 				}
+
 				.day {
 					display: inline-block;
 					font-family: $ff-en;
 					padding-right: 30px;
+
 					@include mq(sm) {
 						display: block;
 						padding-right: 0;
 					}
 				}
+
 				h3 {
 					display: inline-block;
+
 					@include mq(sm) {
 						display: block;
 						margin-top: 10px;
 					}
 				}
 			}
+
 			&:last-child {
 				a {
 					border-bottom: 1px solid $black;
@@ -1115,4 +1457,3 @@ body {
 		}
 	}
 }
-
