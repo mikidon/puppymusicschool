@@ -98,7 +98,6 @@
 .ttl-dot {
 	position: relative;
 	padding-left: 20px;
-
 	&::before {
 		content: "";
 		position: absolute;
@@ -108,6 +107,11 @@
 		border-radius: 9999px;
 		left: 0;
 		top: calc(50% - 2.5px);
+	}
+	&.-black {
+		&::before {
+			background: $black !important;
+		}
 	}
 }
 
@@ -294,7 +298,9 @@ $hex in $colors {
 	padding: 0 40px 0 30px;
 	color: #FFF;
 	box-sizing: border-box;
-
+	@include mq(sm) {
+		padding: 0 20px 0 15px;
+	}
 	&::after {
 		content: "";
 		position: absolute;
@@ -386,10 +392,8 @@ $hex in $colors {
 /* tbl */
 .tbl-basic {
 	width: 100%;
-
 	tr {
 		&:last-child {
-
 			td,
 			th {
 				border-bottom: 1px solid #000;
@@ -401,33 +405,27 @@ $hex in $colors {
 				}
 			}
 		}
-
 		td,
 		th {
 			border-top: 1px solid #000;
 			line-height: 1.8;
-
 			@include mq(sm) {
 				display: block;
 				width: 100%;
 			}
 		}
-
 		td {
 			padding: 20px 30px;
-
 			@include mq(sm) {
 				border-top: none;
 				padding: 0 0 25px 0;
 			}
 		}
-
 		th {
 			font-weight: normal;
 			padding: 20px 30px;
 			min-width: 80px;
 			border-right: 1px solid $black;
-
 			@include mq(sm) {
 				width: 100%;
 				padding: 25px 0 10px 0;
@@ -437,13 +435,11 @@ $hex in $colors {
 			}
 		}
 	}
-
 	&.th-w240 {
 		th {
 			width: 240px;
 		}
 	}
-
 	&.va-m {
 
 		td,
@@ -451,11 +447,9 @@ $hex in $colors {
 			vertical-align: middle;
 		}
 	}
-
 	&.p-small {
 		th {
 			padding: 12px 15px;
-
 			@include mq(sm) {
 				padding: 20px 0 5px 0;
 			}
@@ -463,9 +457,39 @@ $hex in $colors {
 
 		td {
 			padding: 12px 15px;
-
 			@include mq(sm) {
 				padding: 0 0 20px 0;
+			}
+		}
+	}
+}
+.tbl-sml {
+	width: 100%;
+	tr {
+		&:last-child {
+			td,
+			th {
+				border-bottom: 1px solid #000;
+			}
+		}
+		td,
+		th {
+			border-top: 1px solid #000;
+			line-height: 1.8;
+		}
+		td {
+			padding: 12px 30px;
+			@include mq(sm) {
+				padding: 10px 15px;
+			}
+		}
+		th {
+			font-weight: normal;
+			padding: 12px 30px;
+			min-width: 80px;
+			border-right: 1px solid $black;
+			@include mq(sm) {
+				padding: 10px 15px;
 			}
 		}
 	}
