@@ -494,58 +494,10 @@ $hex in $colors {
 		}
 	}
 }
-
-.tbl-dots {
-	@include mq(sm) {
-		width: 100%;
-	}
-
-	tr {
-
-		td,
-		th {
-			line-height: 1.8;
-			font-weight: normal;
-		}
-
-		th {
-			padding: 5px 20px 5px 20px;
-			min-width: 80px;
-			position: relative;
-
-			@include mq(sm) {
-				padding: 0 20px 7px 15px;
-			}
-
-			&::before {
-				content: "";
-				position: absolute;
-				width: 5px;
-				height: 5px;
-				border-radius: 9999px;
-				background: $green;
-				left: 0;
-				top: calc(50% - 2.5px);
-
-				@include mq(sm) {
-					top: 9px;
-					width: 4px;
-					height: 4px;
-				}
-			}
-		}
-
-		td {
-			padding: 5px 0;
-
-			@include mq(sm) {
-				padding: 0 0 7px 0;
-			}
-
-			span {
-				font-size: 200%;
-			}
-		}
+.tbl-simple {
+	font-size: 80%;
+	th {
+		font-weight: normal;
 	}
 }
 
@@ -651,6 +603,9 @@ $hex in $colors {
 			border-#{$value}: 1px solid $hex;
 		}
 	}
+}
+.bt-black-dot {
+	border-top: 1px dashed #000;
 }
 
 /*	Hover & Animation
