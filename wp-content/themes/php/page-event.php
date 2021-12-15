@@ -47,14 +47,14 @@
 					</div>
 					<section class="col-6 col-sm-12 mt50 view view-slideup">
 						<div class="bgc-white p40 md-p30 bdrs15 h-eq">
-							<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec1-img1.jpg" width="390" height="230" class="img-rspsv" alt="クラシック部門"></figure>
+							<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec1-img1.jpg" width="390" height="230" class="img-rspsv" alt="クラシック部門"></figure>
 							<h3 class="mt30 fz130 sm-fz120 d-ib bb-black pb5">クラシック部門</h3>
 							<p class="mt30">明るいステージと暗い客席。高い天井と大きなピアノ。舞台での演奏は一生忘れられない思い出になるはず。子供たちだけでつくる「みんなでうたおう」や管弦楽器の生徒さんで奏でる「パピーチェンバーオーケストラ」などソロで参加するだけではない様々な企画も楽しみの一つです！</p>
 						</div>
 					</section>
 					<section class="col-6 col-sm-12 mt50 sm-mt30 view view-slideup">
 						<div class="bgc-white p40 md-p30 bdrs15 h-eq">
-							<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec1-img2.jpg" width="390" height="230" class="img-rspsv" alt="バンド部門"></figure>
+							<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec1-img2.jpg" width="390" height="230" class="img-rspsv" alt="バンド部門"></figure>
 							<h3 class="mt30 fz130 sm-fz120 d-ib bb-black pb5">バンド部門</h3>
 							<p class="mt30">憧れのあの曲を思いっきり演奏しましょう！その情熱が観客の心を震わせます。生徒さん達でバンドを組む「マッチング」では同じアーティストを好きな者同士が集まる為、かけがえのない音楽仲間、かけがえのない出会いが待っていることでしょう。</p>
 						</div>
@@ -66,7 +66,7 @@
 			<section id="sec2" class="pt130 pb160 sm-pt70 sm-pb130 bgc-gray">
 				<div class="cols gutter-40">
 					<div class="col-5 col-sm-12 sm-mt-10 view view-slideup z2 sm-mt40">
-						<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec2-img1.jpg" width="370" height="290" class="img-rspsv" alt="グレードテスト"></figure>
+						<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec2-img1.jpg" width="370" height="290" class="img-rspsv" alt="グレードテスト"></figure>
 					</div>
 					<div class="col-8 col-sm-12 return-1 return-sm-0 mt70 sm-mt20 view view-slideup z1">
 						<div class="bg-dots bdrs15 ptb70 sm-ptb40 pr70 pl100 md-pr50 md-pl70 sm-pl25 sm-pr25">
@@ -77,7 +77,7 @@
 					</div>
 					<section class="col-12 view view-slideup">
 						<div class="mt80 md-mt50 bgc-gray bd-blue ptb60 plr60 md-ptb50 md-plr40 sm-ptb50 sm-plr30 bdrs15 fuchi-upper">
-							<h3 class="ribbon-green -gray">各級の特徴 / 課題曲</h3>
+							<h3 class="ribbon-green -white">各級の特徴 / 課題曲</h3>
 							<section class="bb-blue mt40 pb40 md-mt30 md-pb30">
 								<h4 class="c-blue fz120 sm-fz110">15級（入門編）</h4>
 								<p class="mt10">日頃のレッスンの延長として学んだことや身に付けたことを確認し、音を奏でる楽しさを知っていただきます。試験を受ける事により人前で弾くという経験や人間関係を形成する社会性を培うことができます。また、賞状をもらった時の感動は何物にも代えられません。</p>
@@ -113,14 +113,14 @@
 					</div>
 					<section class="col-6 col-sm-12 mt50 view view-slideup">
 						<div class="bgc-white p40 md-p30 bdrs15 h-eq">
-							<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-img1.jpg" width="390" height="230" class="img-rspsv" alt="サンデーフォークパピーライブ"></figure>
+							<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-img1.jpg" width="390" height="230" class="img-rspsv" alt="サンデーフォークパピーライブ"></figure>
 							<h3 class="mt30 fz130 sm-fz120 d-ib bb-black pb5">サンデーフォークパピーライブ</h3>
 							<p class="mt30">教室の大部屋をつかって気軽にアコースティックライブを開催しています。弾き語りやカラオケ、お友達と参加などなんでもOKなイベントです。</p>
 						</div>
 					</section>
 					<section class="col-6 col-sm-12 mt50 sm-mt30 view view-slideup">
 						<div class="bgc-white p40 md-p30 bdrs15 h-eq">
-							<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-img2.jpg" width="390" height="230" class="img-rspsv" alt="60歳以上限定ライブ"></figure>
+							<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-img2.jpg" width="390" height="230" class="img-rspsv" alt="60歳以上限定ライブ"></figure>
 							<h3 class="mt30 fz130 sm-fz120 d-ib bb-black pb5">60歳以上限定ライブ</h3>
 							<p class="mt30">その名の通り、60歳以上の方を対象としたライブです。「発表会は大がかりだからちょっと…」という方は是非！
 							</p>
@@ -128,55 +128,55 @@
 					</section>
 					<section class="col-6 col-sm-12 mt40 sm-mt30 view view-slideup">
 						<div class="bgc-white p40 md-p30 bdrs15 h-eq">
-							<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-img3.jpg" width="390" height="230" class="img-rspsv" alt="春のクラシック音楽会"></figure>
+							<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-img3.jpg" width="390" height="230" class="img-rspsv" alt="春のクラシック音楽会"></figure>
 							<h3 class="mt30 fz130 sm-fz120 d-ib bb-black pb5">春のクラシック音楽会</h3>
 							<p class="mt30">バイオリンやサックス、ピアノなどの管、弦楽器の為のミニコンサートです。人前で演奏する練習としても最適ですよ。</p>
 						</div>
 					</section>
 					<section class="col-6 col-sm-12 mt40 sm-mt30 view view-slideup">
 						<div class="bgc-white p40 md-p30 bdrs15 h-eq">
-							<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-img4.jpg" width="390" height="230" class="img-rspsv" alt="ボーカリストオーディション"></figure>
+							<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-img4.jpg" width="390" height="230" class="img-rspsv" alt="ボーカリストオーディション"></figure>
 							<h3 class="mt30 fz130 sm-fz120 d-ib bb-black pb5">ボーカリストオーディション</h3>
 							<p class="mt30">メジャーレーベル審査員を招き、デビューへの道も…！？自分の実力が今どの辺りなのか客観的に意見を聞く事もできます。</p>
 						</div>
 					</section>
 					<section class="col-6 col-sm-12 mt40 sm-mt30 view view-slideup">
 						<div class="bgc-white p40 md-p30 bdrs15 h-eq">
-							<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-img5.jpg" width="390" height="230" class="img-rspsv" alt="ウクレレDEフラ"></figure>
+							<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-img5.jpg" width="390" height="230" class="img-rspsv" alt="ウクレレDEフラ"></figure>
 							<h3 class="mt30 fz130 sm-fz120 d-ib bb-black pb5">ウクレレDEフラ</h3>
 							<p class="mt30">ウクレレの生徒さんとフラの生徒さんのコラボイベントです。夏のメロディーを奏ながらゆっくりとした時間を過ごしませんか？</p>
 						</div>
 					</section>
 					<section class="col-6 col-sm-12 mt40 sm-mt30 view view-slideup">
 						<div class="bgc-white p40 md-p30 bdrs15 h-eq">
-							<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-img6.jpg" width="390" height="230" class="img-rspsv" alt="レコーディング大会"></figure>
+							<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-img6.jpg" width="390" height="230" class="img-rspsv" alt="レコーディング大会"></figure>
 							<h3 class="mt30 fz130 sm-fz120 d-ib bb-black pb5">レコーディング大会</h3>
 							<p class="mt30">あなたの好きな曲をスタッフが簡易的にレコーディングいたします。自己PR用にするもよし、YOUTUBEにあげるもよし。</p>
 						</div>
 					</section>
 					<section class="col-6 col-sm-12 mt40 sm-mt30 view view-slideup">
 						<div class="bgc-white p40 md-p30 bdrs15 h-eq">
-							<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-img7.jpg" width="390" height="230" class="img-rspsv" alt="ウインドアンサンブル"></figure>
+							<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-img7.jpg" width="390" height="230" class="img-rspsv" alt="ウインドアンサンブル"></figure>
 							<h3 class="mt30 fz130 sm-fz120 d-ib bb-black pb5">ウインドアンサンブル</h3>
 							<p class="mt30">管弦楽器生徒さんが発表会に向けて1曲を仕上げていきます。ソロでの参加は嫌、そんな方はここからみんなで合わせる楽しさを覚えていってください！</p>
 						</div>
 					</section>
 					<section class="col-6 col-sm-12 mt40 sm-mt30 view view-slideup">
 						<div class="bgc-white p40 md-p30 bdrs15 h-eq">
-							<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-img8.jpg" width="390" height="230" class="img-rspsv" alt="新春お餅つき大会"></figure>
+							<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-img8.jpg" width="390" height="230" class="img-rspsv" alt="新春お餅つき大会"></figure>
 							<h3 class="mt30 fz130 sm-fz120 d-ib bb-black pb5">新春お餅つき大会</h3>
 							<p class="mt30">ここの餅を食べた人は1年間健康で幸せに暮らせたという噂も…。スーパーボールすくいなど縁日もあり皆で楽しめます！岡崎大西教室で開催。</p>
 						</div>
 					</section>
 					<section class="col-6 col-sm-12 mt40 sm-mt30 view view-slideup">
 						<div class="bgc-white p40 md-p30 bdrs15 h-eq">
-							<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-img9.jpg" width="390" height="230" class="img-rspsv" alt="パピー忘年会"></figure>
+							<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-img9.jpg" width="390" height="230" class="img-rspsv" alt="パピー忘年会"></figure>
 							<h3 class="mt30 fz130 sm-fz120 d-ib bb-black pb5">パピー忘年会</h3>
 							<p class="mt30">先生と生徒さんの交流イベントです。普段聞けないプライベートトークで盛り上がること間違いなし！音楽仲間の輪を広げましょう。</p>
 						</div>
 					</section>
 					<section class="col-6 col-sm-12 ta-c">
-						<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-il1.png" width="155" height="101" class="img-rspsv" alt="event"></figure>
+						<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-il1.png" width="155" height="101" class="img-rspsv" alt="event"></figure>
 					</section>
 				</div>
 			</section>

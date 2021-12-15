@@ -18,7 +18,7 @@
 		<section id="sec1" class="mt120 sm-mt70 pb130 md-pb100 sm-pb80">
 			<div class="cols gutter-40">
 				<div class="col-5 col-sm-10 sm-mt-10 sm-mt20 view view-slideup ord1 sm-ord2 z2">
-					<figure class="ta-l sm-pr90"><img loading="lazy" src="<?php echo home_url(); ?>/img/present/sec1-img1.png" width="388" height="379" class="img-rspsv" alt="まずは体験レッスンを申し込もう！"></figure>
+					<figure class="ta-l sm-pr90 view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/present/sec1-img1.png" width="388" height="379" class="img-rspsv" alt="まずは体験レッスンを申し込もう！"></figure>
 				</div>
 				<div class="col-8 col-sm-12 return-1 return-sm-0 view view-slideup ord2 sm-ord1 sub1 z1">
 					<div class="bgc-white bdrs15 ptb70 sm-ptb40 pr70 pl100 md-pr50 md-pl70 sm-pl30 sm-pr30">
@@ -52,109 +52,109 @@
 							<p class="mt30">クリックすると各コースのプレゼント内容詳細にリンクします。</p>
 							<div class="cols nega gutter-20 mt20 ta-c">
 								<div class="col-3 col-md-4 col-sm-6 mt20 view view-slideup">
-									<a href="#" class="bgc-white ptb20 plr10 gakki d-b hov">
+									<a href="<?php echo home_url(); ?>/guitar#sec4-sub1" class="bgc-white ptb20 plr10 gakki d-b hov">
 										<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/present/sec1-gakki1.jpg" width="180" height="95" class="img-rspsv" alt="エレキギター"></figure>
 										<p class="fz90 mt5">エレキギター</p>
 									</a>
 								</div>
 								<div class="col-3 col-md-4 col-sm-6 mt20 view view-slideup">
-									<a href="#" class="bgc-white ptb20 plr10 gakki d-b hov">
+									<a href="<?php echo home_url(); ?>/guitar#sec4-sub2" class="bgc-white ptb20 plr10 gakki d-b hov">
 										<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/present/sec1-gakki2.jpg" width="180" height="95" class="img-rspsv" alt="アコースティックギター"></figure>
 										<p class="fz90 mt5">アコースティックギター</p>
 									</a>
 								</div>
 								<div class="col-3 col-md-4 col-sm-6 mt20 view view-slideup">
-									<a href="#" class="bgc-white ptb20 plr10 gakki d-b hov">
+									<a href="<?php echo home_url(); ?>/guitar#sec4-sub3" class="bgc-white ptb20 plr10 gakki d-b hov">
 										<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/present/sec1-gakki3.jpg" width="180" height="95" class="img-rspsv" alt="クラシックギター"></figure>
 										<p class="fz90 mt5">クラシックギター</p>
 									</a>
 								</div>
 								<div class="col-3 col-md-4 col-sm-6 mt20 view view-slideup">
-									<a href="#" class="bgc-white ptb20 plr10 gakki d-b hov">
+									<a href="<?php echo home_url(); ?>/guitar#sec4-sub1" class="bgc-white ptb20 plr10 gakki d-b hov">
 										<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/present/sec1-gakki4.jpg" width="180" height="95" class="img-rspsv" alt="キッズギター"></figure>
 										<p class="fz90 mt5">キッズギター</p>
 									</a>
 								</div>
 								<div class="col-3 col-md-4 col-sm-6 mt20 view view-slideup">
-									<a href="#" class="bgc-white ptb20 plr10 gakki d-b hov">
+									<a href="<?php echo home_url(); ?>/bass#sec4" class="bgc-white ptb20 plr10 gakki d-b hov">
 										<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/present/sec1-gakki5.jpg" width="180" height="95" class="img-rspsv" alt="ベース"></figure>
 										<p class="fz90 mt5">ベース</p>
 									</a>
 								</div>
 								<div class="col-3 col-md-4 col-sm-6 mt20 view view-slideup">
-									<a href="#" class="bgc-white ptb20 plr10 gakki d-b hov">
+									<a href="<?php echo home_url(); ?>/keyboard#sec4" class="bgc-white ptb20 plr10 gakki d-b hov">
 										<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/present/sec1-gakki6.jpg" width="180" height="95" class="img-rspsv" alt="キーボード"></figure>
 										<p class="fz90 mt5">キーボード</p>
 									</a>
 								</div>
 								<div class="col-3 col-md-4 col-sm-6 mt20 view view-slideup">
-									<a href="#" class="bgc-white ptb20 plr10 gakki d-b hov">
+									<a href="<?php echo home_url(); ?>/piano#sec4" class="bgc-white ptb20 plr10 gakki d-b hov">
 										<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/present/sec1-gakki7.jpg" width="180" height="95" class="img-rspsv" alt="電子ピアノ"></figure>
 										<p class="fz90 mt5">電子ピアノ</p>
 									</a>
 								</div>
 								<div class="col-3 col-md-4 col-sm-6 mt20 view view-slideup">
-									<a href="#" class="bgc-white ptb20 plr10 gakki d-b hov">
+									<a href="<?php echo home_url(); ?>/drums#sec4" class="bgc-white ptb20 plr10 gakki d-b hov">
 										<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/present/sec1-gakki8.jpg" width="180" height="95" class="img-rspsv" alt="電子ドラム"></figure>
 										<p class="fz90 mt5">電子ドラム</p>
 									</a>
 								</div>
 								<div class="col-3 col-md-4 col-sm-6 mt20 view view-slideup">
-									<a href="#" class="bgc-white ptb20 plr10 gakki d-b hov">
+									<a href="<?php echo home_url(); ?>/flute#sec4" class="bgc-white ptb20 plr10 gakki d-b hov">
 										<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/present/sec1-gakki9.jpg" width="180" height="95" class="img-rspsv" alt="フルート"></figure>
 										<p class="fz90 mt5">フルート</p>
 									</a>
 								</div>
 								<div class="col-3 col-md-4 col-sm-6 mt20 view view-slideup">
-									<a href="#" class="bgc-white ptb20 plr10 gakki d-b hov">
+									<a href="<?php echo home_url(); ?>/flute#sec4" class="bgc-white ptb20 plr10 gakki d-b hov">
 										<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/present/sec1-gakki10.jpg" width="180" height="95" class="img-rspsv" alt="ジュニアフルート"></figure>
 										<p class="fz90 mt5">ジュニアフルート</p>
 									</a>
 								</div>
 								<div class="col-3 col-md-4 col-sm-6 mt20 view view-slideup">
-									<a href="#" class="bgc-white ptb20 plr10 gakki d-b hov">
+									<a href="<?php echo home_url(); ?>/clarinet#sec4" class="bgc-white ptb20 plr10 gakki d-b hov">
 										<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/present/sec1-gakki11.jpg" width="180" height="95" class="img-rspsv" alt="クラリネット"></figure>
 										<p class="fz90 mt5">クラリネット</p>
 									</a>
 								</div>
 								<div class="col-3 col-md-4 col-sm-6 mt20 view view-slideup">
-									<a href="#" class="bgc-white ptb20 plr10 gakki d-b hov">
+									<a href="<?php echo home_url(); ?>/saxophone#sec4" class="bgc-white ptb20 plr10 gakki d-b hov">
 										<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/present/sec1-gakki12.jpg" width="180" height="95" class="img-rspsv" alt="サックス"></figure>
 										<p class="fz90 mt5">サックス</p>
 									</a>
 								</div>
 								<div class="col-3 col-md-4 col-sm-6 mt20 view view-slideup">
-									<a href="#" class="bgc-white ptb20 plr10 gakki d-b hov">
+									<a href="<?php echo home_url(); ?>/trumpet#sec4-sub1" class="bgc-white ptb20 plr10 gakki d-b hov">
 										<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/present/sec1-gakki13.jpg" width="180" height="95" class="img-rspsv" alt="トランペット"></figure>
 										<p class="fz90 mt5">トランペット</p>
 									</a>
 								</div>
 								<div class="col-3 col-md-4 col-sm-6 mt20 view view-slideup">
-									<a href="#" class="bgc-white ptb20 plr10 gakki d-b hov">
+									<a href="<?php echo home_url(); ?>/trumpet#sec4-sub2" class="bgc-white ptb20 plr10 gakki d-b hov">
 										<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/present/sec1-gakki14.jpg" width="180" height="95" class="img-rspsv" alt="トロンボーン"></figure>
 										<p class="fz90 mt5">トロンボーン</p>
 									</a>
 								</div>
 								<div class="col-3 col-md-4 col-sm-6 mt20 view view-slideup">
-									<a href="#" class="bgc-white ptb20 plr10 gakki d-b hov">
+									<a href="<?php echo home_url(); ?>/violin#sec4-sub1" class="bgc-white ptb20 plr10 gakki d-b hov">
 										<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/present/sec1-gakki15.jpg" width="180" height="95" class="img-rspsv" alt="バイオリン"></figure>
 										<p class="fz90 mt5">バイオリン</p>
 									</a>
 								</div>
 								<div class="col-3 col-md-4 col-sm-6 mt20 view view-slideup">
-									<a href="#" class="bgc-white ptb20 plr10 gakki d-b hov">
+									<a href="<?php echo home_url(); ?>/violin#sec4-sub2" class="bgc-white ptb20 plr10 gakki d-b hov">
 										<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/present/sec1-gakki16.jpg" width="180" height="95" class="img-rspsv" alt="ビオラ"></figure>
 										<p class="fz90 mt5">ビオラ</p>
 									</a>
 								</div>
 								<div class="col-3 col-md-4 col-sm-6 mt20 view view-slideup">
-									<a href="#" class="bgc-white ptb20 plr10 gakki d-b hov">
+									<a href="<?php echo home_url(); ?>/cello#sec4" class="bgc-white ptb20 plr10 gakki d-b hov">
 										<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/present/sec1-gakki17.jpg" width="180" height="95" class="img-rspsv" alt="チェロ"></figure>
 										<p class="fz90 mt5">チェロ</p>
 									</a>
 								</div>
 								<div class="col-3 col-md-4 col-sm-6 mt20 view view-slideup">
-									<a href="#" class="bgc-white ptb20 plr10 gakki d-b hov">
+									<a href="<?php echo home_url(); ?>/ukulele#sec4" class="bgc-white ptb20 plr10 gakki d-b hov">
 										<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/present/sec1-gakki18.jpg" width="180" height="95" class="img-rspsv" alt="ウクレレ"></figure>
 										<p class="fz90 mt5">ウクレレ</p>
 									</a>

@@ -323,13 +323,16 @@ $hex in $colors {
     border-color: transparent $lightblue transparent transparent;
     border-style: solid;
   }
-
+  &.-white {
+    &::after {
+      border-color: transparent $white transparent transparent;
+    }
+  }
   &.-gray {
     &::after {
       border-color: transparent $gray transparent transparent;
     }
   }
-
   &.-lightgray {
     &::after {
       border-color: transparent $lightgray transparent transparent;

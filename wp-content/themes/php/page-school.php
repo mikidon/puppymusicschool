@@ -23,41 +23,41 @@
 					<img loading="lazy" src="<?php echo home_url(); ?>/img/base/ic-dot.png" width="20" height="5" class="img-rspsv" alt="dot">
 				</div>
 				<div class="cols gutter-sm-20 ta-l view view-slideup">
-					<section class="col-4 col-md-6 mt40">
+					<section class="col-4 col-md-6 mt40 view view-slideup">
 						<a href="<?php echo home_url(); ?>/nagoya-meito" class="ptb20 sm-ptb15 plr10 bb-black bt-black d-b btn-ar"><h3>名古屋名東教室</h3></a>
 						<p class="mt30 sm-fz90">〒465-0068<br>名古屋市名東区牧の里1-111</p>
 					</section>
-					<section class="col-4 col-md-6 mt40">
+					<section class="col-4 col-md-6 mt40 view view-slideup">
 						<a href="<?php echo home_url(); ?>/nagoya-minato" class="ptb20 sm-ptb15 plr10 bb-black bt-black d-b btn-ar"><h3>名古屋みなと教室</h3></a>
 						<p class="mt30 sm-fz90">〒455-0804<br>名古屋市港区当知2丁目1501番地</p>
 					</section>
-					<section class="col-4 col-md-6 mt40">
+					<section class="col-4 col-md-6 mt40 view view-slideup">
 						<a href="<?php echo home_url(); ?>/okazaki-onishi" class="ptb20 sm-ptb15 plr10 bb-black bt-black d-b btn-ar"><h3>岡崎大西教室</h3></a>
 						<p class="mt30 sm-fz90">〒444-0871<br>岡崎市大西3丁目2-5</p>
 					</section>
-					<section class="col-4 col-md-6 mt40">
+					<section class="col-4 col-md-6 mt40 view view-slideup">
 						<a href="<?php echo home_url(); ?>/okazaki-yahagi" class="ptb20 sm-ptb15 plr10 bb-black bt-black d-b btn-ar"><h3>岡崎矢作教室</h3></a>
 						<p class="mt30 sm-fz90">〒444-0943<br>岡崎市矢作町西林寺87-1</p>
 					</section>
-					<section class="col-4 col-md-6 mt40">
+					<section class="col-4 col-md-6 mt40 view view-slideup">
 						<a href="<?php echo home_url(); ?>/kariya" class="ptb20 sm-ptb15 plr10 bb-black bt-black d-b btn-ar"><h3>刈谷アピタ教室</h3></a>
 						<p class="mt30 sm-fz90">〒448-0841<br>刈谷市南桜町2-56-1</p>
 					</section>
-					<section class="col-4 col-md-6 mt40">
+					<section class="col-4 col-md-6 mt40 view view-slideup">
 						<a href="<?php echo home_url(); ?>/anjyo" class="ptb20 sm-ptb15 plr10 bb-black bt-black d-b btn-ar"><h3>安城今池教室</h3></a>
 						<p class="mt30 sm-fz90">〒446-0071 <br>安城市今池町1丁目13番地1 3F</p>
 					</section>
-					<section class="col-4 col-md-6 mt40">
+					<section class="col-4 col-md-6 mt40 view view-slideup">
 						<a href="<?php echo home_url(); ?>/gamagori" class="ptb20 sm-ptb15 plr10 bb-black bt-black d-b btn-ar"><h3>蒲郡教室</h3></a>
 						<p class="mt30 sm-fz90">〒443-0046<br>蒲郡市竹谷町</p>
 					</section>
 				</div>
 			</div>
 			<div class="mt100 sm-mt60 sm-mt50 cols gutter-sm-20">
-				<div class="col-6">
+				<div class="col-6 view view-slideup">
 					<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/school/sec1-img1.jpg" width="469" height="220" class="img-rspsv" alt="教室案内"></figure>
 				</div>
-				<div class="col-6">
+				<div class="col-6 view view-slideup">
 					<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/school/sec1-img2.jpg" width="469" height="220" class="img-rspsv" alt="教室案内"></figure>
 				</div>
 			</div>

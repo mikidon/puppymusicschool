@@ -36,8 +36,8 @@
 						<ul>
 							<li><a href="<?php echo home_url(); ?>/trial" class="hov">無料体験レッスン</a></li>
 							<li><a href="<?php echo home_url(); ?>/event" class="hov">イベント</a></li>
-							<li><a href="<?php echo home_url(); ?>/present" class="hov">キャンペーン</a></li>
-							<li><a href="<?php echo home_url(); ?>/campaign" class="hov">楽器プレゼント</a></li>
+							<li><a href="<?php echo home_url(); ?>/campaign" class="hov">キャンペーン</a></li>
+							<li><a href="<?php echo home_url(); ?>/present" class="hov">楽器プレゼント</a></li>
 							<li><a href="<?php echo home_url(); ?>/company" class="hov">会社案内</a></li>
 						</ul>
 					</div>

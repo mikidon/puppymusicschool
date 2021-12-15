@@ -33,8 +33,8 @@
 				<li><a href="<?php echo home_url(); ?>/trial">体験レッスン</a></li>
 				<li><a href="<?php echo home_url(); ?>/company">会社案内</a></li>
 				<li class="d-n md-d-b"><a href="<?php echo home_url(); ?>/event" class="hov">イベント</a></li>
-				<li class="d-n md-d-b"><a href="<?php echo home_url(); ?>/present" class="hov">キャンペーン</a></li>
-				<li class="d-n md-d-b"><a href="<?php echo home_url(); ?>/campaign" class="hov">楽器プレゼント</a></li>
+				<li class="d-n md-d-b"><a href="<?php echo home_url(); ?>/campaign" class="hov">キャンペーン</a></li>
+				<li class="d-n md-d-b"><a href="<?php echo home_url(); ?>/present" class="hov">楽器プレゼント</a></li>
 				<li class="d-n md-d-b"><a href="<?php echo home_url(); ?>/recruit" class="hov">採用情報</a></li>
 				<li class="d-n md-d-b"><a href="<?php echo home_url(); ?>/new" class="hov">お知らせ</a></li>
 				<li class="d-n md-d-b"><a href="<?php echo home_url(); ?>/blog" class="hov">ブログ</a></li>

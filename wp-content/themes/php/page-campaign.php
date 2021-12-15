@@ -33,7 +33,7 @@
 							<p class="mt10">キャンペーン期限：2021年12月28日まで</p>
 						</div>
 						<div class="col-6 col-md-5 col-sm-10 ta-c sm-mt30">
-							<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/campaign/sec1-img1.png" width="342" height="334" class="img-rspsv" alt="入会金60％offキャンペーン"></figure>
+							<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/campaign/sec1-img1.png" width="342" height="334" class="img-rspsv" alt="入会金60％offキャンペーン"></figure>
 						</div>
 					</div>
 					<div class="cols jc-c nega gutter-30">
@@ -54,7 +54,7 @@
 			</div>
 			<section class="col-6 col-sm-12 mt50 view view-slideup">
 				<div class="bgc-white p40 md-p30 bdrs15 h-eq">
-					<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/campaign/sec1-img2.jpg" width="390" height="230" class="img-rspsv" alt="口コミ投稿キャンペーン"></figure>
+					<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/campaign/sec1-img2.jpg" width="390" height="230" class="img-rspsv" alt="口コミ投稿キャンペーン"></figure>
 					<h3 class="mt30 fz130 sm-fz120 d-ib bb-black pb5"> 口コミ投稿キャンペーン</h3>
 					<p class="mt30">Googleのクチコミ、Instagramのいずれかに投稿し、投稿画面を見せて頂いた方に、1,000円をその場でキャッシュバックいたします。</p>
 					<p class="mt10 fz90">※入会当日か初回レッスン日に限ります。</p>
@@ -62,12 +62,12 @@
 			</section>
 			<section class="col-6 col-sm-12 mt50 sm-mt30 view view-slideup">
 				<div class="bgc-white p40 md-p30 bdrs15 h-eq">
-					<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/campaign/sec1-img3.jpg" width="390" height="230" class="img-rspsv" alt="お友達紹介キャンペーン"></figure>
+					<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/campaign/sec1-img3.jpg" width="390" height="230" class="img-rspsv" alt="お友達紹介キャンペーン"></figure>
 					<h3 class="mt30 fz130 sm-fz120 d-ib bb-black pb5">お友達紹介キャンペーン</h3>
 					<p class="mt30">パピーの生徒さんがお友達をご紹介いただきご入会すると、紹介者・お友達それぞれに1000円キャッシュバックいたします！</p>
 				</div>
 			</section>
-			<div class="col-12">
+			<div class="col-12 view-slideup">
 				<!-- 楽器プレゼントキャンペーン -->
 				<div class="mt80 sm-mt50 bgc-white bd-blue ptb60 plr60 md-ptb50 md-plr15 sm-p30 bdrs15 fuchi-upper">
 					<div class="cols gutter-50 gutter-md-30 ai-c jc-c">
@@ -78,7 +78,7 @@
 							<p>自分は本当に楽器ができるのか、どんな楽器がいいのか…新しいことを始めるのに、不安はつきものですよね。</p>
 							<p class="mt15">パピーでは体験レッスン時に無料で楽器をお貸し出し。入会されたら楽器プレゼントor入会金割引どちらか選べます。楽器メーカーではないパピーだからこそできる、忖度のない安心のサービスです。</p>
 							<div class="mt30">
-								<a href="<?php echo home_url(); ?>/trial" class="sm-d-b ta-c fw-b hov c-blue bd-blue bdrs-max ptb15 plr40">詳細はこちらから</a>
+								<a href="<?php echo home_url(); ?>/present" class="sm-d-b ta-c fw-b hov c-blue bd-blue bdrs-max ptb15 plr40">詳細はこちらから</a>
 							</div>
 						</div>
 					</div>

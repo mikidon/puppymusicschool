@@ -18,7 +18,7 @@
 		<section id="sec1" class="mt120 sm-mt70">
 			<div class="ptb20 sm-ptb30 cols-wide bg-dots">
 				<div class="cols jc-c ai-c gutter-70 gutter-md-40">
-					<div class="col-6 col-sm-12">
+					<div class="col-6 col-sm-12 view view-slideup">
 						<div class="ttl">
 							<p class="ff-en fz350 lh180">Vocal</p>
 							<h2>ボーカル</h2>
@@ -26,8 +26,8 @@
 						<p class="mt30">カラオケで上手く唄いたい、ギターやピアノの弾き語りをしたい。正しいボイストレーニングを受けたい、など思いは様々。</p>
 						<p class="mt15">まず我流の唄い方を直しましょう。それぞれに合った練習方法を見つけ一から「良い声」を作り上げていきます。</p>
 					</div>
-					<div class="col-6 col-sm-10 sm-mt40">
-						<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/vocal/sec1-img1.png" width="446" height="437" class="img-rspsv" alt="ボーカル"></figure>
+					<div class="col-6 col-sm-10 sm-mt40 view view-slideup">
+						<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/vocal/sec1-img1.png" width="446" height="437" class="img-rspsv" alt="ボーカル"></figure>
 					</div>
 				</div>
 			</div>
@@ -85,7 +85,7 @@
 		<!-- #sec3 -->
 		<section id="sec3" class="mtb100 sm-mtb70">
 			<div class="cols gutter-70 gutter-md-40 jc-fe sm-jc-fs">
-				<div class="col-8">
+				<div class="col-8 view view-slideup">
 					<div class="d-f sm-d-b ai-fe">
 						<p class="ff-en fz270 lh100">lesson</p>
 						<h2 class="pl30 sm-pl0 fz120 sm-fz100">レッスン内容例</h2>
@@ -94,10 +94,10 @@
 				</div>
 			</div>
 			<div class="cols gutter-70 gutter-md-40 jc-fe">
-				<div class="col-4 col-sm-6 sm-mr20 mt-80 sm-mt-60 z2">
-					<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/vocal/sec3-img1.jpg" width="314" height="290" class="img-rspsv" alt="レッスン内容例"></figure>
+				<div class="col-4 col-sm-6 sm-mr20 mt-80 sm-mt-60 z2 view view-slideup">
+					<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/vocal/sec3-img1.jpg" width="314" height="290" class="img-rspsv" alt="レッスン内容例"></figure>
 				</div>
-				<div class="col-9 col-sm-12 return-1 return-sm-0 mt50 sm-mt-20 z1">
+				<div class="col-9 col-sm-12 return-1 return-sm-0 mt50 sm-mt-20 z1 view view-slideup">
 					<div class="bg-dots bd-blue ptb60 pl80 pr60 sm-ptb40 sm-pl30 sm-pr30 bdrs15">
 						<section>
 							<h3 class="c-white ff-sofia bgc-blue d-ib bdrs5 ptb5 plr20">STEP 01</h3>
@@ -117,7 +117,7 @@
 		</section>
 
 		<!-- #sec4 -->
-		<section id="sec4" class="course-link pb40 bgc-lightgray sm-plr20">
+		<section id="sec4" class="course-link pb40 bgc-lightgray sm-plr20 view view-slideup">
 			<div class="cols gutter-20 gutter-sm-10">
 				<div class="col-12 mt-20">
 					<h3 class="ribbon-black -lightgray">バンド系コース</h3>

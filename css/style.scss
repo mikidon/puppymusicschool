@@ -97,28 +97,6 @@ body {
         min-height: 250px;
       }
 
-      // shame：シンタックスエラー -> デザインに存在しないため非表示
-      //   &::before {
-      //     content: "";
-      //     position: absolute;
-      //     background: url(../img/top/sc.png) 0 0 / 9px 194px no-repeat;
-      //     width: 9px;
-      //     height: 194px;
-      //     bottom: 0;
-      //     right: -55px;
-
-      //     @include mq(md) {
-      //       background: url(../img/top/sc.png) 0 0 / 6px 117px no-repeat;
-      //       width: 6px;
-      //       height: 117px;
-      //       right: -35px;
-      //     }
-
-      //     @include mq(sm) {
-      //       right: -22px;
-      //     }
-      //   }
-
       /* .bg-slide */
       .bx-wrapper {
         width: 100% !important;
@@ -1342,10 +1320,6 @@ body {
           }
         }
       }
-    }
-
-    #sec2 {
-
       .flow1,
       .flow2,
       .flow3,

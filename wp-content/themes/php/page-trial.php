@@ -27,8 +27,8 @@
 						</div>
 					</div>
 					<div class="col-5 col-sm-12 sm-mt-10 mt110 view view-slideup ord2 sm-ord3 z2">
-						<figure class="ta-l sm-pr90"><img loading="lazy" src="<?php echo home_url(); ?>/img/trial/sec1-img1.png" width="314" height="313" class="img-rspsv" alt="まずは体験レッスンを申し込もう！"></figure>
-						<figure class="ta-r mt20 sm-mt0"><img loading="lazy" src="<?php echo home_url(); ?>/img/trial/sec1-img2.png" width="199" height="192" class="img-rspsv" alt="まずは体験レッスンを申し込もう！"></figure>
+						<figure class="ta-l sm-pr90 view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/trial/sec1-img1.png" width="314" height="313" class="img-rspsv" alt="まずは体験レッスンを申し込もう！"></figure>
+						<figure class="ta-r mt20 sm-mt0 view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/trial/sec1-img2.png" width="199" height="192" class="img-rspsv" alt="まずは体験レッスンを申し込もう！"></figure>
 					</div>
 					<div class="col-8 col-sm-12 return-1 return-sm-0 mt70 sm-mt50 view view-slideup ord3 sm-ord2 z1 sub1">
 						<div class="bgc-white bdrs15 ptb70 sm-ptb40 pr70 pl100 md-pr50 md-pl70 sm-pl30 sm-pr30">
@@ -40,9 +40,9 @@
 						</div>
 					</div>
 				</div>
-
-				<div id="sec2" class="cols gutter-40 mt100 sm-mt70">
-					<div class="col-12">
+				<!-- sub1 -->
+				<div class="cols gutter-40">
+					<div class="col-12 mt100 sm-mt70">
 						<div class="bg-dots p60 md-p50 sm-p25">
 							<div class="cols nega gutter-50 gutter-md-40 gutter-sm-30">
 								<section class="col-6 col-md-12 view view-slideup">
