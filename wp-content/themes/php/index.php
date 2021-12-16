@@ -38,8 +38,8 @@
               <p class="mt20 view view-slideup">憧れが趣味になる。今こそ、あなたも始めてみませんか？<br class="md-d-n">
                 迷ったらまずは無料体験レッスンにお越しください。</p>
               <div class="d-ib sm-d-b mt60 sm-mt40">
-                <a href="<?php echo home_url(); ?>/trial" class="sm-d-b ta-c fw-b hov c-blue bd-blue bdrs-max ptb15 plr40 view view-slideup">無料体験レッスン受付中！</a>
-                <a href="<?php echo home_url(); ?>/about" class="sm-d-b ta-c fw-b hov c-pink bd-pink bdrs-max ptb15 plr40 sm-mt15 ml20 sm-ml0 view view-slideup">パピーの特徴</a>
+                <a href="<?php echo home_url(); ?>/trial" class="sm-d-b ta-c fw-b hov c-blue bd-blue bdrs-max ptb15 sm-ptb10 plr40 view view-slideup">無料体験レッスン受付中！</a>
+                <a href="<?php echo home_url(); ?>/about" class="sm-d-b ta-c fw-b hov c-pink bd-pink bdrs-max ptb15 sm-ptb10 plr40 sm-mt15 ml20 sm-ml0 view view-slideup">パピーの特徴</a>
               </div>
             </div>
           </div>
@@ -148,7 +148,7 @@
                   <p>自分は本当に楽器ができるのか、どんな楽器がいいのか…新しいことを始めるのに、不安はつきものですよね。</p>
                   <p class="mt15">パピーでは体験レッスン時に無料で楽器をお貸し出し。入会されたら楽器プレゼントor入会金割引どちらか選べます。楽器メーカーではないパピーだからこそできる、忖度のない安心のサービスです。</p>
                   <div class="mt30">
-                    <a href="<?php echo home_url(); ?>/present" class="sm-d-b ta-c fw-b hov c-blue bd-blue bdrs-max ptb15 plr40">詳細はこちらから</a>
+                    <a href="<?php echo home_url(); ?>/present" class="sm-d-b ta-c fw-b hov c-blue bd-blue bdrs-max ptb15 sm-ptb10 plr40">詳細はこちらから</a>
                   </div>
                 </div>
               </div>
@@ -269,10 +269,10 @@
             </a>
           </section>
           <div class="col-4 col-md-5 col-sm-10 mt70 sm-mt50 view view-slideup">
-            <a href="<?php echo home_url(); ?>/company" class="d-b ta-c hov bgc-white bdrs-max ptb15 plr40">会社案内</a>
+            <a href="<?php echo home_url(); ?>/company" class="d-b ta-c hov bgc-white bdrs-max ptb15 sm-ptb10 plr40">会社案内</a>
           </div>
           <div class="col-4 col-md-5 col-sm-10 mt70 sm-mt15 view view-slideup">
-            <a href="<?php echo home_url(); ?>/recruit" class="d-b ta-c hov bgc-white bdrs-max ptb15 plr40">採用情報</a>
+            <a href="<?php echo home_url(); ?>/recruit" class="d-b ta-c hov bgc-white bdrs-max ptb15 sm-ptb10 plr40">採用情報</a>
           </div>
         </div>
       </div>

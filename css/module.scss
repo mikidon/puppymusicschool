@@ -451,6 +451,9 @@ $hex in $colors {
   &.th-w240 {
     th {
       width: 240px;
+      @include mq(sm) {
+        width: 100%;
+      }
     }
   }
   &.va-m {

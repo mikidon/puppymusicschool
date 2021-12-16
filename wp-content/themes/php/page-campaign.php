@@ -41,13 +41,13 @@
 							<h3 class="c-white bgc-blue d-ib bdrs5 ptb5 plr20">いろんなコースを体験してみたい</h3>
 							<p class="mt25">自分に合った先生・楽器を探したいからいくつか体験を受けたい、そんな方は2コース目から2000円にて体験を受けることができます。</p>
 						</section>
-						<section class="col-6 col-sm-12 mt50">
+						<section class="col-6 col-sm-12 mt50 sm-mt30">
 							<h3 class="c-white bgc-blue d-ib bdrs5 ptb5 plr20">長期の楽器レンタルができます！</h3>
 							<p class="mt25">「楽器をまだ用意できない」「いつまで続くか分からない」そんな方には3000円/月で楽器のレンタルができます。</p>
 							<p class="mt15 fz90">※ドラムや電子ピアノなど大型の楽器はレンタル対象外です</p>
 						</section>
-						<div class="col-8 col-sm-12 mt50">
-							<a href="<?php echo home_url(); ?>/application" class="d-b ta-c fw-b hov c-blue bd-blue bdrs-max ptb10 plr40">無料体験レッスンのお申込みはこちら</a>
+						<div class="col-8 col-sm-12 mt50 sm-mt30">
+							<a href="<?php echo home_url(); ?>/application" class="d-b ta-c fw-b hov c-blue bd-blue bdrs-max ptb10 plr40 sm-plr20">無料体験レッスンのお申込みはこちら</a>
 						</div>
 					</div>
 				</div>
@@ -78,7 +78,7 @@
 							<p>自分は本当に楽器ができるのか、どんな楽器がいいのか…新しいことを始めるのに、不安はつきものですよね。</p>
 							<p class="mt15">パピーでは体験レッスン時に無料で楽器をお貸し出し。入会されたら楽器プレゼントor入会金割引どちらか選べます。楽器メーカーではないパピーだからこそできる、忖度のない安心のサービスです。</p>
 							<div class="mt30">
-								<a href="<?php echo home_url(); ?>/present" class="sm-d-b ta-c fw-b hov c-blue bd-blue bdrs-max ptb15 plr40">詳細はこちらから</a>
+								<a href="<?php echo home_url(); ?>/present" class="sm-d-b ta-c fw-b hov c-blue bd-blue bdrs-max ptb15 sm-ptb10 plr40">詳細はこちらから</a>
 							</div>
 						</div>
 					</div>
