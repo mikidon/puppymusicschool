@@ -6,7 +6,7 @@
 
 <!-- main -->
 <main>
-	<section id="content">
+	<div id="content">
 	
 		<!-- #hero -->
 		<div class="hero view view-slideup">
@@ -76,7 +76,7 @@
 
 		</section>
 
-	</section>
+	</div>
 </main>
 
 <?php get_footer(); ?>

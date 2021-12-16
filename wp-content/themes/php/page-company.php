@@ -6,7 +6,7 @@
 
 <!-- main -->
 <main>
-	<section id="content">
+	<div id="content">
 	
 		<!-- #hero -->
 		<div class="hero view view-slideup">
@@ -88,7 +88,7 @@
 								<img loading="lazy" src="<?php echo home_url(); ?>/img/base/ic-dot.png" width="20" height="5" class="img-rspsv" alt="dot">
 							</div>
 						</div>
-						<section class="col-12 mt50 view view-slideup">
+						<div class="col-12 mt50 view view-slideup">
 							<table class="tbl-basic">
 								<tbody>
 									<tr>
@@ -141,7 +141,7 @@
 									</tr>
 								</tbody>
 							</table>
-						</section>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -224,8 +224,8 @@
 				</div>
 			</section>
 			
-	
-	</section>
+		</div>
+	</div>
 </main>
 
 <?php get_footer(); ?>

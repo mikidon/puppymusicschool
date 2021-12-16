@@ -6,7 +6,7 @@
 
 <!-- main -->
 <main>
-	<section id="content">
+	<div id="content">
 	
 		<!-- #hero -->
 		<div class="hero view view-slideup">
@@ -50,14 +50,14 @@
 								<!--〓〓〓〓〓 -->
 								<tr>
 									<th><span class="c-red">＊</span> 年齢<span class="fz80 pl20">※18歳未満の方は保護者の承諾が必要です。</span></th>
-									<td><input type="number" data-type="number" name="数字" size="40" data-min="1" data-max="80" required="required" /></td>
+									<td><input type="number" data-type="number" name="数字" data-min="1" data-max="80" required="required" /></td>
 								</tr>
 								<!--〓〓〓〓〓 -->
 								<tr>
 									<th><span class="c-red">＊</span> 性別</th>
 									<td class="bgc-white p20">
-										<input type="radio" name="性別" value="男" required="required" /> 男性</label>
-										<input class="ml20" type="radio" name="性別" value="女" required="required" /> 女性</label>
+										<label><input type="radio" name="性別" value="男" required="required" /> 男性</label>
+										<label><input class="ml20" type="radio" name="性別" value="女" required="required" /> 女性</label>
 										<div id="errormsg_性別" class="mfp_err"></div>
 									</td>
 								</tr>
@@ -160,7 +160,7 @@
 									<th><span class="c-red">＊</span> 希望コース<span class="fz80 pl20">※体験レッスンは1度に1コースしか申し込みできません</span></th>
 									<td>
 										<div class="select">
-											<select name="希望コース"required="required">
+											<select name="希望コース" required="required">
 												<option value="" selected="selected">選択して下さい</option>
 												<option value="ピアノ">ピアノ</option>
 												<option value="ヴォーカル">ヴォーカル</option>
@@ -190,7 +190,7 @@
 									<th><span class="c-red">＊</span> レッスン形態</th>
 									<td>
 										<div class="select">
-											<select name="レッスン形態"required="required">
+											<select name="レッスン形態" required="required">
 												<option value="" selected="selected">選択して下さい</option>
 												<option value="個人">個人</option>
 												<option value="グループ">グループ</option>
@@ -204,15 +204,15 @@
 								<tr>
 									<th><span class="c-red">＊</span> 希望レッスン場所</th>
 									<td class="bgc-white p20">
-										<input type="radio" name="希望レッスン場所" value="名古屋みなと教室" required="required" /> 名古屋みなと教室</label><br class="d-n sm-d-b">
-										<input class="ml20 sm-ml5 sm-mt15" type="radio" name="希望レッスン場所" value="名古屋名東教室" required="required" /> 名古屋名東教室</label><br class="d-n sm-d-b">
-										<input class="ml20 sm-ml5 sm-mt15" type="radio" name="希望レッスン場所" value="岡崎大西教室" required="required" /> 岡崎大西教室</label><br class="d-n sm-d-b">
-										<input class="ml20 sm-ml5 sm-mt15" type="radio" name="希望レッスン場所" value="岡崎矢作教室" required="required" /> 岡崎矢作教室</label><br>
-										<input class="sm-ml5 sm-mt15" type="radio" name="希望レッスン場所" value="刈谷アピタ教室" required="required" /> 刈谷アピタ教室</label><br class="d-n sm-d-b">
-										<input class="ml20 sm-ml5 sm-mt15" type="radio" name="希望レッスン場所" value="安城今池教室" required="required" /> 安城今池教室</label><br class="d-n sm-d-b">
-										<input class="ml20 sm-ml5 sm-mt15" type="radio" name="希望レッスン場所" value="蒲郡教室" required="required" /> 蒲郡教室</label><br class="d-n sm-d-b">
-										<input class="ml20 sm-ml5 sm-mt15" type="radio" name="希望レッスン場所" value="自宅" required="required" /> 自宅</label><br class="d-n sm-d-b">
-										<input class="ml20 sm-ml5 sm-mt15" type="radio" name="希望レッスン場所" value="講師宅" required="required" /> 講師宅</label>
+									<label><input type="radio" name="希望レッスン場所" value="名古屋みなと教室" required="required" /> 名古屋みなと教室</label><br class="d-n sm-d-b">
+										<label><input class="ml20 sm-ml5 sm-mt15" type="radio" name="希望レッスン場所" value="名古屋名東教室" required="required" /> 名古屋名東教室</label><br class="d-n sm-d-b">
+										<label><input class="ml20 sm-ml5 sm-mt15" type="radio" name="希望レッスン場所" value="岡崎大西教室" required="required" /> 岡崎大西教室</label><br class="d-n sm-d-b">
+										<label><input class="ml20 sm-ml5 sm-mt15" type="radio" name="希望レッスン場所" value="岡崎矢作教室" required="required" /> 岡崎矢作教室</label><br>
+										<label><input class="sm-ml5 sm-mt15" type="radio" name="希望レッスン場所" value="刈谷アピタ教室" required="required" /> 刈谷アピタ教室</label><br class="d-n sm-d-b">
+										<label><input class="ml20 sm-ml5 sm-mt15" type="radio" name="希望レッスン場所" value="安城今池教室" required="required" /> 安城今池教室</label><br class="d-n sm-d-b">
+										<label><input class="ml20 sm-ml5 sm-mt15" type="radio" name="希望レッスン場所" value="蒲郡教室" required="required" /> 蒲郡教室</label><br class="d-n sm-d-b">
+										<label><input class="ml20 sm-ml5 sm-mt15" type="radio" name="希望レッスン場所" value="自宅" required="required" /> 自宅</label><br class="d-n sm-d-b">
+										<label><input class="ml20 sm-ml5 sm-mt15" type="radio" name="希望レッスン場所" value="講師宅" required="required" /> 講師宅</label>
 										<div id="errormsg_希望レッスン場所" class="mfp_err"></div>
 									</td>
 								</tr>
@@ -221,7 +221,7 @@
 									<th><span class="c-red">＊</span> 希望コースの経験</th>
 									<td>
 										<div class="select">
-											<select name="希望コースの経験"required="required">
+											<select name="希望コースの経験" required="required">
 												<option value="" selected="selected">選択して下さい</option>
 												<option value="無し">無し</option>
 												<option value="少々有り">少々有り</option>
@@ -249,7 +249,7 @@
 									<td>
 									<ul>
 										<li><input type="text" name="第1希望" size="40" required="required" placeholder="第1希望 (必須)　例：月水金 18時～21時"></li>
-										<li class="mt10 sm-mt10"><li><input type="text" name="第2希望" size="40" placeholder="第2希望"></li></li>
+										<li class="mt10 sm-mt10"><input type="text" name="第2希望" size="40" placeholder="第2希望"></li>
 									</ul>
 									</td>
 								</tr>
@@ -318,9 +318,9 @@
 				<!--!!!【type=〇〇】をフォームごとに変える!!!--><script id="mfpjs" src="<?php echo home_url(); ?>/mfp/mailformpro/mailformpro.cgi?type=application"></script>
 
 			</div>
-		</div>
+		</section>
 
-	</section>
+	</div>
 </main>
 
 <?php get_footer(); ?>

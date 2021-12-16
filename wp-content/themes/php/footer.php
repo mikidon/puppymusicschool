@@ -20,61 +20,60 @@
 		</div>
 	</section>
 	<div id="ft-sitemap" class="cols jc-c ptb90 md-ptb60 sm-ta-c">
-			<div class="col-12">
-				<div class="ft-site-ttl"><a class="hov" href="<?php echo home_url(); ?>/"><img loading="lazy" src="<?php echo home_url(); ?>/img/base/hd-logo.png" width="369" height="36" class="img-rspsv" alt="puppy"></a></div>
-				<div class="d-f md-d-n">
-					<div class="mt50">
-						<ul>
-							<li><a href="<?php echo home_url(); ?>/about" class="hov">パピーの特徴</a></li>
-							<li><a href="<?php echo home_url(); ?>/course" class="hov">コース案内</a></li>
-							<li><a href="<?php echo home_url(); ?>/school" class="hov">教室案内</a></li>
-							<li><a href="<?php echo home_url(); ?>/price" class="hov">レッスン料金</a></li>
-							<li><a href="<?php echo home_url(); ?>/teacher" class="hov">講師紹介</a></li>
-						</ul>
-					</div>
-					<div class="mt50 ml80">
-						<ul>
-							<li><a href="<?php echo home_url(); ?>/trial" class="hov">無料体験レッスン</a></li>
-							<li><a href="<?php echo home_url(); ?>/event" class="hov">イベント</a></li>
-							<li><a href="<?php echo home_url(); ?>/campaign" class="hov">キャンペーン</a></li>
-							<li><a href="<?php echo home_url(); ?>/present" class="hov">楽器プレゼント</a></li>
-							<li><a href="<?php echo home_url(); ?>/company" class="hov">会社案内</a></li>
-						</ul>
-					</div>
-					<div class="mt50 ml80">
-						<ul>
-							<li><a href="<?php echo home_url(); ?>/recruit" class="hov">採用情報</a></li>
-							<li><a href="<?php echo home_url(); ?>/new" class="hov">お知らせ</a></li>
-							<li><a href="<?php echo home_url(); ?>/blog" class="hov">ブログ</a></li>
-							<li><a href="<?php echo home_url(); ?>/application" class="hov">体験レッスンお申し込み</a></li>
-							<li><a href="<?php echo home_url(); ?>/contact" class="hov">お問合わせ</a></li>
-						</ul>
-					</div>
+		<div class="col-12">
+			<div class="ft-site-ttl"><a class="hov" href="<?php echo home_url(); ?>/"><img loading="lazy" src="<?php echo home_url(); ?>/img/base/hd-logo.png" width="369" height="36" class="img-rspsv" alt="puppy"></a></div>
+			<div class="d-f md-d-n">
+				<div class="mt50">
+					<ul>
+						<li><a href="<?php echo home_url(); ?>/about" class="hov">パピーの特徴</a></li>
+						<li><a href="<?php echo home_url(); ?>/course" class="hov">コース案内</a></li>
+						<li><a href="<?php echo home_url(); ?>/school" class="hov">教室案内</a></li>
+						<li><a href="<?php echo home_url(); ?>/price" class="hov">レッスン料金</a></li>
+						<li><a href="<?php echo home_url(); ?>/teacher" class="hov">講師紹介</a></li>
+					</ul>
 				</div>
-				<div class="bt-darkgray mt50 sm-mt30 pt50 sm-pt30">
-					<p class="ff-sofia sm-ta-c lts20 fz150 sm-fz120">PUPPY GROUP</p>
-					<div class="cols nega gutter-20 gutter-sm-10 mt10">
-						<div class="col-3 col-md-4 col-sm-6 mt15">
-							<a href="https://puppysweide.com/yoga/" target="_blank" rel="noopener" class="d-b ta-c hov bgc-white bdrs-max ptb10 plr15 sm-fz90">パピーヨガスタジオ</a>
-						</div>
-						<div class="col-3 col-md-4 col-sm-6 mt15">
-							<a href="https://puppysweide.com/ballet/" target="_blank" rel="noopener" class="d-b ta-c hov bgc-white bdrs-max ptb10 plr15 sm-fz90">パピーバレエ教室</a>
-						</div>
-						<div class="col-3 col-md-4 col-sm-6 mt15">
-							<a href="https://puppysweide.com/eng/hp/" target="_blank" rel="noopener" class="d-b ta-c hov bgc-white bdrs-max ptb10 plr15 sm-fz90">パピー英語教室</a>
-						</div>
-						<div class="col-3 col-md-4 col-sm-6 mt15">
-							<a href="https://puppysweide.com/dance/" target="_blank" rel="noopener" class="d-b ta-c hov bgc-white bdrs-max ptb10 plr15 sm-fz90">パピーダンススクール</a>
-						</div>
-						<div class="col-3 col-md-4 col-sm-6 mt15">
-							<a href="http://www.puppysweide.com/shodou/" target="_blank" rel="noopener" class="d-b ta-c hov bgc-white bdrs-max ptb10 plr15 sm-fz90">パピー書道教室</a>
-						</div>
-						<div class="col-3 col-md-4 col-sm-6 mt15">
-							<a href="https://puppysweide.com/jyuku/" target="_blank" rel="noopener" class="d-b ta-c hov bgc-white bdrs-max ptb10 plr15 sm-fz90">パピー個別指導塾</a>
-						</div>
-						<div class="col-3 col-md-4 col-sm-6 mt15">
-							<a href="https://puppysweide.com/studio.html" target="_blank" rel="noopener" class="d-b ta-c hov bgc-white bdrs-max ptb10 plr15 sm-fz90">レンタルスタジオ</a>
-						</div>
+				<div class="mt50 ml80">
+					<ul>
+						<li><a href="<?php echo home_url(); ?>/trial" class="hov">無料体験レッスン</a></li>
+						<li><a href="<?php echo home_url(); ?>/event" class="hov">イベント</a></li>
+						<li><a href="<?php echo home_url(); ?>/campaign" class="hov">キャンペーン</a></li>
+						<li><a href="<?php echo home_url(); ?>/present" class="hov">楽器プレゼント</a></li>
+						<li><a href="<?php echo home_url(); ?>/company" class="hov">会社案内</a></li>
+					</ul>
+				</div>
+				<div class="mt50 ml80">
+					<ul>
+						<li><a href="<?php echo home_url(); ?>/recruit" class="hov">採用情報</a></li>
+						<li><a href="<?php echo home_url(); ?>/new" class="hov">お知らせ</a></li>
+						<li><a href="<?php echo home_url(); ?>/blog" class="hov">ブログ</a></li>
+						<li><a href="<?php echo home_url(); ?>/application" class="hov">体験レッスンお申し込み</a></li>
+						<li><a href="<?php echo home_url(); ?>/contact" class="hov">お問合わせ</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="bt-darkgray mt50 sm-mt30 pt50 sm-pt30">
+				<p class="ff-sofia sm-ta-c lts20 fz150 sm-fz120">PUPPY GROUP</p>
+				<div class="cols nega gutter-20 gutter-sm-10 mt10">
+					<div class="col-3 col-md-4 col-sm-6 mt15">
+						<a href="https://puppysweide.com/yoga/" target="_blank" rel="noopener" class="d-b ta-c hov bgc-white bdrs-max ptb10 plr15 sm-fz90">パピーヨガスタジオ</a>
+					</div>
+					<div class="col-3 col-md-4 col-sm-6 mt15">
+						<a href="https://puppysweide.com/ballet/" target="_blank" rel="noopener" class="d-b ta-c hov bgc-white bdrs-max ptb10 plr15 sm-fz90">パピーバレエ教室</a>
+					</div>
+					<div class="col-3 col-md-4 col-sm-6 mt15">
+						<a href="https://puppysweide.com/eng/hp/" target="_blank" rel="noopener" class="d-b ta-c hov bgc-white bdrs-max ptb10 plr15 sm-fz90">パピー英語教室</a>
+					</div>
+					<div class="col-3 col-md-4 col-sm-6 mt15">
+						<a href="https://puppysweide.com/dance/" target="_blank" rel="noopener" class="d-b ta-c hov bgc-white bdrs-max ptb10 plr15 sm-fz90">パピーダンススクール</a>
+					</div>
+					<div class="col-3 col-md-4 col-sm-6 mt15">
+						<a href="http://www.puppysweide.com/shodou/" target="_blank" rel="noopener" class="d-b ta-c hov bgc-white bdrs-max ptb10 plr15 sm-fz90">パピー書道教室</a>
+					</div>
+					<div class="col-3 col-md-4 col-sm-6 mt15">
+						<a href="https://puppysweide.com/jyuku/" target="_blank" rel="noopener" class="d-b ta-c hov bgc-white bdrs-max ptb10 plr15 sm-fz90">パピー個別指導塾</a>
+					</div>
+					<div class="col-3 col-md-4 col-sm-6 mt15">
+						<a href="https://puppysweide.com/studio.html" target="_blank" rel="noopener" class="d-b ta-c hov bgc-white bdrs-max ptb10 plr15 sm-fz90">レンタルスタジオ</a>
 					</div>
 				</div>
 			</div>

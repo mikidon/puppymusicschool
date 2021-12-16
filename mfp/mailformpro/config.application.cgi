@@ -10,6 +10,7 @@ $config{'sendmail'} = '/usr/sbin/sendmail';
 
 ## フォームの送信先
 push @mailto,'dnpp.pecori@gmail.com';
+#push @mailto,'puppysweide@yahoo.co.jp';
 
 ## 自動返信メールの差出人名
 $config{'fromname'} = 'PUPPY MUSIC SCHOOL';

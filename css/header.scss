@@ -241,9 +241,6 @@ header {
       justify-content: space-between;
       margin: auto;
       height: 100%;
-      @include mq(sm) {
-        padding: 0 20px;
-      }
       >li {
         height: 100%;
         width: 100%;
@@ -393,6 +390,9 @@ header {
             padding: 18px 30px;
             text-align: left !important;
             border-bottom: 1px solid #ddd;
+            @include mq(sm) {
+              padding: 18px 15px;
+            }
             @media screen and (max-width: 320px) {
               font-size: 13px;
             }

@@ -6,7 +6,7 @@
 
 <!-- main -->
 <main>
-	<section id="content">
+	<div id="content">
 	
 		<!-- #hero -->
 		<div class="hero view view-slideup">
@@ -70,8 +70,8 @@
 				</div>
 			</div>
 			<div class="cols gutter-70 gutter-md-40">
-				<section class="col-10 col-sm-12 mt50 sm-mt-20 z1 ord1 sm-ord2 view view-slideup">
-					<div class="bg-dots bd-blue ptb60 pl80 pr60 sm-ptb40 sm-pl30 sm-pr30 bdrs15">						
+				<div class="col-10 col-sm-12 mt50 sm-mt-20 z1 ord1 sm-ord2 view view-slideup">
+					<div class="bg-dots bd-blue ptb60 pl80 pr60 sm-ptb40 sm-pl30 sm-pr30 bdrs15">			
 						<section>
 							<h4 class="c-white ff-sofia bgc-blue d-ib bdrs5 ptb5 plr20">STEP 01</h4>
 							<p class="mt25">まずは楽器の構造や調弦、弦の張り方・構え方について学びます。基本コードを覚えて、フィンガー・トレーニングをしながら様々なリズムをストロークで演奏して、歌やメロディー楽器の伴奏が出来るようにします。</p>
@@ -85,7 +85,7 @@
 							<p class="mt25">様々なコードによるソロトレーニング、テンションコード、コードプログレッションメロディーを弾きながら、伴奏のコードも一緒に弾けるように練習します。自由にアレンジしながら数多くの曲を学び、個性を確立しウクレレならではの音色を追求します。</p>
 						</section>
 					</div>
-				</section>
+				</div>
 				<div class="col-5 col-sm-6 return-3 return-sm-0 sm-mr20 mt-150 md-mt-100 sm-mt-60 z2 ord2 sm-ord1 view view-slideup">
 					<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/ukulele/sec3-img1.jpg" width="314" height="290" class="img-rspsv-full" alt="レッスン内容例"></figure>
 				</div>
@@ -158,7 +158,7 @@
 		</section>
 
 
-	</section>
+	</div>
 </main>
 
 <?php get_footer(); ?>

@@ -6,7 +6,7 @@
 
 <!-- main -->
 <main>
-	<section id="content">
+	<div id="content">
 	
 		<!-- #hero -->
 		<div class="hero view view-slideup">
@@ -75,8 +75,8 @@
 				</div>
 			</div>
 			<div class="cols gutter-70 gutter-md-40">
-				<section class="col-10 col-sm-12 mt50 sm-mt-20 z1 ord1 sm-ord2 view view-slideup">
-					<div class="bg-dots bd-blue ptb60 pl80 pr60 sm-ptb40 sm-pl30 sm-pr30 bdrs15">						
+				<div class="col-10 col-sm-12 mt50 sm-mt-20 z1 ord1 sm-ord2 view view-slideup">
+					<div class="bg-dots bd-blue ptb60 pl80 pr60 sm-ptb40 sm-pl30 sm-pr30 bdrs15">			
 						<section>
 							<h4 class="c-white ff-sofia bgc-blue d-ib bdrs5 ptb5 plr20">STEP 01</h4>
 							<p class="mt25">初めての方でもわかりやすく、まず楽器に触れて音を出すことからスタートします。バイオリンで最も大切な弓の動かし方や正しい音程をとる練習も、無理なく身に付けることができます。親しみやすい曲を中心に演奏していきます。</p>
@@ -90,7 +90,7 @@
 							<p class="mt25">幅広い音域で自由に表現できるボーイングやフィンガリング、フラジオレット奏法などより高度な技術の習得を身につけ、バイオリンならではの美しい音色を追及し、様々なレパートリー曲にふさわしい演奏表現をできるようにしていきます。</p>
 						</section>
 					</div>
-				</section>
+				</div>
 				<div class="col-5 col-sm-6 return-3 return-sm-0 sm-mr20 mt-150 md-mt-100 sm-mt-60 z2 ord2 sm-ord1 view view-slideup">
 					<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/violin/sec3-img1.jpg" width="314" height="290" class="img-rspsv-full" alt="レッスン内容例"></figure>
 				</div>
@@ -269,7 +269,7 @@
 			</div>
 		</section>
 
-	</section>
+	</div>
 </main>
 
 <?php get_footer(); ?>

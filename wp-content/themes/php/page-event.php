@@ -6,7 +6,7 @@
 
 <!-- main -->
 <main>
-	<section id="content">
+	<div id="content">
 	
 		<!-- #hero -->
 		<div class="hero view view-slideup">
@@ -175,13 +175,14 @@
 							<p class="mt30">先生と生徒さんの交流イベントです。普段聞けないプライベートトークで盛り上がること間違いなし！音楽仲間の輪を広げましょう。</p>
 						</div>
 					</section>
-					<section class="col-6 col-sm-12 ta-c">
+					<div class="col-6 col-sm-12 ta-c">
 						<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-il1.png" width="155" height="101" class="img-rspsv" alt="event"></figure>
-					</section>
+					</div>
 				</div>
 			</section>
 	
-	</section>
+		</div>
+	</div>
 </main>
 
 <?php get_footer(); ?>

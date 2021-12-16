@@ -6,7 +6,7 @@
 
 <!-- main -->
 <main>
-	<section id="content">
+	<div id="content">
 	
 		<!-- #hero -->
 		<div class="hero view view-slideup">
@@ -92,9 +92,9 @@
 					<!--!!!【type=〇〇】をフォームごとに変える!!!--><script id="mfpjs" src="<?php echo home_url(); ?>/mfp/mailformpro/mailformpro.cgi?type=contact"></script>
 
 			</div>
-		</div>
+		</section>
 
-	</section>
+	</div>
 </main>
 
 <?php get_footer(); ?>

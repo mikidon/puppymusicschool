@@ -284,7 +284,7 @@
             <div class="d-f jc-sb ai-fe">
               <div class="d-f ai-fe">
                 <p class="ff-en fz270 lh100 view view-slideup">News</p>
-                <p class="pl30 sm-pl20 fz120 sm-fz100 view view-slideup">お知らせ</p>
+                <h2 class="pl30 sm-pl20 fz120 sm-fz100 view view-slideup">お知らせ</h2>
               </div>
               <a href="<?php echo home_url(); ?>/new" class="btn-simple ff-sofia">all view</a>
             </div>
@@ -312,7 +312,7 @@
           <div class="d-f jc-sb ai-fe">
             <div class="d-f ai-fe">
               <p class="ff-en fz270 lh100 view view-slideup">Blog</p>
-              <p class="pl30 sm-pl20 fz120 sm-fz100 view view-slideup">スタッフブログ</p>
+              <h2 class="pl30 sm-pl20 fz120 sm-fz100 view view-slideup">スタッフブログ</h2>
             </div>
             <a href="<?php echo home_url(); ?>/blog" class="btn-simple ff-sofia">all view</a>
           </div>

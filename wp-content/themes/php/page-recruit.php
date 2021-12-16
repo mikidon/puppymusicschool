@@ -6,7 +6,7 @@
 
 <!-- main -->
 <main>
-	<section id="content">
+	<div id="content">
 	
 		<!-- #hero -->
 		<div class="hero view view-slideup">
@@ -52,7 +52,7 @@
 						<img loading="lazy" src="<?php echo home_url(); ?>/img/base/ic-dot.png" width="20" height="5" class="img-rspsv" alt="dot">
 					</div>
 				</div>
-				<section class="col-12 mt50 view view-slideup">
+				<div class="col-12 mt50 view view-slideup">
 					<div class="bgc-white p60 md-p40 md-p30 bdrs15 h-eq">
 						<table class="tbl-basic th-w240">
 							<tbody>
@@ -67,14 +67,14 @@
 							</tbody>
 						</table>
 					</div>
-				</section>
+				</div>
 				<div class="mt50 col-6 col-md-8 col-sm-11">
 					<a href="<?php echo home_url(); ?>/contact" class="d-b ta-c fw-b hov c-blue bd-blue bdrs-max ptb10 plr40">ご応募・お問合わせはフォームから！</a>
 				</div>
 			</div>
 		</section>
 
-	</section>
+	</div>
 </main>
 
 <?php get_footer(); ?>

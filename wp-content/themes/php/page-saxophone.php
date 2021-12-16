@@ -6,7 +6,7 @@
 
 <!-- main -->
 <main>
-	<section id="content">
+	<div id="content">
 	
 		<!-- #hero -->
 		<div class="hero view view-slideup">
@@ -75,8 +75,8 @@
 				</div>
 			</div>
 			<div class="cols gutter-70 gutter-md-40">
-				<section class="col-10 col-sm-12 mt50 sm-mt-20 z1 ord1 sm-ord2 view view-slideup">
-					<div class="bg-dots bd-blue ptb60 pl80 pr60 sm-ptb40 sm-pl30 sm-pr30 bdrs15">						
+				<div class="col-10 col-sm-12 mt50 sm-mt-20 z1 ord1 sm-ord2 view view-slideup">
+					<div class="bg-dots bd-blue ptb60 pl80 pr60 sm-ptb40 sm-pl30 sm-pr30 bdrs15">		
 						<section>
 							<h4 class="c-white ff-sofia bgc-blue d-ib bdrs5 ptb5 plr20">STEP 01</h4>
 							<p class="mt25">まず楽器の構え方・呼吸法など演奏に必要な基礎を習得していきます。タンギング、スラー、1オクターブの音域、メジャー・スケール等を段階的に学びながら楽しく、無理なく、上達していきます。</p>
@@ -90,7 +90,7 @@
 							<p class="mt25">さらに高度な音楽的表現力を目指しダイナミクス、8ビート、スウィング、ジャズのアーティキュレーション等を習得していきます。 リズム・カリキュラムにより体系的にリズムを理解するとともに、コードやスケールなどのポピュラー音楽理論も身につけていきます。</p>
 						</section>
 					</div>
-				</section>
+				</div>
 				<div class="col-5 col-sm-6 return-3 return-sm-0 sm-mr20 mt-150 md-mt-100 sm-mt-60 z2 ord2 sm-ord1 view view-slideup">
 					<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/saxophone/sec3-img1.jpg" width="314" height="290" class="img-rspsv-full" alt="レッスン内容例"></figure>
 				</div>
@@ -218,7 +218,7 @@
 		</section>
 
 
-	</section>
+	</div>
 </main>
 
 <?php get_footer(); ?>
