@@ -342,10 +342,10 @@ if (!current_user_can('level_10')) {
 		//unset($menu[2]);//ダッシュボード
 		unset($menu[4]); //メニューの線1
 		//unset($menu[5]);//投稿
-		//remove_submenu_page('edit.php', 'edit-tags.php?taxonomy=category'); // 投稿 -> カテゴリ
-		//remove_submenu_page('edit.php', 'edit-tags.php?taxonomy=post_tag'); // 投稿 -> タグ
+		remove_submenu_page('edit.php', 'edit-tags.php?taxonomy=category'); // 投稿 -> カテゴリ
+		remove_submenu_page('edit.php', 'edit-tags.php?taxonomy=post_tag'); // 投稿 -> タグ
 		//remove_menu_page('edit.php?post_type=excursions');
-		//remove_submenu_page('edit.php?post_type=voices', 'edit-tags.php?taxonomy=voices-cat&amp;post_type=voices'); // URLの"&"は、"&amp;"に書き換えないとダメ
+		remove_submenu_page('edit.php?post_type=blogs', 'edit-tags.php?taxonomy=blogs-cat&amp;post_type=blogs'); // URLの"&"は、"&amp;"に書き換えないとダメ
 		unset($menu[10]); //メディア
 		unset($menu[15]); //リンク
 		unset($menu[20]); //ページ
@@ -367,7 +367,7 @@ if (!current_user_can('level_10')) {
 		//remove_post_type_support( 'post', 'title' ); // タイトル
 		//remove_post_type_support( 'post', 'editor' ); // 本文欄
 		remove_post_type_support('post', 'author'); // 作成者
-		//remove_post_type_support( 'post', 'thumbnail' ); // アイキャッチ
+		remove_post_type_support( 'post', 'thumbnail' ); // アイキャッチ
 		remove_post_type_support('post', 'excerpt'); // 抜粋
 		remove_post_type_support('post', 'trackbacks'); // トラックバック
 		remove_post_type_support('post', 'custom-fields'); // カスタムフィールド
@@ -376,8 +376,8 @@ if (!current_user_can('level_10')) {
 		remove_post_type_support('post', 'page-attributes'); // ページ属性
 		remove_post_type_support('post', 'post-formats'); // 投稿フォーマット
 
-		//unregister_taxonomy_for_object_type( 'category', 'post' ); // カテゴリ
-		//unregister_taxonomy_for_object_type( 'post_tag', 'post' ); // タグ
+		unregister_taxonomy_for_object_type( 'category', 'post' ); // カテゴリ
+		unregister_taxonomy_for_object_type( 'post_tag', 'post' ); // タグ
 	}
 	add_action('init', 'remove_post_supports');
 
@@ -639,7 +639,7 @@ function redirect_dashiboard() {
 add_action( 'admin_print_footer_scripts', 'limit_category_select' );
 function limit_category_select() {
   ?>
-  <script type="text/javascript">
+<script type="text/javascript">
     jQuery(function($) {
       // 投稿画面のカテゴリー選択を制限
       var cat_checklist = $('.categorychecklist input[type=checkbox]');
