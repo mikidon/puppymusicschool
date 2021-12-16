@@ -134,7 +134,7 @@
 								</div>
 								<figure class="col-5 col-md-4 col-sm-7 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/drums/sec4-img1.jpg" width="211" height="187" class="img-rspsv" alt="電子ドラム"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥7,000(入会金¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥7,000(入会金¥17,800)</span>でご購入いただけます！</p>
 						</div>
 						<div class="mt30 bgc-white p50 md-p30 bdrs15">
 							<div class="cols nega gutter-50 gutter-md-30 ai-c jc-c">
@@ -164,7 +164,7 @@
 								</div>
 								<figure class="col-5 col-md-4 col-sm-7 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/drums/sec4-img2.jpg" width="225" height="247" class="img-rspsv" alt="電子ドラム"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥20,000(入会金¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥20,000(入会金¥17,800)</span>でご購入いただけます！</p>
 						</div>
 					</section>
 				</div>

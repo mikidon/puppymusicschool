@@ -47,7 +47,7 @@
 					</div>
 					<!-- 楽器プレゼントキャンペーン -->
 					<div class="col-12 view view-slideup">
-						<div class="mt80 sm-mt50 bgc-gray bd-blue ptb60 plr60 md-ptb50 md-plr40 sm-ptb50 sm-plr30 bdrs15 fuchi-upper">
+						<div class="mt80 sm-mt50 bgc-gray bd-blue ptb60 plr60 md-ptb50 md-plr40 sm-ptb50 sm-plr30 bdrs15">
 							<div class="cols nega gutter-50 gutter-md-30 ai-c jc-c">
 								<div class="col-5 col-md-6 col-sm-11">
 									<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/top/sec2-img4.png" width="336" height="239" class="img-rspsv" alt="プレゼントキャンペーン"></figure>

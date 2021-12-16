@@ -151,7 +151,7 @@
 								</div>
 								<figure class="col-5 col-md-4 col-sm-8 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/violin/sec4-img1.jpg" width="261" height="203" class="img-rspsv" alt="バイオリン"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は入会金のみ<span class="c-red">(¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は入会金のみ<span class="c-red">(¥17,800)</span>でご購入いただけます！</p>
 						</div>
 						<div class="mt30 bgc-white p50 md-p30 bdrs15">
 							<div class="cols nega gutter-50 gutter-md-30 ai-c jc-c">
@@ -216,7 +216,7 @@
 								</div>
 								<figure class="col-5 col-md-4 col-sm-8 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/violin/sec4-img2.jpg" width="273" height="205" class="img-rspsv" alt="バイオリン"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥52,000(入会金¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥52,000(入会金¥17,800)</span>でご購入いただけます！</p>
 						</div>
 					</section>
 					<section id="sec4-sub2" class="mt50 sm-mt40 view view-slideup">
@@ -236,9 +236,9 @@
 										</ul>
 									</div>
 								</div>
-								<figure class="col-5 col-sm-8 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/violin/sec4-img3.jpg" width="206" height="175" class="img-rspsv" alt="アコースティックギター"></figure>
+								<figure class="col-5 col-sm-8 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/violin/sec4-img3.jpg" width="206" height="175" class="img-rspsv" alt="ビオラ"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥8,000(入会金¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥8,000(入会金¥17,800)</span>でご購入いただけます！</p>
 						</div>
 					</section>
 				</div>

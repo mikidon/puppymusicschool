@@ -218,7 +218,7 @@
 								</div>
 								<figure class="col-5 col-sm-8 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/guitar/sec4-img1.jpg" width="319" height="211" class="img-rspsv" alt="エレキギター"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は入会金のみ<span class="c-red">(¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は入会金のみ<span class="c-red">(¥17,800)</span>でご購入いただけます！</p>
 						</div>
 						<div class="mt30 bgc-white p50 md-p30 bdrs15">
 							<div class="cols nega gutter-50 gutter-md-30 ai-c jc-c">
@@ -242,7 +242,7 @@
 								</div>
 								<figure class="col-5 col-sm-6 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/guitar/sec4-img2.jpg" width="205" height="271" class="img-rspsv" alt="キッズエレキギター"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は入会金のみ<span class="c-red">(¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は入会金のみ<span class="c-red">(¥17,800)</span>でご購入いただけます！</p>
 						</div>
 					</section>
 					<section id="sec4-sub2" class="mt50 sm-mt40 view view-slideup">
@@ -276,7 +276,7 @@
 								</div>
 								<figure class="col-5 col-sm-8 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/guitar/sec4-img3.jpg" width="286" height="236" class="img-rspsv" alt="アコースティックギター"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は入会金のみ<span class="c-red">(¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は入会金のみ<span class="c-red">(¥17,800)</span>でご購入いただけます！</p>
 						</div>
 						<div class="mt30 bgc-white p50 md-p30 bdrs15">
 							<div class="cols nega gutter-50 gutter-md-30 ai-c jc-c">
@@ -305,7 +305,7 @@
 								</div>
 								<figure class="col-5 col-sm-9 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/guitar/sec4-img4.jpg" width="333" height="233" class="img-rspsv" alt="キッズアコースティックギター"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は入会金のみ<span class="c-red">(¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は入会金のみ<span class="c-red">(¥17,800)</span>でご購入いただけます！</p>
 						</div>
 					</section>
 					<section id="sec4-sub3" class="mt50 sm-mt40 view view-slideup">
@@ -331,7 +331,7 @@
 								</div>
 								<figure class="col-5 col-sm-6 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/guitar/sec4-img5.jpg" width="226" height="306" class="img-rspsv" alt="クラシックギター"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は入会金のみ<span class="c-red">(¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は入会金のみ<span class="c-red">(¥17,800)</span>でご購入いただけます！</p>
 						</div>
 					</section>
 				</div>

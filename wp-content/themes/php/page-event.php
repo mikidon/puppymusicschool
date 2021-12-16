@@ -76,8 +76,8 @@
 						</div>
 					</div>
 					<section class="col-12 view view-slideup">
-						<div class="mt80 md-mt50 bgc-gray bd-blue ptb60 plr60 md-ptb50 md-plr40 sm-ptb50 sm-plr30 bdrs15 fuchi-upper">
-							<h3 class="ribbon-green -white">各級の特徴 / 課題曲</h3>
+						<div class="mt80 md-mt50 bgc-gray bd-blue ptb60 plr60 md-ptb50 md-plr40 sm-ptb50 sm-plr30 bdrs15">
+							<h3 class="ribbon-green -gray">各級の特徴 / 課題曲</h3>
 							<section class="bb-blue mt40 pb40 md-mt30 md-pb30">
 								<h4 class="c-blue fz120 sm-fz110">15級（入門編）</h4>
 								<p class="mt10">日頃のレッスンの延長として学んだことや身に付けたことを確認し、音を奏でる楽しさを知っていただきます。試験を受ける事により人前で弾くという経験や人間関係を形成する社会性を培うことができます。また、賞状をもらった時の感動は何物にも代えられません。</p>

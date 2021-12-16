@@ -27,7 +27,7 @@
 				<div class="bgc-white ptb60 plr60 md-ptb40 md-plr40 sm-ptb40 sm-plr30 bdrs15">
 					<div class="cols jc-c ai-c nega gutter-40 gutter-sm-30">
 						<div class="col-6 col-md-7 col-sm-12">
-							<img loading="lazy" src="<?php echo home_url(); ?>/img/campaign/sec1-txt.png" width="" height="" class="img-rspsv" alt="入会金60％offキャンペーン">
+							<img loading="lazy" src="<?php echo home_url(); ?>/img/campaign/sec1-txt.png" width="374" height="45" class="img-rspsv" alt="入会金60％offキャンペーン">
 							<p class="mt20">体験レッスン当日にご入会いただきますと、入会金17800円→7000円に割引されます！この機会に是非無料体験レッスンにお申込みください。</p>
 							<p class="mt10 fz90">※楽器プレゼントを選択された場合、当キャンペーンはご利用いただけません。</p>
 							<p class="mt10">キャンペーン期限：2021年12月28日まで</p>

@@ -80,10 +80,10 @@
 							</tr>
 						</tbody>
 					</table>
-					<section class="mt80 sm-mt50 bgc-gray bd-blue ptb60 plr60 md-ptb50 md-plr15 sm-ptb50 sm-plr30 bdrs15 fuchi-upper view view-slideup">
+					<section class="mt80 sm-mt50 bgc-gray bd-blue ptb60 plr60 md-ptb50 md-plr15 sm-ptb50 sm-plr30 bdrs15 view view-slideup">
 						<div class="cols nega lesson-ok-il">
 							<div class="col-4 col-sm-12">
-								<h3 class="ribbon-green -white">レッスン可能コース</h3>
+								<h3 class="ribbon-green -gray">レッスン可能コース</h3>
 							</div>
 							<div class="col-8 col-sm-12 sm-mt25">
 								<p>ピアノ・ボーカル・ギター・ベース・ドラム・キーボード・ウクレレ ・DTM・バイオリン・チェロ・ビオラ・フルート・サックス・トランペット・トロンボーン・クラリネット・声楽・作詞作曲・リトミック</p>
@@ -172,7 +172,7 @@
 					</div>
 				</div>
 				<div class="col-12 mt50 ord6 view view-slideup">
-					<p class="fz90">※グランドピアノ＝カワイGE20<br>
+					<p class="fz90">※グランドピアノ＝ヤマハG1<br>
 						※個人練習（一人で入室の方）は半額にてご利用いただけます。（予約日の前日から予約可能）<br>
 						※生徒さんは特別価格にてご利用いただけます。</p>
 				</div>

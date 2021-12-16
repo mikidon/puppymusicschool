@@ -81,10 +81,10 @@
 							</tr>
 						</tbody>
 					</table>
-					<section class="mt80 sm-mt50 bgc-gray bd-blue ptb60 plr60 md-ptb50 md-plr15 sm-ptb50 sm-plr30 bdrs15 fuchi-upper view view-slideup">
+					<section class="mt80 sm-mt50 bgc-gray bd-blue ptb60 plr60 md-ptb50 md-plr15 sm-ptb50 sm-plr30 bdrs15 view view-slideup">
 						<div class="cols nega lesson-ok-il">
 							<div class="col-4 col-sm-12">
-								<h3 class="ribbon-green -white">レッスン可能コース</h3>
+								<h3 class="ribbon-green -gray">レッスン可能コース</h3>
 							</div>
 							<div class="col-8 col-sm-12 sm-mt25">
 								<p>ピアノ・ボーカル・ギター・ベース・ドラム・キーボード・ウクレレ ・バイオリン・チェロ・ビオラ・フルート・サックス・トランペット・トロンボーン・クラリネット・声楽・作詞作曲・カホン・リトミック</p>

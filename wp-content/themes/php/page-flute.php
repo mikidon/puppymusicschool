@@ -141,7 +141,7 @@
 								</div>
 								<figure class="col-5 col-sm-9 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/flute/sec4-img1.jpg" width="421" height="96" class="img-rspsv" alt="フルート"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥5,000(入会金¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥5,000(入会金¥17,800)</span>でご購入いただけます！</p>
 						</div>
 						<div class="mt30 bgc-white p50 md-p30 bdrs15">
 							<div class="cols nega gutter-50 gutter-md-30 ai-c jc-c">
@@ -179,7 +179,7 @@
 								</div>
 								<figure class="col-5 col-sm-9 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/flute/sec4-img2.jpg" width="405" height="88" class="img-rspsv" alt="フルート"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥30,000(入会金¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥30,000(入会金¥17,800)</span>でご購入いただけます！</p>
 						</div>
 						<div class="mt30 bgc-white p50 md-p30 bdrs15">
 							<div class="cols nega gutter-50 gutter-md-30 ai-c jc-c">
@@ -217,7 +217,7 @@
 								</div>
 								<figure class="col-5 col-sm-9 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/flute/sec4-img3.jpg" width="276" height="49" class="img-rspsv" alt="フルート"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥39,000(入会金¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥39,000(入会金¥17,800)</span>でご購入いただけます！</p>
 						</div>
 					</section>
 				</div>

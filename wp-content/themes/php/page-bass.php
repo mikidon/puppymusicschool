@@ -140,7 +140,7 @@
 								</div>
 								<figure class="col-5 col-sm-6 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/bass/sec4-img1.jpg" width="337" height="162" class="img-rspsv" alt="エレキベース"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は入会金のみ<span class="c-red">(¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は入会金のみ<span class="c-red">(¥17,800)</span>でご購入いただけます！</p>
 						</div>
 					</section>
 				</div>

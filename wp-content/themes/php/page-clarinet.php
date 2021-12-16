@@ -149,7 +149,7 @@
 								</div>
 								<figure class="col-4 col-sm-8 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/clarinet/sec4-img1.jpg" width="243" height="194" class="img-rspsv" alt="クラリネット"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥5,000(入会金¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥5,000(入会金¥17,800)</span>でご購入いただけます！</p>
 						</div>
 						<div class="mt30 bgc-white p50 md-p30 bdrs15">
 							<div class="cols nega gutter-50 gutter-md-30 ai-c jc-c">
@@ -207,9 +207,9 @@
 										</table>
 									</div>
 								</div>
-								<figure class="col-4 col-sm-8 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/clarinet/sec4-img2.jpg" width="236" height="194" class="img-rspsv" alt="サックス"></figure>
+								<figure class="col-4 col-sm-8 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/clarinet/sec4-img2.jpg" width="236" height="194" class="img-rspsv" alt="クラリネット"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥47,000(入会金¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥47,000(入会金¥17,800)</span>でご購入いただけます！</p>
 						</div>
 					</section>
 				</div>

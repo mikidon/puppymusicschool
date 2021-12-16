@@ -161,7 +161,7 @@
 								</div>
 								<figure class="col-5 col-sm-9 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/trumpet/sec4-img1.jpg" width="273" height="87" class="img-rspsv" alt="トランペット"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は入会金のみ<span class="c-red">(¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は入会金のみ<span class="c-red">(¥17,800)</span>でご購入いただけます！</p>
 						</div>
 						<div class="mt30 bgc-white p50 md-p30 bdrs15">
 							<div class="cols nega gutter-50 gutter-md-30 ai-c jc-c">
@@ -204,7 +204,7 @@
 								</div>
 								<figure class="col-5 col-sm-9 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/trumpet/sec4-img2.jpg" width="263" height="87" class="img-rspsv" alt="トランペット"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥25,500(入会金¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥25,500(入会金¥17,800)</span>でご購入いただけます！</p>
 						</div>
 					</section>
 					<section id="sec4-sub2" class="mt50 sm-mt40 view view-slideup">
@@ -229,7 +229,7 @@
 								</div>
 								<figure class="col-5 col-sm-9 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/trumpet/sec4-img3.jpg" width="329" height="139" class="img-rspsv" alt="トロンボーン"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥13,500(入会金¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥13,000(入会金¥17,800)</span>でご購入いただけます！</p>
 						</div>
 						<div class="mt30 bgc-white p50 md-p30 bdrs15">
 							<div class="cols nega gutter-50 gutter-md-30 ai-c jc-c">
@@ -284,7 +284,7 @@
 								</div>
 								<figure class="col-5 col-sm-9 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/trumpet/sec4-img4.jpg" width="304" height="125" class="img-rspsv" alt="トロンボーン"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥53,000(入会金¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥53,000(入会金¥17,800)</span>でご購入いただけます！</p>
 						</div>
 					</section>
 				</div>

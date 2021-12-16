@@ -276,7 +276,7 @@
                   </tbody>
                 </table>
                 <!-- sub1 -->
-                <section class="mt60 sm-mt50 bgc-palegray bd-blue ptb60 plr60 md-ptb50 md-plr30 sm-ptb50 sm-plr30 bdrs15 fuchi-upper view view-slideup">
+                <section class="mt60 sm-mt50 bgc-palegray bd-blue ptb60 plr60 md-ptb50 md-plr30 sm-ptb50 sm-plr30 bdrs15 view view-slideup">
                   <div class="ta-c">
                     <h3 class="fz130 sm-fz120 d-ib bb-blue c-blue pb5">入会特典</h3>
                     <p class="mt30">体験レッスンを受けていただいた<br class="d-n sm-d-b">当日にご入会いただくことで<br class="d-n sm-d-b">様々な特典がついてきます！</p>
@@ -335,7 +335,7 @@
                   </section>
                 </section>
                 <!-- sub2 -->
-                <section class="mt60 sm-mt30 bgc-palegray bd-blue ptb60 plr60 md-ptb50 md-plr30 sm-ptb50 sm-plr30 bdrs15 fuchi-upper view view-slideup">
+                <section class="mt60 sm-mt30 bgc-palegray bd-blue ptb60 plr60 md-ptb50 md-plr30 sm-ptb50 sm-plr30 bdrs15 view view-slideup">
                   <div class="ta-c">
                     <h3 class="fz130 sm-fz120 d-ib bb-blue c-blue pb5">その他特典</h3>
                   </div>

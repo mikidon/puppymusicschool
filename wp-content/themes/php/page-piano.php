@@ -150,9 +150,9 @@
 									</ul>
 									<p class="mt20">鍵盤カバー、一体型スタンド、3本ペダル・ユニットを標準装備し、クラスを超えた上質感を誇るスリムなスタンダード・モデル。</p>
 								</div>
-								<figure class="col-5 col-sm-6 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/piano/sec4-img1.jpg" width="170" height="310" class="img-rspsv" alt="エレキベース"></figure>
+								<figure class="col-5 col-sm-6 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/piano/sec4-img1.jpg" width="170" height="310" class="img-rspsv" alt="ピアノ"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥28,000(入会金¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥28,000(入会金¥17,800)</span>でご購入いただけます！</p>
 						</div>
 					</section>
 				</div>

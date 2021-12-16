@@ -126,7 +126,7 @@
 								</div>
 								<figure class="col-5 col-md-4 col-sm-8 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/ukulele/sec4-img1.jpg" width="221" height="285" class="img-rspsv" alt="ウクレレ"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は入会金のみ<span class="c-red">(¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は入会金のみ<span class="c-red">(¥17,800)</span>でご購入いただけます！</p>
 						</div>
 					</section>
 				</div>

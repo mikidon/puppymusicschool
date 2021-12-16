@@ -44,7 +44,7 @@
 								<a href="<?php echo home_url(); ?>/drums" class="hov course4"><span>drums</span>ドラム</a>
 							</div>
 							<div class="col-3 col-md-4 col-sm-6 mt20 sm-mt10 view view-slideup">
-								<a href="<?php echo home_url(); ?>/keyboard" class="hov course5"><span>keyboard</span>ベース</a>
+								<a href="<?php echo home_url(); ?>/keyboard" class="hov course5"><span>keyboard</span>キーボード</a>
 							</div>
 							<div class="col-3 col-md-4 col-sm-6 mt20 sm-mt10 view view-slideup">
 								<a href="<?php echo home_url(); ?>/dtm" class="hov course6"><span>DTM</span>デスクトップミュージック</a>

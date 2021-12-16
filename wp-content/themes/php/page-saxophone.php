@@ -19,7 +19,7 @@
 			<div class="ptb20 sm-ptb30 cols-wide bg-dots">
 				<div class="cols jc-c ai-c gutter-70 gutter-md-40">
 					<div class="col-6 col-sm-10 sm-mt40 ord1 sm-ord2 view view-slideup">
-						<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/saxophone/sec1-img1.png" width="446" height="437" class="img-rspsv" alt="チェロ"></figure>
+						<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/saxophone/sec1-img1.png" width="446" height="437" class="img-rspsv" alt="サックス"></figure>
 					</div>
 					<div class="col-6 col-sm-12 ord2 sm-ord1 view view-slideup">
 						<div class="ttl">
@@ -144,7 +144,7 @@
 								</div>
 								<figure class="col-5 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/saxophone/sec4-img1.jpg" width="143" height="242" class="img-rspsv" alt="サックス"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥21,000(入会金¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥21,000(入会金¥17,800)</span>でご購入いただけます！</p>
 						</div>
 						<div class="mt30 bgc-white p50 md-p30 bdrs15">
 							<div class="cols nega gutter-50 gutter-md-30 ai-c jc-c">
@@ -189,7 +189,7 @@
 								</div>
 								<figure class="col-5 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/saxophone/sec4-img2.jpg" width="163" height="245" class="img-rspsv" alt="サックス"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥75,000(入会金¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥75,000(入会金¥17,800)</span>でご購入いただけます！</p>
 						</div>
 					</section>
 				</div>

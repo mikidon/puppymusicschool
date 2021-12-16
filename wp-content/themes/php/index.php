@@ -84,7 +84,7 @@
                 <a href="<?php echo home_url(); ?>/drums" class="hov view view-slideup course4"><span>drums</span>ドラム</a>
               </div>
               <div class="col-3 col-md-4 col-sm-6 mt20 sm-mt10">
-                <a href="<?php echo home_url(); ?>/keyboard" class="hov view view-slideup course5"><span>keyboard</span>ベース</a>
+                <a href="<?php echo home_url(); ?>/keyboard" class="hov view view-slideup course5"><span>keyboard</span>キーボード</a>
               </div>
               <div class="col-3 col-md-4 col-sm-6 mt20 sm-mt10">
                 <a href="<?php echo home_url(); ?>/dtm" class="hov view view-slideup course6"><span>DTM</span>デスクトップミュージック</a>
@@ -224,7 +224,7 @@
             </a>
           </section>
           <section class="col-4 col-md-6 mt30 menu view view-slideup">
-            <a href="<?php echo home_url(); ?>/price" class="d-b hov">
+            <a href="<?php echo home_url(); ?>/teacher" class="d-b hov">
               <figure><img loading="lazy" src="<?php echo home_url(); ?>/img/top/sec4-img2.jpg" width="302" height="220" class="img-rspsv-full" alt="講師紹介"></figure>
               <div class="menu-txt bgc-white ta-c ptb15 sm-ptb10 mlr20 sm-mlr5 mt-30 z2">
                 <span class="ff-en fz150 sm-fz110 lh140">TEACHER</span>
@@ -233,7 +233,7 @@
             </a>
           </section>
           <section class="col-4 col-md-6 mt30 menu view view-slideup">
-            <a href="<?php echo home_url(); ?>/price" class="d-b hov">
+            <a href="<?php echo home_url(); ?>/trial" class="d-b hov">
               <figure><img loading="lazy" src="<?php echo home_url(); ?>/img/top/sec4-img3.jpg" width="302" height="220" class="img-rspsv-full" alt="無料体験レッスン"></figure>
               <div class="menu-txt bgc-white ta-c ptb15 sm-ptb10 mlr20 sm-mlr5 mt-30 z2">
                 <span class="ff-en fz150 sm-fz110 lh140">TRIAL</span>
@@ -242,7 +242,7 @@
             </a>
           </section>
           <section class="col-4 col-md-6 mt30 menu view view-slideup">
-            <a href="<?php echo home_url(); ?>/price" class="d-b hov">
+            <a href="<?php echo home_url(); ?>/event" class="d-b hov">
               <figure><img loading="lazy" src="<?php echo home_url(); ?>/img/top/sec4-img4.jpg" width="302" height="220" class="img-rspsv-full" alt="イベント"></figure>
               <div class="menu-txt bgc-white ta-c ptb15 sm-ptb10 mlr20 sm-mlr5 mt-30 z2">
                 <span class="ff-en fz150 sm-fz110 lh140">EVENT</span>
@@ -251,7 +251,7 @@
             </a>
           </section>
           <section class="col-4 col-md-6 mt30 menu view view-slideup">
-            <a href="<?php echo home_url(); ?>/price" class="d-b hov">
+            <a href="<?php echo home_url(); ?>/campaign" class="d-b hov">
               <figure><img loading="lazy" src="<?php echo home_url(); ?>/img/top/sec4-img5.jpg" width="302" height="220" class="img-rspsv-full" alt="キャンペーン"></figure>
               <div class="menu-txt bgc-white ta-c ptb15 sm-ptb10 mlr20 sm-mlr5 mt-30 z2">
                 <span class="ff-en fz150 sm-fz110 lh140">CAMPAIGN</span>
@@ -260,7 +260,7 @@
             </a>
           </section>
           <section class="col-4 col-md-6 mt30 menu view view-slideup">
-            <a href="<?php echo home_url(); ?>/price" class="d-b hov">
+            <a href="<?php echo home_url(); ?>/present" class="d-b hov">
               <figure><img loading="lazy" src="<?php echo home_url(); ?>/img/top/sec4-img6.jpg" width="302" height="220" class="img-rspsv-full" alt="楽器プレゼント"></figure>
               <div class="menu-txt bgc-white ta-c ptb15 sm-ptb10 mlr20 sm-mlr5 mt-30 z2">
                 <span class="ff-en fz150 sm-fz110 lh140">PRESENT</span>
@@ -269,10 +269,10 @@
             </a>
           </section>
           <div class="col-4 col-md-5 col-sm-10 mt70 sm-mt50 view view-slideup">
-            <a href="<?php echo home_url(); ?>/trial" class="d-b ta-c hov bgc-white bdrs-max ptb15 plr40">会社案内</a>
+            <a href="<?php echo home_url(); ?>/company" class="d-b ta-c hov bgc-white bdrs-max ptb15 plr40">会社案内</a>
           </div>
           <div class="col-4 col-md-5 col-sm-10 mt70 sm-mt15 view view-slideup">
-            <a href="<?php echo home_url(); ?>/trial" class="d-b ta-c hov bgc-white bdrs-max ptb15 plr40">採用情報</a>
+            <a href="<?php echo home_url(); ?>/recruit" class="d-b ta-c hov bgc-white bdrs-max ptb15 plr40">採用情報</a>
           </div>
         </div>
       </div>

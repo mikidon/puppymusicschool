@@ -128,9 +128,9 @@
 										<li>スタジオ利用券 7000円分</li>
 									</ul>
 								</div>
-								<figure class="col-5 col-sm-6 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/keyboard/sec4-img1.jpg" width="252" height="204" class="img-rspsv" alt="エレキベース"></figure>
+								<figure class="col-5 col-sm-6 ta-c sm-mt30"><img loading="lazy" src="<?php echo home_url(); ?>/img/keyboard/sec4-img1.jpg" width="252" height="204" class="img-rspsv" alt="キーボード"></figure>
 							</div>
-							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥6,000(入会金¥17,800)</span>で差し上げます！</p>
+							<p class="mt30">体験レッスン当日にご入会いただいた方は<span class="c-red">¥6,000(入会金¥17,800)</span>でご購入いただけます！</p>
 						</div>
 					</section>
 				</div>
