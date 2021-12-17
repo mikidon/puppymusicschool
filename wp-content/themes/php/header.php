@@ -8,6 +8,7 @@
   <title><?php wp_title(); ?></title>
   <?php wp_head(); ?>
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0<?php if(is_page(array("contact","application"))){ ?>user-scalable=no<?php } ?>">
+  <link rel="icon" href="<?php echo site_url(); ?>/favicon.ico">
   <link rel="stylesheet" href="<?php echo site_url(); ?>/css/style.css">
   <!-- Typekit[：P_パピーミュージックスクール] -->
   <script>
