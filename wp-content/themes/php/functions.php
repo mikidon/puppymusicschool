@@ -304,6 +304,7 @@ function customize_menu()
 	global $menu;
 	global $submenu;
 	add_menu_page('講師紹介', '講師紹介', 'publish_pages', 'post.php?post=64&action=edit', '', '', '6.5');
+	add_menu_page('キャンペーン', 'キャンペーン', 'publish_pages', 'post.php?post=70&action=edit', '', '', '6.5');
 	add_menu_page('採用情報', '採用情報', 'publish_pages', 'post.php?post=74&action=edit', '', '', '6.5');
 	$menu[5][0] = 'お知らせ';
 	$submenu['edit.php'][5][0] = 'お知らせ';
