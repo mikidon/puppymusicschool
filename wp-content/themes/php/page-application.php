@@ -28,7 +28,7 @@
 					<p>以下のフォームに必要事項をご入力いただき、<a href="<?php echo home_url(); ?>/privacy" class="hov bb-black" target="_blank" rel="noopener">プライバシーポリシー</a>をご確認のうえ、送信ボタンを押してください。<br class="md-d-n">
 					( <span class="c-red">＊</span>マークは必須項目です)</p>
 					<div class="mt40 md-mt30">
-						<a href="<?php echo home_url(); ?>/contact" class="btn-dot sm-d-b ta-l fw-b hov c-white bgc-black ptb10 plr60 sm-plr30">通常のお問合わせはこちらから</a>
+						<a href="<?php echo home_url(); ?>/contact" class="btn-dot -black sm-d-b ta-l fw-b hov bd-black ptb10 plr60 sm-plr30">通常のお問合わせはこちらから</a>
 					</div>
 				</div>
 
@@ -50,7 +50,7 @@
 								<!--〓〓〓〓〓 -->
 								<tr>
 									<th><span class="c-red">＊</span> 年齢<span class="fz80 pl20">※18歳未満の方は保護者の承諾が必要です。</span></th>
-									<td><input type="number" data-type="number" name="数字" data-min="1" data-max="80" required="required" /></td>
+									<td><input type="number" data-type="number" name="数字" data-min="1" data-max="80" style="text-align: left;" required="required" /></td>
 								</tr>
 								<!--〓〓〓〓〓 -->
 								<tr>
@@ -64,84 +64,7 @@
 								<!--〓〓〓〓〓 -->
 								<tr>
 									<th><span class="c-red">＊</span> 住所</th>
-									<td>
-									<ul>
-										<li>
-											<input type="hidden" name="ご住所" data-unjoin="〒+郵便番号+\n+都道府県+市区町村+丁目番地" value="" />
-											<input type="text" name="郵便番号" size="20" data-address="都道府県,市区町村,市区町村" autocomplete="off" placeholder="郵便番号" />
-										</li>
-										<li class="mt10 sm-mt10">
-											<div class="select">
-												<select name="都道府県">
-													<option value="" selected="selected">都道府県</option>
-													<optgroup label="北海道・東北地方">
-													<option value="北海道">北海道</option>
-													<option value="青森県">青森県</option>
-													<option value="岩手県">岩手県</option>
-													<option value="秋田県">秋田県</option>
-													<option value="宮城県">宮城県</option>
-													<option value="山形県">山形県</option>
-													<option value="福島県">福島県</option>
-													</optgroup>
-													<optgroup label="関東地方">
-													<option value="栃木県">栃木県</option>
-													<option value="群馬県">群馬県</option>
-													<option value="茨城県">茨城県</option>
-													<option value="埼玉県">埼玉県</option>
-													<option value="東京都">東京都</option>
-													<option value="千葉県">千葉県</option>
-													<option value="神奈川県">神奈川県</option>
-													</optgroup>
-													<optgroup label="中部地方">
-													<option value="山梨県">山梨県</option>
-													<option value="長野県">長野県</option>
-													<option value="新潟県">新潟県</option>
-													<option value="富山県">富山県</option>
-													<option value="石川県">石川県</option>
-													<option value="福井県">福井県</option>
-													<option value="静岡県">静岡県</option>
-													<option value="岐阜県">岐阜県</option>
-													<option value="愛知県">愛知県</option>
-													</optgroup>
-													<optgroup label="近畿地方">
-													<option value="三重県">三重県</option>
-													<option value="滋賀県">滋賀県</option>
-													<option value="京都府">京都府</option>
-													<option value="大阪府">大阪府</option>
-													<option value="兵庫県">兵庫県</option>
-													<option value="奈良県">奈良県</option>
-													<option value="和歌山県">和歌山県</option>
-													</optgroup>
-													<optgroup label="四国地方">
-													<option value="徳島県">徳島県</option>
-													<option value="香川県">香川県</option>
-													<option value="愛媛県">愛媛県</option>
-													<option value="高知県">高知県</option>
-													</optgroup>
-													<optgroup label="中国地方">
-													<option value="鳥取県">鳥取県</option>
-													<option value="島根県">島根県</option>
-													<option value="岡山県">岡山県</option>
-													<option value="広島県">広島県</option>
-													<option value="山口県">山口県</option>
-													</optgroup>
-													<optgroup label="九州・沖縄地方">
-													<option value="福岡県">福岡県</option>
-													<option value="佐賀県">佐賀県</option>
-													<option value="長崎県">長崎県</option>
-													<option value="大分県">大分県</option>
-													<option value="熊本県">熊本県</option>
-													<option value="宮崎県">宮崎県</option>
-													<option value="鹿児島県">鹿児島県</option>
-													<option value="沖縄県">沖縄県</option>
-													</optgroup>
-												</select>
-											</div>
-										</li>
-										<li class="mt10 sm-mt10"><input type="text" name="市区町村" size="50" placeholder="市区町村" /></li>
-										<li class="mt10 sm-mt10"><input type="text" name="丁目番地" size="50" placeholder="番地、マンション名など" /></li>
-									</ul>
-									</td>
+									<td><input type="text" name="住所" size="40" required="required" /></td>
 								</tr>
 								<!--〓〓〓〓〓 -->
 								<tr>
@@ -161,9 +84,9 @@
 									<td>
 										<div class="select">
 											<select name="希望コース" required="required">
-												<option value="" selected="selected">選択して下さい</option>
+												<option value="" selected="selected">選択してください</option>
 												<option value="ピアノ">ピアノ</option>
-												<option value="ヴォーカル">ヴォーカル</option>
+												<option value="ボーカル">ボーカル</option>
 												<option value="エレキギター">エレキギター</option>
 												<option value="アコースティックギター">アコースティックギター</option>
 												<option value="ベース">ベース</option>
@@ -191,7 +114,7 @@
 									<td>
 										<div class="select">
 											<select name="レッスン形態" required="required">
-												<option value="" selected="selected">選択して下さい</option>
+												<option value="" selected="selected">選択してください</option>
 												<option value="個人">個人</option>
 												<option value="グループ">グループ</option>
 												<option value="未定">未定</option>
@@ -204,8 +127,8 @@
 								<tr>
 									<th><span class="c-red">＊</span> 希望レッスン場所</th>
 									<td class="bgc-white p20">
-									<label><input type="radio" name="希望レッスン場所" value="名古屋みなと教室" required="required" /> 名古屋みなと教室</label><br class="d-n sm-d-b">
-										<label><input class="ml20 sm-ml5 sm-mt15" type="radio" name="希望レッスン場所" value="名古屋名東教室" required="required" /> 名古屋名東教室</label><br class="d-n sm-d-b">
+									<label><input type="radio" name="希望レッスン場所" value="名古屋名東教室" required="required" /> 名古屋名東教室</label><br class="d-n sm-d-b">
+										<label><input class="ml20 sm-ml5 sm-mt15" type="radio" name="希望レッスン場所" value="名古屋みなと教室" required="required" /> 名古屋みなと教室</label><br class="d-n sm-d-b">
 										<label><input class="ml20 sm-ml5 sm-mt15" type="radio" name="希望レッスン場所" value="岡崎大西教室" required="required" /> 岡崎大西教室</label><br class="d-n sm-d-b">
 										<label><input class="ml20 sm-ml5 sm-mt15" type="radio" name="希望レッスン場所" value="岡崎矢作教室" required="required" /> 岡崎矢作教室</label><br>
 										<label><input class="sm-ml5 sm-mt15" type="radio" name="希望レッスン場所" value="刈谷アピタ教室" required="required" /> 刈谷アピタ教室</label><br class="d-n sm-d-b">
@@ -222,7 +145,7 @@
 									<td>
 										<div class="select">
 											<select name="希望コースの経験" required="required">
-												<option value="" selected="selected">選択して下さい</option>
+												<option value="" selected="selected">選択してください</option>
 												<option value="無し">無し</option>
 												<option value="少々有り">少々有り</option>
 												<option value="有り">有り</option>
@@ -236,7 +159,7 @@
 									<td>
 										<div class="select">
 											<select name="内容">
-												<option value="" selected="selected">選択して下さい</option>
+												<option value="" selected="selected">選択してください</option>
 												<option value="無し">無し</option>
 												<option value="有り">有り</option>
 											</select>
@@ -259,7 +182,7 @@
 									<td>
 										<div class="select">
 											<select name="職業">
-												<option value="" selected="selected">選択して下さい</option>
+												<option value="" selected="selected">選択してください</option>
 												<option value="会社員">会社員</option>
 												<option value="学生">学生</option>
 												<option value="主婦">主婦</option>
@@ -277,13 +200,13 @@
 									<td>
 										<div class="select">
 											<select name="当スクールを知ったきっかけ">
-												<option value="" selected="selected">選択して下さい</option>
+												<option value="" selected="selected">選択してください</option>
 												<option value="ネット検索">ネット検索</option>
-												<option value="雑誌、チラシ">雑誌、チラシ</option>
+												<option value="雑誌">雑誌</option>
+												<option value="折込チラシ">折込チラシ</option>
 												<option value="知人の紹介">知人の紹介</option>
 												<option value="SNS">SNS</option>
-												<option value="看板を見て">看板を見て</option>
-												<option value="教室を通りかかって">教室を通りかかって</option>
+												<option value="通りがかり">通りがかり</option>
 												<option value="その他">その他</option>
 											</select>
 										</div>

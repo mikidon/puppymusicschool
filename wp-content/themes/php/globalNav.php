@@ -31,14 +31,13 @@
 				<li><a href="<?php echo home_url(); ?>/price">レッスン料金</a></li>
 				<li><a href="<?php echo home_url(); ?>/teacher">講師紹介</a></li>
 				<li><a href="<?php echo home_url(); ?>/trial">体験レッスン</a></li>
-				<li><a href="<?php echo home_url(); ?>/company">会社案内</a></li>
 				<li class="d-n md-d-b"><a href="<?php echo home_url(); ?>/event" class="hov">イベント</a></li>
 				<li class="d-n md-d-b"><a href="<?php echo home_url(); ?>/campaign" class="hov">キャンペーン</a></li>
 				<li class="d-n md-d-b"><a href="<?php echo home_url(); ?>/present" class="hov">楽器プレゼント</a></li>
+				<li><a href="<?php echo home_url(); ?>/company">会社案内</a></li>
 				<li class="d-n md-d-b"><a href="<?php echo home_url(); ?>/recruit" class="hov">採用情報</a></li>
 				<li class="d-n md-d-b"><a href="<?php echo home_url(); ?>/new" class="hov">お知らせ</a></li>
 				<li class="d-n md-d-b"><a href="<?php echo home_url(); ?>/blog" class="hov">ブログ</a></li>
-				<li class="d-n md-d-b"><a href="<?php echo home_url(); ?>/application" class="hov">体験レッスンお申し込み</a></li>
 				<li class="d-n md-d-b"><a href="<?php echo home_url(); ?>/contact" class="hov">お問合わせ</a></li>
 			</ul>
 		</nav>

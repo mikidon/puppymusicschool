@@ -8,7 +8,7 @@ var mfpLang = {
 	'Price': '$1 <span>円</span>',
 	'PostPrice': '$1 円',
 	'ButtonSend': '送信する',
-	'ButtonCancel': 'キャンセル',
+	'ButtonCancel': '戻る',
 	'ButtonNext': '$1 へすすむ &gt;',
 	'ButtonPrev': '&lt; $1 へもどる',
 	'Phase': 'Step.$1',

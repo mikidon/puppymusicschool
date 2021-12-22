@@ -223,7 +223,7 @@
                 </section>
                 <section class="col-6 col-sm-12 mt50 mt30 view view-slideup">
                   <div class="bgc-white p40 md-p30 bdrs15 h-eq">
-                    <h4 class="ttl-dot -black">大人ピアノ 17歳～（30分）</h4>
+                    <h4 class="ttl-dot -black">個人レッスン（90分）</h4>
                     <table class="tbl-sml mt20">
                       <tbody>
                         <tr>
@@ -246,6 +246,9 @@
                     </table>
                   </div>
                 </section>
+                <div class="col-12 mt30">
+                  <p class="fz90">※名古屋教室は上記の他、設備管理費が月額600円必要です</p>
+                </div>
               </div>
             </section>
           </div>
@@ -271,7 +274,7 @@
                     </tr>
                     <tr>
                       <th>体験料</th>
-                      <td>無料（2回目から2000円必要）</td>
+                      <td><span class="c-red fw-b">無料</span>（2回目から2000円必要）</td>
                     </tr>
                   </tbody>
                 </table>
@@ -316,7 +319,7 @@
                         <p class="bgc-blue c-white bdrs5 plr30 ptb5 d-ib">特典3</p>
                         <h4 class="fz120 sm-fz105 d-ib bb-black pb5 ml30 sm-ml0 sm-mt15">パピーちゃんバッグプレゼント</h4>
                       </div>
-                      <p class="mt20">体通うのが楽しくなる、可愛くて丈夫なパピーちゃんトートバッグを差し上げます。<br class="md-d-n">
+                      <p class="mt20">通うのが楽しくなる、可愛くて丈夫なパピーちゃんトートバッグを差し上げます。<br class="md-d-n">
                         3色の中からお好き色を選んでね！</p>
                     </div>
                   </section>
@@ -341,7 +344,7 @@
                   </div>
                   <section class="cols nega gutter-50 gutter-md-30 gutter-sm-40 mt50 sm-mt40">
                     <div class="col-3 col-sm-12">
-                      <figure><img loading="lazy" src="<?php echo home_url(); ?>/img/price/sec2-img5.jpg" width="150" height="105" class="img-rspsv-full" alt="その他特典"></figure>
+                      <figure><img loading="lazy" src="<?php echo home_url(); ?>/img/price/sec2-img5.jpg" width="150" height="105" class="img-rspsv-full" alt="キッズ特典"></figure>
                     </div>
                     <div class="col-9 col-sm-12 sm-mt30">
                       <div class="d-f sm-d-b ai-c">
@@ -362,7 +365,7 @@
                         <p class="bgc-blue c-white bdrs5 plr30 ptb5 d-ib">複数コース＆家族特典</p>
                         <h4 class="fz120 sm-fz105 d-ib bb-black pb5 ml30 sm-ml0 sm-mt15">複数ご入会で入会金が無料に！</h4>
                       </div>
-                      <p class="mt20">一人2コース以上、またはご家族でご入会の場合、入会金が一部無料に！</p>
+                      <p class="mt20">1人2コース以上、またはご家族でご入会の場合、入会金が無料に！</p>
                       <p class="mt5 fz90">※最初の1人分は入会金が必要です<br>
                         ※上記割引は月謝引落し口座が同一である場合のみ適応されます<br>
                         ※パピーグループ（パピーヨガ、パピーバレエ等）の枠に関係なく適用されます<br></p>
@@ -379,7 +382,7 @@
                   </section>
                   <section class="mt30">
                     <h3 class="fz130 sm-fz120 d-ib bb-black pb5">他コースお試しレッスン無料</h3>
-                    <p class="mt20">音楽だけじゃない、パピーグループの他講座（バレエやダンスなど）レッスン1回受けることができます。<br class="md-d-n">
+                    <p class="mt20">音楽だけじゃない、パピーグループの他講座（バレエやダンスなど）レッスンを1回受けることができます。<br class="md-d-n">
                       ご家族にも適用されます。</p>
                     <p class="mt5 fz90">※教室により受けられるコースが異なります。</p>
                   </section>

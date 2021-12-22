@@ -60,7 +60,7 @@
 						</table>
 					</div>
 					<section class="col-12 mt80 sm-mt60 view view-slideup">
-						<h3 class="bb-black fz120 d-ib pb10">代表経歴・メッセージ</h3>
+						<h3 class="bb-black fz120 d-ib pb10">代表経歴</h3>
 						<div class="cols jc-c ai-c nega gutter-50 gutter-sm-30">
 							<div class="col-5 col-sm-10 mt30 view-slideup">
 								<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/company/sec1-img1.png" width="390" height="336" class="img-rspsv" alt="代表経歴・メッセージ"></figure>
@@ -70,7 +70,7 @@
 								<p class="mt30">高校時代、バンドを組んでドラムの魅力にとりつかれる。大学卒業後単身東京へ音楽修行に出る。</p>
 								<p class="mt15">カワイ音楽教室ドラム科で講師をつとめ、音楽を教えることの素晴らしさを知る。以後10年間で100人以上の生徒を受け持つ。<br class="sm-d-n">
 								自身が立ち上げたコンテストイベント「カレッジロックフェスティバル」はたった3年で全国規模のビッグイベントにまで成長する。その誰にもマネのできない発想力と実行力を買われヤマハ主催TMFで審査員を務めるなど業界とも太いパイプを持つ。</p>
-								<p class="mt15">2007年、長年の夢だった音楽教室を立ち上げ2年間で約200人の生徒が在籍する教室に成長する。現在、生徒さんや親御さんと他愛も無いお喋りをしていることに喜びを感じ充実した毎日を過ごしている。</p>
+								<p class="mt15">2007年、長年の夢だった音楽教室を立ち上げ2000人の生徒が在籍する教室に成長させる。現在、ヨガやバレエ教室なども手掛け、カルチャーにおけるリーディングカンパニーとしても注目されている。</p>
 							</div>
 						</div>
 					</section>

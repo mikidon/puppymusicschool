@@ -43,13 +43,13 @@
 						<p>日ごろの練習の成果を音楽祭（発表会）で披露してみませんか？<br class="sm-d-n">
 						その日にむけて頑張ることで技術はもとより心の成長にも繋がります。失敗したって大丈夫。<br class="sm-d-n">
 						みなさんのキラキラした姿にきっと温かい拍手が送られることでしょう。<br class="sm-d-n">
-						音楽祭は1年に1回秋頃開催しております。音楽祭への参加は自由です。</p>
+						音楽祭は毎年秋頃に開催しております。音楽祭への参加は自由です。</p>
 					</div>
 					<section class="col-6 col-sm-12 mt50 view view-slideup">
 						<div class="bgc-white p40 md-p30 bdrs15 h-eq">
 							<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec1-img1.jpg" width="390" height="230" class="img-rspsv" alt="クラシック部門"></figure>
 							<h3 class="mt30 fz130 sm-fz120 d-ib bb-black pb5">クラシック部門</h3>
-							<p class="mt30">明るいステージと暗い客席。高い天井と大きなピアノ。舞台での演奏は一生忘れられない思い出になるはず。子供たちだけでつくる「みんなでうたおう」や管弦楽器の生徒さんで奏でる「パピーチェンバーオーケストラ」などソロで参加するだけではない様々な企画も楽しみの一つです！</p>
+							<p class="mt30">明るいステージと暗い客席。高い天井と大きなピアノ。舞台での演奏は一生忘れられない思い出になるはず。子供たちだけでつくる「みんなでうたおう」や管弦楽器の生徒さんで奏でる「ウインドアンサンブル」などソロで参加するだけではない様々な企画も楽しみの一つです！</p>
 						</div>
 					</section>
 					<section class="col-6 col-sm-12 mt50 sm-mt30 view view-slideup">
@@ -72,7 +72,7 @@
 						<div class="bg-dots bdrs15 ptb70 sm-ptb40 pr70 pl100 md-pr50 md-pl70 sm-pl25 sm-pr25">
 							<h2 class="d-ib"><span class="fz300 md-fz270 sm-fz250 lh150 ff-en">grade test</span><span class="pl20">グレードテスト</span></h2>
 							<div class="ta-l"><img loading="lazy" src="<?php echo home_url(); ?>/img/base/ic-dot.png" width="20" height="5" class="img-rspsv" alt="dot"></div>
-							<p class="mt30">パピーピアノグレードテストは生徒さんの技術向上や心身的な育成を目指す為に設立された独自のピアノ検定試験です。15級から1級まで設定されているグレード（級）を目標にしていただくことで、集中してレッスンに臨むことができます。課題を克服し試験を受けることで、音楽への高い関心や演奏力、人前で表現する強い精神力などを育みます。グレードテストへの参加は自由です。</p>
+							<p class="mt30">パピーピアノグレードテストは技術向上や心身的な育成を目指す為に設立された独自のピアノ検定試験です。15級から1級まで設定されているグレード（級）を目標にしていただくことで、集中してレッスンに臨むことができます。また課題を克服し試験を受けることで、音楽への高い関心や演奏力、人前で表現する強い精神力などを育みます。グレードテストへの参加は自由です。</p>
 						</div>
 					</div>
 					<section class="col-12 view view-slideup">
@@ -130,7 +130,7 @@
 						<div class="bgc-white p40 md-p30 bdrs15 h-eq">
 							<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-img3.jpg" width="390" height="230" class="img-rspsv" alt="春のクラシック音楽会"></figure>
 							<h3 class="mt30 fz130 sm-fz120 d-ib bb-black pb5">春のクラシック音楽会</h3>
-							<p class="mt30">バイオリンやサックス、ピアノなどの管、弦楽器の為のミニコンサートです。人前で演奏する練習としても最適ですよ。</p>
+							<p class="mt30">バイオリンやサックス、ピアノなどの管弦楽器の為のミニコンサートです。人前で演奏する練習としても最適ですよ。</p>
 						</div>
 					</section>
 					<section class="col-6 col-sm-12 mt40 sm-mt30 view view-slideup">
@@ -144,21 +144,21 @@
 						<div class="bgc-white p40 md-p30 bdrs15 h-eq">
 							<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-img5.jpg" width="390" height="230" class="img-rspsv" alt="ウクレレDEフラ"></figure>
 							<h3 class="mt30 fz130 sm-fz120 d-ib bb-black pb5">ウクレレDEフラ</h3>
-							<p class="mt30">ウクレレの生徒さんとフラの生徒さんのコラボイベントです。夏のメロディーを奏ながらゆっくりとした時間を過ごしませんか？</p>
+							<p class="mt30">ウクレレの生徒さんと<a href="https://puppysweide.com/yoga/index.html" class="bb-black hov" target="_blank">パピーヨガスタジオ</a>の生徒さんのコラボイベントです。夏のメロディーを奏ながらゆっくりとした時間を過ごしませんか？</p>
 						</div>
 					</section>
 					<section class="col-6 col-sm-12 mt40 sm-mt30 view view-slideup">
 						<div class="bgc-white p40 md-p30 bdrs15 h-eq">
 							<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-img6.jpg" width="390" height="230" class="img-rspsv" alt="レコーディング大会"></figure>
 							<h3 class="mt30 fz130 sm-fz120 d-ib bb-black pb5">レコーディング大会</h3>
-							<p class="mt30">あなたの好きな曲をスタッフが簡易的にレコーディングいたします。自己PR用にするもよし、YOUTUBEにあげるもよし。</p>
+							<p class="mt30">憧れのレコーディングを体験してみませんか。完成した音源は自己PR用にするもよし、YouTubeにあげるもよし。</p>
 						</div>
 					</section>
 					<section class="col-6 col-sm-12 mt40 sm-mt30 view view-slideup">
 						<div class="bgc-white p40 md-p30 bdrs15 h-eq">
 							<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/event/sec3-img7.jpg" width="390" height="230" class="img-rspsv" alt="ウインドアンサンブル"></figure>
 							<h3 class="mt30 fz130 sm-fz120 d-ib bb-black pb5">ウインドアンサンブル</h3>
-							<p class="mt30">管弦楽器生徒さんが発表会に向けて1曲を仕上げていきます。ソロでの参加は嫌、そんな方はここからみんなで合わせる楽しさを覚えていってください！</p>
+							<p class="mt30">管弦楽器の生徒さんが発表会に向けて1曲を仕上げていきます。ソロでの参加は嫌、そんな方はここからみんなで合わせる楽しさを覚えていってください！</p>
 						</div>
 					</section>
 					<section class="col-6 col-sm-12 mt40 sm-mt30 view view-slideup">

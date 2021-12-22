@@ -30,20 +30,20 @@
 						<p class="mt40">パピーにご入会の7割以上が未経験者です。「ドはどこ？」から始めて楽しく趣味を続けていきましょう♪幼児さんからご年配の方までレベルに応じた適切なレッスンで上達をサポート！<br>クラシックからジャズ、ポピュラー、演歌など様々なジャンルの音楽を手軽にレッスンできます。</p>
 					</div>
 					<div class="col-6 col-sm-12 mt40 view view-slideup">
-						<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/about/sec1-img2.jpg" width="449" height="240" class="img-rspsv" alt="講師の質に、違いあり。生徒さんに寄り添った熱心な指導が特徴です。"></figure>
-						<p class="mt40 bb-black d-ib fz130 md-fz120 pb5">講師の質に、違いあり。</p>
+						<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/about/sec1-img2.jpg" width="449" height="240" class="img-rspsv" alt="講師の質に、自信あり。生徒さんに寄り添った熱心な指導が特徴です。"></figure>
+						<p class="mt40 bb-black d-ib fz130 md-fz120 pb5">講師の質に、自信あり。</p>
 						<p class="mt15 bb-black d-ib fz130 md-fz120 pb5">生徒さんに寄り添った熱心な指導が特徴です。</p>
 						<p class="mt40">パピーの講師は音楽に情熱を持った方のみ在籍しています。技術はもちろん、指導に対する考え方も熱心で「講師はビジネス」ではなく「大好きな音楽に携われることが喜び」そんな思いの方が多く、生徒さんに寄り添った指導ができるのです。万一相性が合わなければ別の講師をご紹介させていただきますのでご安心ください。</p>
 					</div>
 					<div class="col-6 col-sm-12 mt60 sm-mt40 view view-slideup">
 						<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/about/sec1-img3.jpg" width="449" height="240" class="img-rspsv" alt="月謝はうれしい低料金"></figure>
 						<p class="mt40 bb-black d-ib fz130 md-fz120 pb5">月謝はうれしい低料金</p>
-						<p class="mt40">音楽をみんなに気軽に親しんでもらいたい…。その思いは創業から変わることはありません。だから月謝はうれしい低料金。数ヶ月辞められない、楽器の補償金を払わないといけない、なんてことはありません。自信があるから、他社と比べてみてください。</p>
+						<p class="mt40">音楽をみんなに気軽に親しんでもらいたい…。その思いは創業から変わることはありません。だから月謝はうれしい低料金。数ヶ月辞められない、楽器の補償金を払わないといけない、なんてことはありません。他社と比べていただいても、自信をもってご案内できます。</p>
 					</div>
 					<div class="col-6 col-sm-12 mt60 sm-mt40 view view-slideup">
 						<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/about/sec1-img4.jpg" width="449" height="240" class="img-rspsv" alt="安心の振替制度・充実のイベント"></figure>
 						<p class="mt40 bb-black d-ib fz130 md-fz120 pb5">安心の振替制度・充実のイベント</p>
-						<p class="mt40">忙しい方には安心の振替制度あり。夜11時までレッスン可能な先生もみえます。困りごとがあれば受付スタッフが皆さんをサポートいたします。また、パピーでは発表会やオーディション、餅つき大会など参加自由のイベントが多数あり楽しめること間違いなし！生徒さん同士の繋がりも広がっています。</p>
+						<p class="mt40">忙しい方には安心の振替制度あり。夜11時までレッスン可能な先生もみえます。困りごとがあれば受付スタッフが皆さんをサポートいたします。また、パピーでは発表会やボーカルオーディション、餅つき大会など参加自由のイベントが多数あり楽しめること間違いなし！生徒さん同士の繋がりも広がっています。</p>
 					</div>
 					<!-- 楽器プレゼントキャンペーン -->
 					<div class="col-12 view view-slideup">
@@ -71,7 +71,7 @@
 			<div class="col-8 col-sm-12 view view-slideup">
 				<div class="bgc-white bdrs15 pb70 sm-pb40 pl70 pr100 md-pl50 md-pr70 sm-pl30 sm-pr30">
 					<img loading="lazy" src="<?php echo home_url(); ?>/img/about/sec2-txt.png" width="461" height="200" class="img-rspsv" alt="なぜ、パピーが選ばれるの？">
-					<p class="mt30">パピーミュージックスクールが開校して15年で約2000人の生徒さんを持つ、県内でも有数の音楽教室に成長致しました。</p>
+					<p class="mt30">パピーミュージックスクールが開校して15年で約2000人の生徒さんが在籍する、県内でも有数の音楽教室に成長致しました。</p>
 					<p class="mt15">なぜ、パピーが選ばれているのでしょうか？</p>
 					<p class="mt15">それは、大手のような安心感と個人教室のようなフットワークの軽さを兼ね備えているからでしょう。</p>
 					<p class="mt15">大手音楽教室は設備や環境などがしっかりしています。<br>個人教室は低料金やレッスン日の振替などもしてくれる場合が多いです。パピーはその両方のおいしいところだけを持っている音楽教室なのです。生徒さんへのサポートは充実していて、生徒さんの喜ぶことが沢山。<br>それがパピーなのです。</p>

@@ -50,10 +50,11 @@
 									<div class="mt40 sm-mt30">
 										<section class="flow1">
 											<h4 class="pt5 sm-pt0 c-blue fz115">申し込みフォーム/お電話にて<br class="d-n sm-d-b">お申し込み</h4>
-											<p class="mt10 fz90">申し込みフォームにてお申し込みの場合は後日お電話にてご連絡させていただきます。</p>
+											<p class="mt10 fz90">申し込みフォームにてお申し込みの場合は確認後、お電話にてご連絡させていただきます。</p>
 										</section>
 										<section class="flow2">
 											<h4 class="pt5 sm-pt0 c-blue fz115">体験レッスン日をご連絡</h4>
+											<p class="mt10 fz90">先生と日程調整後、こちらよりご連絡させていただきます。</p>
 										</section>
 										<section class="flow3">
 											<h4 class="pt5 sm-pt0 c-blue fz115">ご来店</h4>
@@ -92,7 +93,7 @@
 								<li>同業種、資格取得者でない方に限ります。</li>
 								<li>名前、住所などに偽りなくお申込みください。</li>
 								<li>講師に対し当スクール以外でのレッスンを勧誘する事を禁止します。</li>
-								<li> 申込み後、キャンセルする場合は必ず事務所までご連絡ください。</li>
+								<li>申込み後、キャンセルする場合は必ず教室までご連絡ください。</li>
 							</ul>
 						</div>
 					</div>

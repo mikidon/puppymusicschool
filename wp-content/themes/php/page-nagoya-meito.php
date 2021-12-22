@@ -69,7 +69,7 @@
 									<a href="https://goo.gl/maps/L6c3Es8Ga18WsVEeA" class="hov bb-black pb5" target="_blank" rel="noopener">→ Googlemap</a></td>
 							</tr>
 							<tr>
-								<th>電話番号 / FAX</th>
+								<th>電話番号</th>
 								<td><a href="tel:0527848419" class="tel-link hov">052-784-8419</a></td>
 							</tr>
 							<tr>
@@ -134,7 +134,7 @@
 				<div class="col-6 col-sm-12 mt30 view view-slideup ord4">
 					<div class="bgc-white p40 md-p30 bdrs15 h-eq">
 						<ul class="li-dots">
-							<li>ドラム個人スタジオ</li>
+							<li>ドラムスタジオ</li>
 						</ul>
 						<table class="tbl-basic mt20 va-m p-small">
 							<tbody>

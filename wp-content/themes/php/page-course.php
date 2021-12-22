@@ -71,10 +71,10 @@
 								<a href="<?php echo home_url(); ?>/singing" class="hov course11"><span>singing</span>声楽</a>
 							</div>
 						</section>
-						<!-- 管楽器・打楽器系コース -->
+						<!-- 管楽器コース -->
 						<section class="mt60 sm-mt40 cols nega gutter-20 gutter-sm-10 view view-slideup">
 							<div class="col-12 view view-slideup">
-								<h3 class="ribbon-green -lightgray">管楽器・打楽器系コース</h3>
+								<h3 class="ribbon-green -lightgray">管楽器コース</h3>
 							</div>
 							<div class="col-3 col-md-4 col-sm-6 mt20 sm-mt20 view view-slideup">
 								<a href="<?php echo home_url(); ?>/flute" class="hov course12"><span>flute</span>フルート</a>

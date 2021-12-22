@@ -22,7 +22,7 @@
 						<h2 class="fz180 sm-fz130">岡崎大西教室</h2>
 						<p class="ff-sofia pl30 sm-pl0">Okazaki onishi school</p>
 						</div>
-					<p class="mt20">パピーの本部となる旗艦店を平成26年7月、岡崎市に開校。<br>
+					<p class="mt20">パピーの本部となる旗艦店を2014年、岡崎市に開校。<br>
 						部屋それぞれにコンセプトをがあり、いつきても飽きない仕様になっています。音楽はもとより、書道や個別指導塾なども開講しており、多くの方に愛されています。</p>
 					<p class="mt15 fz90">※保護者の引率、レッスン観覧が可能です。</p>
 				</div>
@@ -64,11 +64,11 @@
 							</tr>
 							<tr>
 								<th>住所</th>
-								<td>愛知県岡崎市大西3丁目2-5<br class="d-n sm-d-b">（名鉄本線「男川駅」より徒歩8分）<br>
+								<td>愛知県岡崎市大西3-2-5<br class="d-n sm-d-b">（名鉄本線「男川駅」より徒歩8分）<br>
 									<a href="https://goo.gl/maps/SW7eNLgMnzAZYZxi6" class="hov bb-black pb5" target="_blank">→ Googlemap</a></td>
 							</tr>
 							<tr>
-								<th>電話番号 / FAX</th>
+								<th>電話番号</th>
 								<td><a href="tel:0564645349" class="tel-link hov">0564-64-5349</a></td>
 							</tr>
 							<tr>

@@ -25,7 +25,7 @@
 						<h2 class="fz180 sm-fz130">名古屋みなと教室</h2>
 						<p class="ff-sofia pl30 sm-pl0">Nagoya minato school</p>
 						</div>
-					<p class="mt20">2018年、名古屋初出店。インダストリアルデザインで統一されたかっこよすぎる教室は思わずレッスンに来たくなります。<br>
+					<p class="mt20">2018年、名古屋初出店。インダストリアルデザインで統一されたかっこよすぎる教室は思わずレッスンに通いたくなります。<br>
 						ショッピングモール内なので駐車場の心配は無用、お子様のレッスン待ち時間に買い物ができるなど最高の環境が整っています。</p>
 					<p class="mt15 fz90">※保護者の引率、レッスン観覧が可能です。</p>
 				</div>
@@ -64,11 +64,11 @@
 							</tr>
 							<tr>
 								<th>住所</th>
-								<td>愛知県名古屋市港区当知2丁目1501番地<br>
+								<td>愛知県名古屋市港区当知2-1501<br>
 									<a href="https://goo.gl/maps/NKUiMVcWK92Ps8W3A" class="hov bb-black pb5" target="_blank">→ Googlemap</a></td>
 							</tr>
 							<tr>
-								<th>電話番号 / FAX</th>
+								<th>電話番号</th>
 								<td><a href="tel:0523556349" class="tel-link hov">052-355-6349</a></td>
 							</tr>
 							<tr>
@@ -132,7 +132,7 @@
 				<div class="col-6 col-sm-12 mt30 view view-slideup ord4">
 					<div class="bgc-white p40 md-p30 bdrs15 h-eq">
 						<ul class="li-dots">
-							<li>ドラム個人スタジオ（5畳）</li>
+							<li>ドラムスタジオ（5畳）</li>
 						</ul>
 						<table class="tbl-basic mt20 va-m p-small">
 							<tbody>

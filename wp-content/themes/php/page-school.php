@@ -29,11 +29,11 @@
 					</section>
 					<section class="col-4 col-md-6 mt40 view view-slideup">
 						<a href="<?php echo home_url(); ?>/nagoya-minato" class="ptb20 sm-ptb15 plr10 bb-black bt-black d-b btn-ar"><h3>名古屋みなと教室</h3></a>
-						<p class="mt30 sm-fz90">〒455-0804<br>名古屋市港区当知2丁目1501番地</p>
+						<p class="mt30 sm-fz90">〒455-0804<br>名古屋市港区当知2-1501</p>
 					</section>
 					<section class="col-4 col-md-6 mt40 view view-slideup">
 						<a href="<?php echo home_url(); ?>/okazaki-onishi" class="ptb20 sm-ptb15 plr10 bb-black bt-black d-b btn-ar"><h3>岡崎大西教室</h3></a>
-						<p class="mt30 sm-fz90">〒444-0871<br>岡崎市大西3丁目2-5</p>
+						<p class="mt30 sm-fz90">〒444-0871<br>岡崎市大西3-2-5</p>
 					</section>
 					<section class="col-4 col-md-6 mt40 view view-slideup">
 						<a href="<?php echo home_url(); ?>/okazaki-yahagi" class="ptb20 sm-ptb15 plr10 bb-black bt-black d-b btn-ar"><h3>岡崎矢作教室</h3></a>
@@ -45,7 +45,7 @@
 					</section>
 					<section class="col-4 col-md-6 mt40 view view-slideup">
 						<a href="<?php echo home_url(); ?>/anjyo" class="ptb20 sm-ptb15 plr10 bb-black bt-black d-b btn-ar"><h3>安城今池教室</h3></a>
-						<p class="mt30 sm-fz90">〒446-0071 <br>安城市今池町1丁目13番地1 3F</p>
+						<p class="mt30 sm-fz90">〒446-0071 <br>安城市今池町1-13-1 3F</p>
 					</section>
 					<section class="col-4 col-md-6 mt40 view view-slideup">
 						<a href="<?php echo home_url(); ?>/gamagori" class="ptb20 sm-ptb15 plr10 bb-black bt-black d-b btn-ar"><h3>蒲郡教室</h3></a>

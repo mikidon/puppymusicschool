@@ -69,7 +69,7 @@
 									<a href="https://goo.gl/maps/rSK11WAMTow5XN5T9" class="hov bb-black pb5" target="_blank">→ Googlemap</a></td>
 							</tr>
 							<tr>
-								<th>電話番号 / FAX</th>
+								<th>電話番号</th>
 								<td><a href="tel:0564341349" class="tel-link hov">0564-34-1349</a></td>
 							</tr>
 							<tr>
@@ -101,11 +101,11 @@
 		<!-- #sec3 -->
 		<section id="sec3" class="ptb100 sm-ptb70 bgc-lightgray">
 			<div class="cols">
-				<div class="col-12">
+				<div class="col-12 ord1">
 					<p class="ff-en fz270 lh100">studio rental</p>
 					<h2 class="fz110 sm-fz100 mt10">スタジオレンタルについて</h2>
 				</div>
-				<div class="col-6 col-sm-12 mt50 sm-mt30 view view-slideup">
+				<div class="col-6 col-sm-12 mt50 sm-mt30 view view-slideup ord2 sm-ord3">
 					<div class="bgc-white p40 md-p30 bdrs15 h-eq">
 						<ul class="li-dots">
 							<li>バンドスタジオ(6畳)</li>
@@ -128,7 +128,7 @@
 						</table>
 					</div>
 				</div>
-				<div class="col-6 col-sm-12 mt50 sm-mt30 view view-slideup">
+				<div class="col-6 col-sm-12 mt50 sm-mt30 view view-slideup ord3 sm-ord4">
 					<div class="bgc-white p40 md-p30 bdrs15 h-eq">
 						<ul class="li-dots">
 							<li>アップライトピアノルーム</li>
@@ -149,7 +149,10 @@
 						</table>
 					</div>
 				</div>
-				<div class="col-12 mt50 ord6 view view-slideup">
+				<div class="col-6 col-sm-12 mt50 sm-mt30 view view-slideup ord4 sm-ord2">
+					<figure class="view view-bounce"><img loading="lazy" src="<?php echo home_url(); ?>/img/okazaki-yahagi/sec3-img1.jpg" width="469" height="350" class="img-rspsv-full" alt="スタジオレンタルについて"></figure>
+				</div>
+				<div class="col-12 mt50 ord6 view view-slideup ord5">
 					<p class="fz90">※グランドピアノ＝カワイCA40N<br>
 						※個人練習（一人で入室の方）は半額にてご利用いただけます。（予約日の前日から予約可能）<br>
 						※生徒さんは特別価格にてご利用いただけます。</p>

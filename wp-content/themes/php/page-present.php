@@ -106,7 +106,7 @@
 									</a>
 								</div>
 								<div class="col-3 col-md-4 col-sm-6 mt20 view view-slideup">
-									<a href="<?php echo home_url(); ?>/flute#sec4" class="bgc-white ptb20 plr10 gakki d-b hov">
+									<a href="<?php echo home_url(); ?>/flute#sec4-sub3" class="bgc-white ptb20 plr10 gakki d-b hov">
 										<figure><img loading="lazy" src="<?php echo home_url(); ?>/img/present/sec1-gakki10.jpg" width="180" height="95" class="img-rspsv" alt="ジュニアフルート"></figure>
 										<p class="fz90 mt5">ジュニアフルート</p>
 									</a>

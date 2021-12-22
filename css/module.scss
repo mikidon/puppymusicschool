@@ -246,6 +246,11 @@ $hex in $colors {
       right: 30px;
     }
   }
+  &.-black {
+    &::before {
+      background: $black;
+    }
+  }
 }
 
 /*	Object

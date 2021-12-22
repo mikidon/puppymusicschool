@@ -51,7 +51,7 @@
 				<section class="col-6 col-sm-12 mt50 sm-mt30 view view-slideup">
 					<div class="bgc-white p40 md-p30 bdrs15 h-eq">
 						<h3 class="fz130 sm-fz120 d-ib bb-black pb5">アレンジングコース</h3>
-						<p class="mt30">バンドのキーボードはどうやって作ればいいのか。どうすればもっと良いアレンジを作ることができるのか。そんな悩みを持つキーボーディストのためのコースです。音色選びや音色作り、効果的な鳴らし方やフレーズの作り方など仕方をこのコースで学びましょう。</p>
+						<p class="mt30">バンドのキーボードはどうやって作ればいいのか。どうすればもっと良いアレンジを作ることができるのか。そんな悩みを持つキーボーディストのためのコースです。音色選びや音色作り、効果的な鳴らし方やフレーズの作り方などをこのコースで学びましょう。</p>
 					</div>
 				</section>
 				<section class="col-6 col-sm-12 mt30 view view-slideup">
@@ -63,7 +63,7 @@
 				<section class="col-6 col-sm-12 mt30 view view-slideup">
 					<div class="bgc-white p40 md-p30 bdrs15 h-eq">
 						<h3 class="fz130 sm-fz120 d-ib bb-black pb5">弾き語りコース</h3>
-						<p class="mt30">「うまく弾き語りができるようになりたい」という方から「人前で演奏できるよ うになりたい」という方まで、キーボードの弾き語りならではの技術・表現力を培います。</p>
+						<p class="mt30">「うまく弾き語りができるようになりたい」という方から「人前で演奏できるようになりたい」という方まで、キーボードの弾き語りならではの技術・表現力を培います。</p>
 					</div>
 				</section>
 			</div>
@@ -138,8 +138,8 @@
 		</section>
 
 		<!-- #sec5 -->
-		<section id="sec5" class="course-link pb40 bgc-gray sm-plr20 view view-slideup">
-			<div class="cols gutter-20 gutter-sm-10">
+		<div id="sec5" class="course-link pb40 bgc-gray sm-plr20 view view-slideup">
+			<section class="cols gutter-20 gutter-sm-10">
 				<div class="col-12 mt-20">
 					<h3 class="ribbon-black -gray">バンド系コース</h3>
 				</div>
@@ -156,13 +156,58 @@
 					<a href="<?php echo home_url(); ?>/drums" class="hov course4"><span>drums</span>ドラム</a>
 				</div>
 				<div class="col-3 col-md-4 col-sm-6 mt20 sm-mt10">
-					<a href="<?php echo home_url(); ?>/keyboard" class="hov course5"><span>keyboard</span>ベース</a>
+					<a href="<?php echo home_url(); ?>/keyboard" class="hov course5"><span>keyboard</span>キーボード</a>
 				</div>
 				<div class="col-3 col-md-4 col-sm-6 mt20 sm-mt10">
 					<a href="<?php echo home_url(); ?>/dtm" class="hov course6"><span>DTM</span>デスクトップミュージック</a>
 				</div>
-			</div>
-		</section>
+			</section>
+			<section class="cols gutter-20 gutter-sm-10">
+				<div class="col-12 mt30">
+					<h3 class="ribbon-black -gray">クラシック系・弦楽器コース</h3>
+				</div>
+				<div class="col-3 col-md-4 col-sm-6 mt20 sm-mt20">
+					<a href="<?php echo home_url(); ?>/piano" class="hov course7"><span>piano</span>ピアノ</a>
+				</div>
+				<div class="col-3 col-md-4 col-sm-6 mt20 sm-mt20">
+					<a href="<?php echo home_url(); ?>/violin" class="hov course8"><span>violin / viola</span>バイオリン・ビオラ</a>
+				</div>
+				<div class="col-3 col-md-4 col-sm-6 mt20 sm-mt10">
+					<a href="<?php echo home_url(); ?>/cello" class="hov course9"><span>cello</span>チェロ</a>
+				</div>
+				<div class="col-3 col-md-4 col-sm-6 mt20 sm-mt10">
+					<a href="<?php echo home_url(); ?>/ukulele" class="hov course10"><span>ukulele</span>ウクレレ</a>
+				</div>
+				<div class="col-3 col-md-4 col-sm-6 mt20 sm-mt10">
+					<a href="<?php echo home_url(); ?>/singing" class="hov course11"><span>singing</span>声楽</a>
+				</div>
+			</section>
+			<section class="cols gutter-20 gutter-sm-10">
+				<div class="col-12 mt30">
+					<h3 class="ribbon-black -gray">管楽器コース</h3>
+				</div>
+				<div class="col-3 col-md-4 col-sm-6 mt20 sm-mt20">
+					<a href="<?php echo home_url(); ?>/flute" class="hov course12"><span>flute</span>フルート</a>
+				</div>
+				<div class="col-3 col-md-4 col-sm-6 mt20 sm-mt20">
+					<a href="<?php echo home_url(); ?>/saxophone" class="hov course13"><span>saxophone</span>サックス</a>
+				</div>
+				<div class="col-3 col-md-4 col-sm-6 mt20 sm-mt10">
+					<a href="<?php echo home_url(); ?>/trumpet" class="hov course14"><span>trumpet / trombone</span>トランペット・トロンボーン</a>
+				</div>
+				<div class="col-3 col-md-4 col-sm-6 mt20 sm-mt10">
+					<a href="<?php echo home_url(); ?>/clarinet" class="hov course15"><span>clarinet</span>クラリネット</a>
+				</div>
+			</section>
+			<section class="cols gutter-20 gutter-sm-10">
+				<div class="col-12 mt30">
+					<h3 class="ribbon-black -gray">その他のコース</h3>
+				</div>
+				<div class="col-3 col-md-4 col-sm-6 mt20 sm-mt20">
+					<a href="<?php echo home_url(); ?>/lyrics" class="hov course12"><span>Lyrics / Composition</span>作詞・作曲 / 音楽理論</a>
+				</div>
+			</section>
+		</div>
 
 	</div>
 </main>
