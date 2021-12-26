@@ -35,7 +35,7 @@ $config{'SerialBoost'} = 0;
 $config{'ThanksPage'} = '../../contact-thanks';
 
 ## 設置者に届くメールの件名
-$config{'subject'} = 'PUPPY MUSIC SCHOOL：お問合わせフォームから';
+$config{'subject'} = 'ミュージックお問合せ';
 
 ####ここから通知メール本文####
 $_TEXT{'posted'} = <<'__posted_body__';

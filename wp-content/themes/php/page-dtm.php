@@ -48,7 +48,7 @@
 						<h3 class="fz130 sm-fz120 d-ib bb-black pb5">DTM 初心者コース</h3>
 						<p class="mt30">どのソフトでどんなことが出来るのか、どんなテクニックが使えるのか。ソフトの使い方から購入前のアドバイスまで。初心者はまずこのコースから入って、できる幅を広げていきましょう。</p>
 						<p class="mt10 fz90">[ 対応ソフト ]<br>
-							Cubase / Sonar / Live8 / Logic / Singer Song Writer</p>
+							Cubase / Sonar / Live / Logic / Singer Song Writer</p>
 					</div>
 				</section>
 				<section class="col-6 col-sm-12 mt50 sm-mt30 view view-slideup">
