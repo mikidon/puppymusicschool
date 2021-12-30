@@ -22,4 +22,18 @@
 	})(document);
   </script>
   <!-- Typekit -->
+  <!-- Global site tag (gtag.js) - Google Ads: 861499530 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-861499530"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-861499530');
+  </script>
+  <?php if(is_page("application-thanks")){ ?>
+  <!-- Event snippet for 体験レッスン申込 conversion page -->
+  <script>
+    gtag('event', 'conversion', {'send_to': 'AW-861499530/w9SpCI-7logBEIrh5ZoD'});
+  </script>
+  <?php } ?>
 </head>
