@@ -158,7 +158,7 @@
                     <th>体験時の楽器の有無</th>
                     <td>
                       <div class="select">
-                        <select name="内容">
+                        <select name="体験時の楽器の有無">
                           <option value="" selected="selected">選択してください</option>
                           <option value="無し">無し</option>
                           <option value="有り">有り</option>

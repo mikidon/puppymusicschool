@@ -14,6 +14,7 @@
         <ul class="bg-slide">
           <li style="background-image: url(<?php echo home_url(); ?>/img/top/hero1.jpg); background-position: center center;"></li>
           <li style="background-image: url(<?php echo home_url(); ?>/img/top/hero3.jpg); background-position: center center;"></li>
+          <li style="background-image: url(<?php echo home_url(); ?>/img/top/hero7.jpg); background-position: center center;"></li>
           <li style="background-image: url(<?php echo home_url(); ?>/img/top/hero2.jpg); background-position: center center;"></li>
           <li style="background-image: url(<?php echo home_url(); ?>/img/top/hero4.jpg); background-position: center center;"></li>
           <li style="background-image: url(<?php echo home_url(); ?>/img/top/hero5.jpg); background-position: center center;"></li>

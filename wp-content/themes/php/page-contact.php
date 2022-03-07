@@ -39,21 +39,6 @@
 							<tbody>
 								<!--〓〓〓〓〓 -->
 								<tr>
-									<th>お問い合わせ内容</th>
-									<td>
-										<div class="select">
-											<select name="お問い合わせ内容">
-												<option value="" selected="selected">選択してください</option>
-												<option value="教室について">教室について</option>
-												<option value="入会・退会について">入会・退会について</option>
-												<option value="採用について">採用について</option>
-												<option value="その他">その他</option>
-											</select>
-										</div>
-									</td>
-								</tr>
-								<!--〓〓〓〓〓 -->
-								<tr>
 									<th><span class="c-red">＊</span> お名前</th>
 									<td><input type="text" name="お名前" data-kana="フリガナ" size="40" required="required" /></td>
 								</tr>
@@ -72,6 +57,26 @@
 									<th>電話番号<span class="fz80 pl20">ハイフン無しで入力してください。</span></th>
 									<td>
 										<input type="tel" data-type="tel" name="電話番号" size="40" data-min="9" />
+									</td>
+								</tr>
+								<!--〓〓〓〓〓 -->
+								<tr>
+									<th>教室</th>
+									<td>
+										<div class="select">
+											<select name="お問い合わせ内容">
+												<option value="" selected="selected">選択してください</option>
+												<option value="名古屋名東">名古屋名東</option>
+												<option value="名古屋みなと">名古屋みなと</option>
+												<option value="岡崎大西">岡崎大西</option>
+												<option value="岡崎矢作">岡崎矢作</option>
+												<option value="刈谷アピタ">刈谷アピタ</option>
+												<option value="安城今池">安城今池</option>
+												<option value="蒲郡">蒲郡</option>
+												<option value="出張レッスン">出張レッスン</option>
+												<option value="その他">その他</option>
+											</select>
+										</div>
 									</td>
 								</tr>
 								<!--〓〓〓〓〓 -->

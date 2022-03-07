@@ -10,7 +10,7 @@
 	
 		<!-- #hero -->
 		<div class="hero view view-slideup">
-			<div class="ptb200 md-ptb160 sm-ptb100" style="background: url('<?php echo home_url(); ?>/img/trial/hero.jpg') no-repeat center / cover ;">
+			<div class="ptb200 md-ptb160 sm-ptb100" style="background: url('<?php echo home_url(); ?>/img/event/hero.jpg') no-repeat center / cover ;">
 			</div>		
 		</div>
 
