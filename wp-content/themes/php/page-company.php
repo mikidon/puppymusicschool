@@ -155,10 +155,18 @@
 							<h2>パピーの取り組み</h2>
 							<img loading="lazy" src="<?php echo home_url(); ?>/img/base/ic-dot.png" width="20" height="5" class="img-rspsv" alt="dot">
 							<p class="mt60 sm-mt40">イベントの収益の一部を日本赤十字及び、中部盲導犬協会・盲導犬募金として寄付させていただきます。</p>
-							<p class="mt30 d-ib bgc-pink c-white bdrs-max ptb5 plr60 sm-plr40">累計：372,780円</p>
+							<p class="mt30 d-ib bgc-pink c-white bdrs-max ptb5 plr60 sm-plr40">累計：423,670円</p>
 						</div>
 						<table class="tbl-basic mt50 sm-mt40 view view-slideup">
 							<tbody>
+								<tr>
+									<th>2021年</th>
+									<td>[ 募金内訳 ]<br>
+										日本赤十字社　35,000円<br>
+										中部盲導犬協会　14,673円<br>
+										日本介助犬協会　1,217円<br>
+										小計 50,890円</td>
+								</tr>
 								<tr>
 									<th>2020年</th>
 									<td>[ 募金内訳 ]<br>

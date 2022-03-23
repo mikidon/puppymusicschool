@@ -4,6 +4,17 @@
 //	基本設定
 //==============================================
 
+// 404エラー時はトップにリダイレクトさせる
+function is404_redirect()
+{
+  if (is_404()) {
+    wp_safe_redirect(home_url('/'));
+    exit();
+  }
+}
+add_action('template_redirect', 'is404_redirect');
+
+
 //admin barを消す
 function disable_admin_bar()
 {
